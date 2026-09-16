@@ -54,4 +54,4 @@ Aquí hi hauria:
 - File Server
 - Mail Server
 
-
+![[Pasted image 20260916175032.png]]
