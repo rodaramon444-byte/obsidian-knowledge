@@ -13,6 +13,8 @@
 - 3.6 Afegir/treure serveis target 
 - 3.7 Crear nou target
 - 3.8 Crear nou servei
+
+**CONCEPTES**
 - **Kernel** -> gestiona processos
 - **Aplicació** -> programa interactua usuari i executa 1r pla
 - **Servei** -> programa associat SO i 2n pla
@@ -20,11 +22,9 @@
     - _Nota:_ Aplicacions i serveis -> generen processos (sincronitzar i planificar)
 ## 1. SystemV vs Upstart vs Systemd
 
-[](https://github.com/mamadoucirebarry/asno#1-systemv-vs-upstart-vs-systemd)
-
 ## 1.1 Nivells d'execució (tasca systemd)
 
 Crear un ramon.target amb el meu nom i canviar a que sigui el per defecte.
 
-- Que cride un .service que executara una terminal abans que s'executi res.
+- Que cride un .service que executara un script abans que s'executi res.
 - Amb permisos root.
