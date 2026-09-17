@@ -24,9 +24,7 @@
 
 ## 1.1 Nivells d'execució (tasca systemd)
 
-[](https://github.com/mamadoucirebarry/asno#11-nivells-dexecuci%C3%B3-tasca-systemd)
-
-Crear un cire.target amb el meu nom i canviar a que sigui el per defecte.
+Crear un ramon.target amb el meu nom i canviar a que sigui el per defecte.
 
 - Que cride un .service que executara una terminal abans que s'executi res.
 - Amb permisos root.
