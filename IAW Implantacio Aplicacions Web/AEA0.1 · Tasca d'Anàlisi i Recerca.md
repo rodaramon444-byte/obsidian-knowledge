@@ -1,3 +1,13 @@
+
+
+
+
+
+
+
+
+
+
 He escollit **Microsoft Word vs. Google Docs**, perquè les diferències entre aplicació d’escriptori i web es veuen molt clares
 
 |Criteri d’avaluació|Microsoft Word (escriptori)|Google Docs (web)|
