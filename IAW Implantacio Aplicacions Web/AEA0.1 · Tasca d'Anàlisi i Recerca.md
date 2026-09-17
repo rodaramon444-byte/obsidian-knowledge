@@ -20,3 +20,13 @@ Finalment, també permetria **reduir costos**, perquè no caldria instal·lar i 
 Com a principal inconvenient, dependria bastant de la **connexió a Internet**, ja que amb una connexió lenta o inexistent es podria dificultar el treball.
 
 #### **Part 3: Recerca i Aprofundiment**
+
+**1. Què és una PWA?**  
+Una PWA és una aplicació web que funciona de manera semblant a una aplicació instal·lada al mòbil o ordinador. S’utilitza des del navegador, però també es pot instal·lar al dispositiu.
+
+**2. Com superen les limitacions?**  
+Les PWA poden guardar part de la informació al dispositiu, cosa que permet continuar utilitzant algunes funcions encara que no hi hagi connexió a Internet. També poden aprofitar funcions del dispositiu que una web tradicional té més limitades, com les notificacions push, la càmera o la ubicació.
+
+**3. Dos exemples**  
+**Spotify** disposa d’una experiència web que permet escoltar música des del navegador sense haver d’instal·lar el programa.  
+**Pinterest** ha utilitzat tecnologia PWA per oferir una web més ràpida i adaptada als dispositius mòbils, millorant l’experiència de l’usuari.
