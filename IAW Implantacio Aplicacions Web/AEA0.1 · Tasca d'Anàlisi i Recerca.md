@@ -18,3 +18,5 @@ Un altre avantatge important és el **treball col·laboratiu**, ja que diverses 
 Finalment, també permetria **reduir costos**, perquè no caldria instal·lar i mantenir el programa en cada ordinador i les actualitzacions es farien automàticament.
 
 Com a principal inconvenient, dependria bastant de la **connexió a Internet**, ja que amb una connexió lenta o inexistent es podria dificultar el treball.
+
+#### **Part 3: Recerca i Aprofundiment**
