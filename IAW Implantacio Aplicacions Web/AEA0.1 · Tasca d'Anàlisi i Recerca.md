@@ -1,11 +1,6 @@
 
 
-
-
-
-
-
-
+![[Pasted image 20260917183819.png]]
 
 
 He escollit **Microsoft Word vs. Google Docs**, perquè les diferències entre aplicació d’escriptori i web es veuen molt clares
