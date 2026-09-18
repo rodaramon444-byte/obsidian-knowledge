@@ -32,7 +32,7 @@ A la banda del servidor es realitzen processos que nosaltres no veiem directamen
 
 Mitjançant les eines de desenvolupador del navegador podem observar que la pàgina utilitza tecnologies pròpies del desenvolupament web com **HTML, CSS i JavaScript**.
 
-**[INSERIR AQUÍ LA CAPTURA DE PANTALLA DE LES EINES DE DESENVOLUPADOR]**
+![[Pasted image 20260918160539.png]]
 
 ## 3. Anàlisi per Capes i MVC
 
