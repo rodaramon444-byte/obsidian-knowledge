@@ -38,19 +38,7 @@ Mitjançant les eines de desenvolupador del navegador podem observar que la pàg
 
 ### Diagrama de capes
 
-**PRESENTACIÓ**  
-↓  
-Pàgina web que veu i utilitza l’usuari: cercador, productes, botons, imatges, etc.
-
-**LÒGICA**  
-↓  
-Processa les accions de l’usuari, com iniciar sessió, fer una cerca o publicar un producte.
-
-**DADES**  
-↓  
-Base de dades on es guarda la informació dels usuaris, productes, anuncis, missatges, etc.
-
-La capa de **presentació** és la part amb la qual interactua l’usuari. La capa de **lògica** s’encarrega de processar les peticions i decidir què s’ha de fer. Finalment, la capa de **dades** permet guardar i recuperar la informació necessària.
+![[Pasted image 20260918161834.png]]
 
 ### Hipòtesi del patró MVC
 
