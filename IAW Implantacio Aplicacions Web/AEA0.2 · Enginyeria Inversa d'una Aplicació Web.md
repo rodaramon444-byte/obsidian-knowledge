@@ -1,3 +1,4 @@
+![[Pasted image 20260918162404.png]]
 ### **PART 1: Recerca, Selecció i Justificació**
 
 **URL:** [Wallapop](https://es.wallapop.com/?utm_source=chatgpt.com)
