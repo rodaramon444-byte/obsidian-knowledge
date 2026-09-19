@@ -60,9 +60,7 @@ Get-NetAdapter
 
 # 3. BIOS / UEFI
 
-La BIOS/UEFI permet configurar el maquinari abans que arrenqui el sistema operatiu.
-
-Normalment s’hi accedeix en encendre l’ordinador prement una tecla com:
+Tecles:
 
 `F2` · `F10` · `F12` · `DEL` · `ESC`
 
