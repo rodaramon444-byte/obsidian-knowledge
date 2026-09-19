@@ -1,4 +1,4 @@
-![[Pasted image 20260919122953.png]]
+![[Pasted image 20260919122953.png|557]]
 # Comprovació inicial del maquinari
 
 Abans d’instal·lar res, és recomanable comprovar quin maquinari té l’equip.

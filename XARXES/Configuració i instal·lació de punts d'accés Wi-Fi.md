@@ -1,4 +1,4 @@
-![[Pasted image 20260919125123.png]]
+![[Pasted image 20260919125123.png|354]]
 ## Què és un punt d’accés?
 
 Un **Access Point (AP)** permet connectar dispositius sense fils a una xarxa Ethernet.
