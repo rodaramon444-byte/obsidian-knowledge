@@ -752,3 +752,155 @@ Port del switch
 VLAN
 Interfície LAN del router
 ```
+
+### Exemple amb ACL en un router Cisco
+
+En Cisco IOS, una manera de filtrar trànsit és mitjançant **ACL (Access Control Lists)**. Per exemple, imagina que la VLAN de convidats és:
+
+```
+VLAN 30
+192.168.30.0/24
+```
+
+i la xarxa corporativa és:
+
+```
+192.168.10.0/24
+```
+
+Volem que els convidats **no puguin entrar a la xarxa corporativa**, però sí que puguin continuar enviant altre trànsit:
+
+```
+configure terminal
+
+ip access-list extended GUEST-FILTER
+
+deny ip 192.168.30.0 0.0.0.255 192.168.10.0 0.0.0.255
+
+permit ip 192.168.30.0 0.0.0.255 any
+```
+
+Després s’aplica a la interfície/subinterfície adequada, per exemple:
+
+```
+interface GigabitEthernet0/1.30
+
+ip access-group GUEST-FILTER in
+```
+
+Conceptualment:
+
+```
+Mòbil convidat
+192.168.30.50
+      │
+      ▼
+   VLAN 30
+      │
+      ▼
+  FIREWALL/ACL
+      │
+      ├──► 192.168.10.0/24  ❌ DENY
+      │
+      └──► altres destins   ✓ PERMIT
+```
+
+Aquí has d’anar amb compte: una ACL mal aplicada pot deixar una part de l’empresa sense comunicació. A més, una ACL de router **no equival necessàriament a totes les funcions d’un firewall modern**.
+
+### Firewalls empresarials reals
+
+En empreses és habitual trobar dispositius/plataformes dedicades de fabricants com [Fortinet](https://www.fortinet.com/?utm_source=chatgpt.com), [Sophos](https://www.sophos.com/?utm_source=chatgpt.com), [Cisco](https://www.cisco.com/?utm_source=chatgpt.com), [Palo Alto Networks](https://www.paloaltonetworks.com/?utm_source=chatgpt.com) o solucions com [pfSense](https://www.pfsense.org/?utm_source=chatgpt.com).
+
+En aquests casos normalment configures polítiques visualment:
+
+```
+POLÍTICA 1
+
+ORIGEN:      LAN
+DESTINACIÓ:  Internet
+SERVEI:      HTTP/HTTPS/DNS
+ACCIÓ:       ALLOW
+```
+
+Una altra:
+
+```
+POLÍTICA 2
+
+ORIGEN:      GUEST
+DESTINACIÓ:  LAN
+SERVEI:      ANY
+ACCIÓ:       DENY
+```
+
+I una altra:
+
+```
+POLÍTICA 3
+
+ORIGEN:      Internet
+DESTINACIÓ:  LAN
+SERVEI:      ANY
+ACCIÓ:       DENY
+```
+
+L’ordre de les regles és important en molts firewalls, perquè normalment es processen de dalt a baix fins que alguna coincideix.
+
+### Exemple més realista
+
+Suposem:
+
+```
+VLAN 10 ADMIN       → 192.168.10.0/24
+VLAN 20 EMPLEATS    → 192.168.20.0/24
+VLAN 30 GUEST       → 192.168.30.0/24
+VLAN 40 SERVIDORS   → 192.168.40.0/24
+```
+
+Podríem dissenyar les polítiques aproximadament així:
+
+|Origen|Destí|Servei|Acció|
+|---|---|---|---|
+|ADMIN|SERVIDORS|Necessaris|✅ Allow|
+|EMPLEATS|SERVIDORS|Necessaris|✅ Allow|
+|GUEST|SERVIDORS|ANY|❌ Deny|
+|GUEST|ADMIN|ANY|❌ Deny|
+|GUEST|EMPLEATS|ANY|❌ Deny|
+|GUEST|Internet|HTTP/HTTPS/DNS|✅ Allow|
+|Internet|LAN|No autoritzat|❌ Deny|
+
+A partir d’aquí pots afegir controls molt més avançats: VPN, IDS/IPS, filtratge web, control d’aplicacions, logs, NAT, DMZ, etc.
+
+Per a les teves pràctiques, jo aprendria especialment aquesta seqüència mental:
+
+```
+Qui inicia la connexió?
+        ↓
+Des de quina xarxa/VLAN?
+        ↓
+Cap a quina xarxa?
+        ↓
+Quin servei/port necessita?
+        ↓
+S'ha de permetre?
+        ↓
+ALLOW / DENY
+        ↓
+Registrar-ho als logs?
+```
+
+Per exemple: _«Els ordinadors de treballadors necessiten accedir al servidor web intern per HTTPS»_:
+
+```
+ORIGEN:       VLAN 20 EMPLEATS
+DESTINACIÓ:   Servidor 192.168.40.10
+PROTOCOL:     TCP
+PORT:         443
+ACCIÓ:        ALLOW
+```
+
+I **no** faries simplement:
+
+```
+EMPLEATS → SERVIDORS → ANY → ALLOW
+```
