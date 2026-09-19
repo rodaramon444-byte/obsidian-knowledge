@@ -1,3 +1,4 @@
+![[Pasted image 20260919125043.png]]
 ## Què és un switch?
 
 Un **switch** connecta dispositius dins d’una xarxa local (LAN).
