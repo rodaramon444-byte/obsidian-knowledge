@@ -1,3 +1,4 @@
+![[Pasted image 20260919122953.png]]
 # Comprovació inicial del maquinari
 
 Abans d’instal·lar res, és recomanable comprovar quin maquinari té l’equip.
@@ -19,7 +20,7 @@ En un ordinador ja muntat també és important comprovar que la RAM i les unitat
 
 ### Windows
 
-Per consultar informació general:
+Per a informació general:
 
 ```
 msinfo32
