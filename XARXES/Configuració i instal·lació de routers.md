@@ -1,3 +1,4 @@
+![[Pasted image 20260919124713.png]]
 ## Què és un router?
 
 Un **router** és un dispositiu de xarxa encarregat de comunicar **xarxes diferents**.
