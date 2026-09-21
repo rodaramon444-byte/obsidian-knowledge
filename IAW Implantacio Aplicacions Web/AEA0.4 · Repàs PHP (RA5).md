@@ -424,5 +424,7 @@ $g->testAccedir();       // Línia F
 Preguntes:
 ![[Pasted image 20260921170651.png]]
 1. Línia D: Funcionarà? Què imprimirà?
-    
+	    ![[Pasted image 20260921170804.png]]
 2. Línia E: Funcionarà? Per què sí o per què no?
+		![[Pasted image 20260921170841.png]]
+		![[Pasted image 20260921170901.png]]
