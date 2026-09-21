@@ -64,3 +64,6 @@ Una BD emmagatzema les dades mitjançant un **esquema**.
 **Dècada del 1960** 
 	- Es generalitza l'ús de discos magnètics, on la seva característica principal es que es pot accedir de forma directa a qualsevol part dels fitxers que conté, sense haver de passar pels anteriors. 
 	- Amb aquesta tecnologia apareixen les bases de dades jeràrquiques i en xarxa, les qual aprofiten la capacitat d'accés directe a la informació dels discos per a estructurar la informació en forma de llistes enllaçades i arbres d'informació.
+
+	Notació històrica: A l'octubre de 1969 neix el primer model de base de dades en xarxa, conegut com CODASYL (Conference on Data System Language). Posteriorment va ser millorat per IBM mitjançant el model IMS (Information Management System) per al programa Apollo de la NASA.
+
