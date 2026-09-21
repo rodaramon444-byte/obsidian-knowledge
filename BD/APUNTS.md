@@ -32,4 +32,4 @@ Bases de dades:
 	- Objecte: Dades de un client o un producte
 	- Succes: Una compra de un client
 
-Les taules es relacionen formant vincles o relacions
+Les taules es relacionen formant vincles o relacions. A les taules les files son registres i les columnes son camps.
