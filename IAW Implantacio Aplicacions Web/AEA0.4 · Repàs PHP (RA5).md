@@ -87,9 +87,19 @@ Preguntes:
 
 1. Quina és la sortida exacta d'aquest script? (Pensa en els "Notices" o "Warnings"). 
     
-2. Per què la funció no pot "veure" la variable $nom_global? global $nom_global;
+2. Per què la funció no pot "veure" la variable $nom_global? Perquè les variables definides fora d'una funció no són accessibles directament dins d'ella.
     
-3. Escriu dues maneres diferents d'arreglar-ho.
+3. Escriu dues maneres diferents d'arreglar-ho. Es pot solucionar utilitzant:
+
+```
+global $nom_global;
+```
+
+O passant-la com a paràmetre:
+
+```
+function saludar($nom_global)
+```
     
 
 ---
