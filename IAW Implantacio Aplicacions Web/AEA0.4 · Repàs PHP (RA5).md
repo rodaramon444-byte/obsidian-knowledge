@@ -234,7 +234,7 @@ Inici Codi B
 Warning: ...
 Fatal error: ...
     
-3. Quina és la diferència fonamental entre include i require quan un fitxer falla?
+3. Quina és la diferència fonamental entre include i require quan un fitxer falla? `include` genera un avís i continua; `require` atura l'execució si no pot carregar el fitxer.
     
 
 ---
