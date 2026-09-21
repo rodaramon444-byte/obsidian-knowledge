@@ -21,11 +21,11 @@ echo "Benvingut, $nom!\n";
 
 Preguntes:
 
-1. Què imprimirà la primera línia (echo '...')?
+1. Què imprimirà la primera línia (echo '...')? Benvingut, $nom!\n
     
-2. Què imprimirà la segona línia (echo "...")?
+2. Què imprimirà la segona línia (echo "...")? Benvingut, Jordi!
     
-3. Explica breument per què són diferents.
+3. Explica breument per què són diferents: Perquè les cometes simples no interpreten variables ni `\n`, mentre que les dobles sí.
     
 
 ---
@@ -54,13 +54,13 @@ echo 10 + 5 . " gossos"; // Línia 4
 
 Preguntes:
 
-1. Què imprimirà la Línia 1?
+1. Què imprimirà la Línia 1? 15
     
-2. Què imprimirà la Línia 2?
+2. Què imprimirà la Línia 2? 105
     
-3. Què imprimirà la Línia 3 i per què?
+3. Què imprimirà la Línia 3 i per què? Depèn de la versió de PHP. En versions modernes de PHP provoca un **TypeError**, perquè `"10 gossos"` no és una cadena numèrica vàlida per sumar-la a `5`.
     
-4. Què imprimirà la Línia 4?
+4. Què imprimirà la Línia 4? 15 gossos
     
 
 ---
