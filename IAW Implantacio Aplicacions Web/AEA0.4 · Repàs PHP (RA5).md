@@ -312,16 +312,13 @@ echo $u->getNom();
 Preguntes:
 ![[Pasted image 20260921165857.png]]
 
-
-![[Pasted image 20260921170007.png]]
-![[Pasted image 20260921170020.png]]
 1. Quina és la sortida exacta d'aquest script?
     ![[Pasted image 20260921165927.png]]
 2. Per què no imprimeix "Elsa"?
-    
+	    No imprimeix `"Elsa"` perquè `$nom` busca una variable local que no existeix. Per accedir a la propietat `nom` de l'objecte s'ha d'utilitzar `$this->nom`.
 3. Com s'arregla la funció getNom()?
-    
-
+    ![[Pasted image 20260921170007.png]]
+	![[Pasted image 20260921170020.png]]
 ---
 
 ### 9. Propietats static vs. Instància (OOP)
@@ -363,15 +360,18 @@ echo "Comptador C3: " . $c3->comptador_propi . "\n";
 ?>
 
 Preguntes:
+![[Pasted image 20260921170356.png]]
 
-1. Què imprimirà "Total instàncies:"?
+![[Pasted image 20260921170415.png]]
+1. Què imprimirà "Total instàncies:"? 3
     
-2. Què imprimirà "Comptador C1:"?
+2. Què imprimirà "Comptador C1:"? 1
     
-3. Què imprimirà "Comptador C3:"?
+3. Què imprimirà "Comptador C3:"? 5
     
 4. Explica la diferència entre $total_instancies (static) i $comptador_propi (no static).
-    
+	    `$total_instancies` és **static**, per tant és una variable compartida per tots els objectes de la classe. Cada vegada que es crea un objecte nou, el seu valor augmenta. En canvi, `$comptador_propi` **no és static**, així que cada 
+		objecte té el seu propi valor independent. Modificar el comptador d'un objecte no afecta els altres.
 
 ---
 
