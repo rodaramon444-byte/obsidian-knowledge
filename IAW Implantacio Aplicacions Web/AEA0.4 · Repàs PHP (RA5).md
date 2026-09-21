@@ -85,9 +85,9 @@ saludar();
 
 Preguntes:
 
-1. Quina és la sortida exacta d'aquest script? (Pensa en els "Notices" o "Warnings").
+1. Quina és la sortida exacta d'aquest script? (Pensa en els "Notices" o "Warnings"). 
     
-2. Per què la funció no pot "veure" la variable $nom_global?
+2. Per què la funció no pot "veure" la variable $nom_global? global $nom_global;
     
 3. Escriu dues maneres diferents d'arreglar-ho.
     
