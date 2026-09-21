@@ -178,7 +178,9 @@ echo "ID Formulari: $id_formulari\n";
 ?>
 
 Preguntes:
-
+![[Pasted image 20260921165309.png]]
+![[Pasted image 20260921165326.png]]
+![[Pasted image 20260921165417.png]]
 1. Què imprimirà la línia "ID URL:"? 123
     
 2. Què imprimirà la línia "Nom Formulari:"? carles
@@ -221,21 +223,14 @@ echo "Final Codi B\n";
 ?>
 
 Preguntes:
-
+![[Pasted image 20260921165444.png]]
 1. Quina serà la sortida completa del Codi A? (Què es veurà a la pantalla?)
 Mostrarà un warning, però continuarà executant-se:
-
-```
-Inici Codi A
-Warning: ...
-Final Codi A
-```
+![[Pasted image 20260921165527.png]]
     
 2. Quina serà la sortida completa del Codi B? 
-Inici Codi B
-Warning: ...
-Fatal error: ...
-    
+![[Pasted image 20260921165549.png]]
+![[Pasted image 20260921165625.png]]
 3. Quina és la diferència fonamental entre include i require quan un fitxer falla? `include` genera un avís i continua; `require` atura l'execució si no pot carregar el fitxer.
     
 
@@ -270,11 +265,11 @@ print_r($array_c);
 ?>
 
 Preguntes:
-
+![[Pasted image 20260921165711.png]]
 1. Quina serà la sortida de print_r($array_a)?
     
 2. Quina serà la sortida de print_r($array_b)?
-    
+    ![[Pasted image 20260921165732.png]]
 3. Explica per què $array_a ha canviat en modificar $array_c, però no en modificar $array_b.
     
 
