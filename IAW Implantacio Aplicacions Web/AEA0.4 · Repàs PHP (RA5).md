@@ -136,7 +136,7 @@ foreach ($inventari as $fruita => $quantitat) {
 
 Preguntes:
 
-1. Què conté la variable $fruita a la primera iteració del bucle? 
+1. Què conté la variable $fruita a la primera iteració del bucle? $fruita conte "pomes".
     
 2. Què conté la variable $quantitat a la primera iteració del bucle?
     
