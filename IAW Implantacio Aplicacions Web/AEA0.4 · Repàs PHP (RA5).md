@@ -56,6 +56,7 @@ echo 10 + 5 . " gossos"; // Línia 4
 
 Preguntes:
 ![[Pasted image 20260921163833.png]]
+![[Pasted image 20260921163943.png]]
 
 1. Què imprimirà la Línia 1? 15
     
@@ -152,7 +153,8 @@ CAL REPOSAR: taronges!
 
 ---
 
-### 5. Superglobals ($_GET i $_POST)
+### 5. Superglobals
+
 
 Context: Un usuari envia un formulari (method="POST") que va a la URL: processar.php?id=123.
 
