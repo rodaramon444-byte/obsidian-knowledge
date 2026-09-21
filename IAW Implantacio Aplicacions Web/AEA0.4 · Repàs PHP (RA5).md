@@ -146,11 +146,7 @@ Preguntes:
 2. Què conté la variable $quantitat a la primera iteració del bucle? 5
     
 3. Escriu la sortida completa i exacta que produirà aquest script. 
-Queden 5 de pomes.
-Queden 10 de peres.
-Queden 0 de taronges.
-CAL REPOSAR: taronges!
-    
+![[Pasted image 20260921165111.png]]
 
 ---
 
