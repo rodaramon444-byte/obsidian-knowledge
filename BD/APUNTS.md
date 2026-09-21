@@ -56,3 +56,11 @@ Una BD emmagatzema les dades mitjançant un **esquema**.
 	![[Pasted image 20260921125247.png]]
 
 **Evolució i tipus de bases de dades**
+**Dècada del 1950** 
+	- S'inventen les cintes magnètiques, que només podien ser llegides de forma seqüencial i ordenada. 
+	 - Les cintes emmagatzemaven fitxers amb registres que es processaven seqüencialment junt amb fitxers de moviments per a generar nous fitxers actualitzats. 
+	 - Aquests sistemes es coneixen com aplicacions basades en sistemes de fitxers i constitueixen la generació zero de les bases de dades. De fet en aquesta època no existia encara el concepte de BD.
+
+**Dècada del 1960** 
+	- Es generalitza l'ús de discos magnètics, on la seva característica principal es que es pot accedir de forma directa a qualsevol part dels fitxers que conté, sense haver de passar pels anteriors. 
+	- Amb aquesta tecnologia apareixen les bases de dades jeràrquiques i en xarxa, les qual aprofiten la capacitat d'accés directe a la informació dels discos per a estructurar la informació en forma de llistes enllaçades i arbres d'informació.
