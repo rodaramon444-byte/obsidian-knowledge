@@ -33,3 +33,19 @@ Tambe es organitzaven per la seva utilitat,
 	- Succes: Una compra de un client
 
 Les taules es relacionen formant vincles o relacions. A les taules les files son registres i les columnes son camps.
+
+**DADA**: És un tros d'informació concreta sobre algun concepte o succés. Per exemple, 1996 és un número que representa un any de naixement. Les dades es caracteritzen per tenir un tipus.
+
+**TIPUS DE DADA**: El tipus de dada indica la naturalesa del camp. Així, es pot tenir... 
+	• Dades numèriques. Són aquelles amb les que podem realitzar càlculs aritmètics (sumes, restes,...) 
+	• Dades alfanumèriques. Són aquelles que contenen caràcters alfabètics i dígits numèrics.
+
+**CAMP**: Un camp és un identificador per a tota una família de dades. Cada camp pertany a un tipus de dades. Per exemple, el camp data_naixement representa les dates de naixement de les persones que tenim a la taula i pertany al tipus data. També se li pot dir columna.
+
+**REGISTRE**: És una recol·lecció de dades referents a un mateix concepte o succés. Per exemple, les dades d'una persona poden ser el NIF, data_naixement, nom, direcció, ... . També se'ls hi pot dir tuples o files.
+
+**CAMP CLAU**: És un camp especial que identifica de forma única a cada registre. Així el NIF que és únic per a cada persona, és un camp clau. Més endavant veurem que hi ha diversos tipus de camps clau.
+
+**TAULA**: És un conjunt de registres agrupats baix un mateix nom i que els representa a tots. Exemple, tots els clients d'una BD s'emmagatzemen en una taula amb nom CLIENTS.
+
+**CONSULTA**: És una instrucció per a fer peticions a una BD. Pot ser una cerca simple d'un registre específic o una sol·licitud per a seleccionar tots aquells registres que compleixin una sèrie de criteris
