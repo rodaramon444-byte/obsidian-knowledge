@@ -21,9 +21,10 @@ echo "Benvingut, $nom!\n";
 
 Preguntes:
 
-1. Què imprimirà la primera línia (echo '...')? Benvingut, $nom!\n
+1. Què imprimirà la primera línia (echo '...')?
     
-2. Què imprimirà la segona línia (echo "...")? Benvingut, Jordi!
+2. Què imprimirà la segona línia (echo "...")? 
+![[Pasted image 20260921163505.png]]
     
 3. Explica breument per què són diferents: Perquè les cometes simples no interpreten variables ni `\n`, mentre que les dobles sí.
     
