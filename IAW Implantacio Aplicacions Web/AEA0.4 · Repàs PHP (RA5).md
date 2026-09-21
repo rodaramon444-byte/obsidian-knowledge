@@ -181,7 +181,7 @@ Preguntes:
     
 2. Què imprimirà la línia "Nom Formulari:"? carles
     
-3. Què passarà a la línia "ID Formulari:"? Per què?
+3. Què passarà a la línia "ID Formulari:"? Per què? PHP mostrarà un avís d'índex/clau no definida i `ID Formulari:` quedarà sense valor.
     
 
 ---
@@ -221,6 +221,13 @@ echo "Final Codi B\n";
 Preguntes:
 
 1. Quina serà la sortida completa del Codi A? (Què es veurà a la pantalla?)
+Mostrarà un warning, però continuarà executant-se:
+
+```
+Inici Codi A
+Warning: ...
+Final Codi A
+```
     
 2. Quina serà la sortida completa del Codi B?
     
