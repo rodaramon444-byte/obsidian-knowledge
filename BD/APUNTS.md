@@ -83,3 +83,13 @@ Una BD emmagatzema les dades mitjançant un **esquema**.
 
 ***
 **Els Sistemes Gestors de Bases de Dades**
+1. Permeten als usuaris emmagatzemar dades, accedir a elles i actualitzar-los de forma senzilla i amb un gran rendiment. Ocultant així la complexitat i les característiques físiques dels dispositius d'emmagatzemament. 
+2. Garanteixen la integritat de les dades, respectant les regles i restriccions que dicta el programador de la BD. És a dir, no permeten accions que deixen dades incorrectes o incompletes. 
+3. Integren junt amb el sistema operatiu, un sistema de seguretat que garanteix l'accés a la informació només a aquells usuaris que tinguin autorització. 
+4. Proporciona un diccionari de metadades, el qual conté l'esquema de la base de dades, és a dir, com estan estructurades les dades en taules, registres i camps, les relacions entre les dades, usuaris, permisos,... . Aquest diccionari ha de ser accessible de la mateixa forma senzilla amb que s'accedeix a la resta de dades 
+5. Permeten l'ús de transaccions, garantint que totes les operacions fetes per aquestes es realitzin correctament, i en cas d'alguna incidència, desfan els canvis sense cap problema addicional. 
+6. Ofereixen estadístiques sobre l'ús del gestor, registrant operacions efectuades, consultes sol·licitades, operacions fallides i qualsevol tipus d'incidència. D'aquesta manera és possible monitoritzar l'ús de la base de dades cosa que permet analitzar possibles mals funcionaments. 
+7. Permet concurrència, és a dir, diversos usuaris poden treballar en un mateix conjunt de dades. A més, té eines que controlen operacions conflictives d'accés o modificació d'una dada al mateix temps per part de diversos usuaris. 
+8. Independitzen les dades de l'aplicació o usuari que les està utilitzant, fent més fàcil la seva migració cap altres plataformes. 
+9. Ofereixen connectivitat amb l'exterior. D'aquesta manera es poden replicar i distribuir les bases de dades. A més, tots els SGBDs incorporen eines estàndard de connectivitat. El protocol ODBC (Open Database Connectivity) està bastant estès com a forma de comunicació entre BDs i aplicacions externes. 
+10. Incorporen eines per a salvaguardar i restaurar la informació en cas de desastre. Alguns gestors, tenen sofisticats mecanismes per a poder establir l'estat d'una BD en qualsevol punt anterior en el temps. A més, també han d'oferir eines senzilles per a la importació i exportació automàtica de la informació.
