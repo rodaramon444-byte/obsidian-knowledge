@@ -17,4 +17,5 @@ Tambe es organitzaven per la seva utilitat,
 - historics, son els obsolets, que no son necessaris per a l'us diari
 
 Fitxers de text
-- ASCII: es una taula on s'assigna un valor numeric a cada caracter
+- ASCII: es una taula on s'assigna un valor numeric a cada caracter (256)
+- 
