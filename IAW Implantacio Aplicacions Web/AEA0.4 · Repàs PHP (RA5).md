@@ -95,9 +95,16 @@ Preguntes:
 2. Per què la funció no pot "veure" la variable $nom_global? Perquè les variables definides fora d'una funció no són accessibles directament dins d'ella.
     
 3. Escriu dues maneres diferents d'arreglar-ho. Es pot solucionar utilitzant:
+
+global $nom_global;
 ![[Pasted image 20260921164505.png]]
 
 ![[Pasted image 20260921164522.png]]
+
+function saludar($nom_global)
+![[Pasted image 20260921164720.png]]
+
+![[Pasted image 20260921164729.png]]
 
 ---
 
