@@ -31,3 +31,5 @@ Bases de dades:
 - Una base de dades està organitzada en **taules** on guardem informació que fa referencia a un objecte **o** succes:
 	- Objecte: Dades de un client o un producte
 	- Succes: Una compra de un client
+
+Les taules es relacionen formant vincles o relacions
