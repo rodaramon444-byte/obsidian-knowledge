@@ -425,6 +425,7 @@ Preguntes:
 ![[Pasted image 20260921170651.png]]
 1. Línia D: Funcionarà? Què imprimirà?
 	    ![[Pasted image 20260921170804.png]]
-2. Línia E: Funcionarà? Per què sí o per què no?
+2. Línia E: Funcionarà? Per què sí o per què no? No funciona. `$edat_protegida` és `protected`, així que no es pot accedir directament des de fora de la classe.
 		![[Pasted image 20260921170841.png]]
 		![[Pasted image 20260921170901.png]]
+3. **Línia F:** Si s'executés `testAccedir()`, la **línia A no provoca un error fatal només per llegir `$this->nom_privat`**: com que la propietat privada pertany a `Animal`, no és accessible com a propietat heretada des de `Gos`, i en PHP modern això pot produir un warning de propietat indefinida. Les línies **B i C sí són accessibles** des de la classe filla.
