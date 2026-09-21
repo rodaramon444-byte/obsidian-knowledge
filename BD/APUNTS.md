@@ -93,3 +93,26 @@ Una BD emmagatzema les dades mitjançant un **esquema**.
 8. Independitzen les dades de l'aplicació o usuari que les està utilitzant, fent més fàcil la seva migració cap altres plataformes. 
 9. Ofereixen connectivitat amb l'exterior. D'aquesta manera es poden replicar i distribuir les bases de dades. A més, tots els SGBDs incorporen eines estàndard de connectivitat. El protocol ODBC (Open Database Connectivity) està bastant estès com a forma de comunicació entre BDs i aplicacions externes. 
 10. Incorporen eines per a salvaguardar i restaurar la informació en cas de desastre. Alguns gestors, tenen sofisticats mecanismes per a poder establir l'estat d'una BD en qualsevol punt anterior en el temps. A més, també han d'oferir eines senzilles per a la importació i exportació automàtica de la informació.
+
+**El llenguatge SQL**
+	SQL es divideix en 4 sub-llenguatges, el conjunt d'ells permet al SGBD complir amb les funcions que marquen les lleis de Codd:
+
+• Llenguatge DML (Data Manipulation Language): Llenguatge de manipulació de dades.
+Aquest llenguatge permet amb 4 sentències senzilles seleccionar determinades dades
+(SELECT), inserir dades (INSERT), modificar-les (UPDATE) o inclús esborrar-les
+(DELETE). Ho veurem més endavant.
+
+• Llenguatge DDL (Data Definition Language): Llenguatge de definició de dades. Aquest
+llenguatge permet crear tota l'estructura d'una BD (des de taules fins a usuaris). Les
+seves sentències són del tipus DROP (eliminar objectes) i CREATE (crear objectes). Ho
+veurem més endavant.
+
+• Llenguatge DCL (Data Control Language): Llenguatge de control de dades. Les seves
+sentències (GRANT i REVOKE) permeten a l'administrador gestionar l'accés a les dades
+que tenim a la BD.
+
+• Llenguatge TCL (Transactions Control Language): Llenguatge de control de transaccions.
+El propòsit d'aquest llenguatge es permetre executar diverses comandes de forma
+simultània com si fos una comanda atòmica o indivisible. Si es possible executar totes
+les comandes s'aplica la transacció (COMMIT), i si en algun pas de l'execució succeeix
+alguna cosa inesperada, es poden desfer totes les accions realitzades (ROLLBACK).
