@@ -18,4 +18,10 @@ Tambe es organitzaven per la seva utilitat,
 
 Fitxers de text
 - ASCII: es una taula on s'assigna un valor numeric a cada caracter (256)
-- 
+-  Extensions fitxer de text: .ini, .inf, .conf, .sql, .c, .java, .html, .php, .css, .xml, rtf, .ps, .tex
+- Fitxers binaris: 
+	- D'imatge: .jpg, .gif, .tiff, .bmp, .png i molts altres 
+		- De vídeo: .mpg, .mov, .avi, .qt 
+		- Comprimits o empaquetats: .zip, .Z, .gz, .tar, .lhz 
+		-  Executables o compilats: .exe, .com, .cgi, .o, .a 
+		- Processadors de text: .doc, .odt
