@@ -27,3 +27,7 @@ Fitxers de text
 		- Processadors de text: .doc, .odt
 
 Bases de dades:
+	- Col·lecció d'informació que pertany a un mateix context (o problema), que està emmagatzemada de forma organitzada en fitxers.
+- Una base de dades està organitzada en **taules** on guardem informació que fa referencia a un objecte **o** succes:
+	- Objecte: Dades de un client o un producte
+	- Succes: Una compra de un client
