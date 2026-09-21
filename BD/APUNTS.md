@@ -25,3 +25,4 @@ Fitxers de text
 		- Comprimits o empaquetats: .zip, .Z, .gz, .tar, .lhz 
 		-  Executables o compilats: .exe, .com, .cgi, .o, .a 
 		- Processadors de text: .doc, .odt
+
