@@ -229,7 +229,10 @@ Warning: ...
 Final Codi A
 ```
     
-2. Quina serà la sortida completa del Codi B?
+2. Quina serà la sortida completa del Codi B? 
+Inici Codi B
+Warning: ...
+Fatal error: ...
     
 3. Quina és la diferència fonamental entre include i require quan un fitxer falla?
     
