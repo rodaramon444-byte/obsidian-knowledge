@@ -26,3 +26,4 @@ Fitxers de text
 		-  Executables o compilats: .exe, .com, .cgi, .o, .a 
 		- Processadors de text: .doc, .odt
 
+Bases de dades:
