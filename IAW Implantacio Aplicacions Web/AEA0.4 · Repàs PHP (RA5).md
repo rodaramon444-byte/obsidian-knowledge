@@ -139,6 +139,7 @@ foreach ($inventari as $fruita => $quantitat) {
 ?>
 
 Preguntes:
+![[Pasted image 20260921164958.png]]
 
 1. Què conté la variable $fruita a la primera iteració del bucle? $fruita conte "pomes".
     
