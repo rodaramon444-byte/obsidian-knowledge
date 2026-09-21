@@ -80,3 +80,6 @@ Una BD emmagatzema les dades mitjançant un **esquema**.
 	• A mitjans anys 90 IBM treu al mercat una versió de DB2 que és capaç de dividir una base de dades gran en diversos servidors comunicats per línies de gran velocitat, creant d'aquesta manera BDs paral·leles. 
 	• El nom que va rebre aquesta versió va ser DB2 Parallel Edition, ha anat evolucionant fins la versió DB2 Data Partition Feature, únic SGBD d'aquest tipus per a sistemes distribuïts. 
 	• A finals de 1990 IBM i Oracle incorporen a les seves bases de dades la capacitat de manipular objectes, creant així les bases de dades orientades a objectes.
+
+***
+Els Sistemes Gestors de Bases de Dades***
