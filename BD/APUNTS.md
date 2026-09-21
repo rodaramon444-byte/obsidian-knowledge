@@ -82,4 +82,4 @@ Una BD emmagatzema les dades mitjançant un **esquema**.
 	• A finals de 1990 IBM i Oracle incorporen a les seves bases de dades la capacitat de manipular objectes, creant així les bases de dades orientades a objectes.
 
 ***
-Els Sistemes Gestors de Bases de Dades***
+**Els Sistemes Gestors de Bases de Dades**
