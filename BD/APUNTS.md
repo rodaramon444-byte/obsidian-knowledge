@@ -49,3 +49,7 @@ Les taules es relacionen formant vincles o relacions. A les taules les files son
 **TAULA**: És un conjunt de registres agrupats baix un mateix nom i que els representa a tots. Exemple, tots els clients d'una BD s'emmagatzemen en una taula amb nom CLIENTS.
 
 **CONSULTA**: És una instrucció per a fer peticions a una BD. Pot ser una cerca simple d'un registre específic o una sol·licitud per a seleccionar tots aquells registres que compleixin una sèrie de criteris
+
+**Estructura d'una BD**
+Una BD emmagatzema les dades mitjançant un **esquema**. 
+	**Esquema**: És la definició de l'estructura on s'emmagatzemen les dades.
