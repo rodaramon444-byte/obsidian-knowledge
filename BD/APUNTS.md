@@ -73,3 +73,10 @@ Una BD emmagatzema les dades mitjançant un **esquema**.
 	• Larry Ellison, fundador d'Oracle, s'inspira amb l'article de Codd per a desenvolupar el famós motor de base de dades, el qual va començar com un projecte per a la CIA. 
 	• La potent base matemàtica d'aquest model és el secret del seu èxit. 
 	• Avui en dia el model relacional de Codd, encara que existeixen moltes alternatives, segueix sent el més utilitzat a tots els nivells.
+
+**Dècada del 1980** 
+	• IBM llença el seu motor de bases de dades DB2. 
+	• Anys més tard IBM crea el llenguatge SQL (Structured Query Language), un potent llenguatge de consultes per a manipular informació de les bases de dades relacionals. Dècada del 1990 
+	• A mitjans anys 90 IBM treu al mercat una versió de DB2 que és capaç de dividir una base de dades gran en diversos servidors comunicats per línies de gran velocitat, creant d'aquesta manera BDs paral·leles. 
+	• El nom que va rebre aquesta versió va ser DB2 Parallel Edition, ha anat evolucionant fins la versió DB2 Data Partition Feature, únic SGBD d'aquest tipus per a sistemes distribuïts. 
+	• A finals de 1990 IBM i Oracle incorporen a les seves bases de dades la capacitat de manipular objectes, creant així les bases de dades orientades a objectes.
