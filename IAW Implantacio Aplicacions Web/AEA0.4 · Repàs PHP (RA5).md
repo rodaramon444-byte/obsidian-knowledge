@@ -310,9 +310,13 @@ echo $u->getNom();
 ?>
 
 Preguntes:
+![[Pasted image 20260921165857.png]]
 
+
+![[Pasted image 20260921170007.png]]
+![[Pasted image 20260921170020.png]]
 1. Quina és la sortida exacta d'aquest script?
-    
+    ![[Pasted image 20260921165927.png]]
 2. Per què no imprimeix "Elsa"?
     
 3. Com s'arregla la funció getNom()?
