@@ -16,7 +16,7 @@ Tambe es organitzaven per la seva utilitat,
 - moviments, que son els que s'utilitzen per modificar els mestres
 - historics, son els obsolets, que no son necessaris per a l'us diari
 
-Fitxers de text
+**Fitxers de text**
 - ASCII: es una taula on s'assigna un valor numeric a cada caracter (256)
 -  Extensions fitxer de text: .ini, .inf, .conf, .sql, .c, .java, .html, .php, .css, .xml, rtf, .ps, .tex
 - Fitxers binaris: 
@@ -26,7 +26,7 @@ Fitxers de text
 		-  Executables o compilats: .exe, .com, .cgi, .o, .a 
 		- Processadors de text: .doc, .odt
 
-Bases de dades:
+**Bases de dades:**
 	- Col·lecció d'informació que pertany a un mateix context (o problema), que està emmagatzemada de forma organitzada en fitxers.
 - Una base de dades està organitzada en **taules** on guardem informació que fa referencia a un objecte **o** succes:
 	- Objecte: Dades de un client o un producte
