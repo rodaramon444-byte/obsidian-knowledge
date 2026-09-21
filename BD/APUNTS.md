@@ -67,3 +67,9 @@ Una BD emmagatzema les dades mitjançant un **esquema**.
 
 	Notació històrica: A l'octubre de 1969 neix el primer model de base de dades en xarxa, conegut com CODASYL (Conference on Data System Language). Posteriorment va ser millorat per IBM mitjançant el model IMS (Information Management System) per al programa Apollo de la NASA.
 
+**Dècada del 1970**
+	Edgar Frank Codd, científic informàtic anglès de IBM, publica l'any 1970 en un article 'Un model relaciona de dades per a grans bancs de dades compartits', on defineix el model relacional, basat en la lògica de predicats i la teoria de conjunts. 
+	• Neixen les bases de dades relacionals, o segona generació de bases de dades. 
+	• Larry Ellison, fundador d'Oracle, s'inspira amb l'article de Codd per a desenvolupar el famós motor de base de dades, el qual va començar com un projecte per a la CIA. 
+	• La potent base matemàtica d'aquest model és el secret del seu èxit. 
+	• Avui en dia el model relacional de Codd, encara que existeixen moltes alternatives, segueix sent el més utilitzat a tots els nivells.
