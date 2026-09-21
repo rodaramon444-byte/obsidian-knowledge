@@ -54,3 +54,5 @@ Les taules es relacionen formant vincles o relacions. A les taules les files son
 Una BD emmagatzema les dades mitjançant un **esquema**. 
 	**Esquema**: És la definició de l'estructura on s'emmagatzemen les dades.
 	![[Pasted image 20260921125247.png]]
+
+**Evolució i tipus de bases de dades**
