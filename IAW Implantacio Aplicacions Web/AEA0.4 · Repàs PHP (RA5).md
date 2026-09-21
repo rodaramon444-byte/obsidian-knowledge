@@ -138,9 +138,13 @@ Preguntes:
 
 1. Què conté la variable $fruita a la primera iteració del bucle? $fruita conte "pomes".
     
-2. Què conté la variable $quantitat a la primera iteració del bucle?
+2. Què conté la variable $quantitat a la primera iteració del bucle? 5
     
-3. Escriu la sortida completa i exacta que produirà aquest script.
+3. Escriu la sortida completa i exacta que produirà aquest script. 
+Queden 5 de pomes.
+Queden 10 de peres.
+Queden 0 de taronges.
+CAL REPOSAR: taronges!
     
 
 ---
@@ -173,9 +177,9 @@ echo "ID Formulari: $id_formulari\n";
 
 Preguntes:
 
-1. Què imprimirà la línia "ID URL:"?
+1. Què imprimirà la línia "ID URL:"? 123
     
-2. Què imprimirà la línia "Nom Formulari:"?
+2. Què imprimirà la línia "Nom Formulari:"? carles
     
 3. Què passarà a la línia "ID Formulari:"? Per què?
     
