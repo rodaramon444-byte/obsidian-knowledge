@@ -25,6 +25,7 @@ Preguntes:
     
 2. Què imprimirà la segona línia (echo "...")? 
 ![[Pasted image 20260921163505.png]]
+![[Pasted image 20260921163738.png]]
     
 3. Explica breument per què són diferents: Perquè les cometes simples no interpreten variables ni `\n`, mentre que les dobles sí.
     
@@ -54,6 +55,7 @@ echo 10 + 5 . " gossos"; // Línia 4
 ?>
 
 Preguntes:
+![[Pasted image 20260921163833.png]]
 
 1. Què imprimirà la Línia 1? 15
     
