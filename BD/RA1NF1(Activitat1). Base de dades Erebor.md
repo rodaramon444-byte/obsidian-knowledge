@@ -13,3 +13,6 @@ naixement, foto, alçada, pes, anys, i ofici.
 	- He creat el formulari amb els camps de la taula enanos i he posat les dades de la següent manera:
 
 ![[Pasted image 20260922174420.png]]
+
+3. Crea una consulta que mostri els camps codi, nom, cognom i alçada, ordenats per alçada i nom.
+	- He creat la consulta amb els camps de la taula enanos i després de posar els camps, hem de posar ‘ascendent’ a la fila ‘ordenació’ als camps alçada i nom de la següent manera perquè s’ordenen:
