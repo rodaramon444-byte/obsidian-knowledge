@@ -31,4 +31,5 @@
 - **Modificar el servei per a que execute un script amb permisos root.**
 - **Programar script amb el que vulgueu i executar-lo manualment per a veure si funciona**
 
-Primerament, el que jo habia pensat es  
+Primerament, he creat el servei amb nom "ramon.target" de la següent manera:
+![[Pasted image 20260923170943.png]]
