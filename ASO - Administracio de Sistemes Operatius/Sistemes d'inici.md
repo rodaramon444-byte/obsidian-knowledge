@@ -97,3 +97,6 @@ Ara he modificat ramon.sh per a que nomes amb aquell script funcione tot, despre
 ![[Pasted image 20260923191530.png]]
 
 ![[Pasted image 20260923191604.png|545]]
+
+Ara que ja funciona tot, arriba la prova final, reiniciar i comprovar que obre telegram i fa una captura de pantalla
+![[Pasted image 20260923192120.png]]
