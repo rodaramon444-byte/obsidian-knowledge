@@ -25,8 +25,10 @@
 ## 1. SystemV vs Upstart vs Systemd
 
 ## 1.1 Nivells d'execució (tasca systemd)
+---
+- **Crear target propi, fer-lo default target i comprovar que accediu amb el vostre target.**
+- **Crear un servei dintre del vostre target i comprovar que s’inicia correctament al reiniciar.**
+- **Modificar el servei per a que execute un script amb permisos root.**
+- **Programar script amb el que vulgueu i executar-lo manualment per a veure si funciona**
 
-Crear un target propi amb el meu nom, fer-ho default target i comprovar que accediu amb el vostre target 
-
-- Que cride un .service que executara un script abans que s'executi res.
-- Amb permisos root.
+Primerament, el que jo habia pensat es  
