@@ -71,3 +71,6 @@ Despres li he donat permisos
 
 Tot seguit he modificat l'arxiu el servei per a que execute el script:
 ![[Pasted image 20260923173745.png]]
+
+I he actualitzat el systemd, i tambe he fet una prova de l'escript, per veure si funciona:
+![[Pasted image 20260923174648.png]]
