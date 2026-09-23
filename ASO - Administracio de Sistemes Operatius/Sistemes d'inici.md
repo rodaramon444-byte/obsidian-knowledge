@@ -69,5 +69,5 @@ Ara que ja tinc el target amb el servei i tot, vaig a crear el script
 Despres li he donat permisos
 ![[Pasted image 20260923173615.png]]
 
-Tot seguit he modificat l'archiu el servei:
+Tot seguit he modificat l'arxiu el servei per a que execute el script:
 ![[Pasted image 20260923173745.png]]
