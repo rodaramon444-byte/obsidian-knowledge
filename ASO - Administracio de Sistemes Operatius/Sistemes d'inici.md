@@ -59,3 +59,6 @@
 
 Al reiniciar hem sortia aquest error, pero simplement he fet sudo systemctl reboot -i, ja que he fet una instantania de la mv
 ![[Pasted image 20260923172629.png]]
+
+Al reiniciar he comprovat que el servei arranca automàticament i el fitxer demostrar que s'ha executat com a root:
+![[Pasted image 20260923173029.png]]
