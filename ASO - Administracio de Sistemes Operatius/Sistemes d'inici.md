@@ -54,4 +54,5 @@
 	RemainAfterExit=yes
 	[Install]
 	WantedBy=ramon.target
+
 ![[Pasted image 20260923171510.png]]
