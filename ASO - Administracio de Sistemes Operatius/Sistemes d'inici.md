@@ -83,4 +83,10 @@ Tot seguit l'hi he donat permisos i he fet una prova, i ha obert automaticament 
 
 Ara per el tema de la captura de la pantalla, he hagut de provar i investigar molt, ja que amb Ubuntu 26 no deixa canviar la interficie a X11, i amb wyland no garanteix que un procés root pugui saltar-se silenciosament aquests permisos, pero he pogut saltar-me el proces de demanar permis amb la comanda: `gdbus call --session \ --dest org.freedesktop.portal.Desktop \ --object-path /org/freedesktop/portal/desktop \--method org.freedesktop.portal.Screenshot.Screenshot \  "" \  "{'interactive':<false>}"` , 
 
-Tot seguit 
+Tot seguit el que he ingeniat es un programa amb python que:
+- Sol·licitar una captura de pantalla al portal de Wayland. 
+- Esperar automàticament la resposta del sistema.
+- Obtenir la ubicació de la imatge generada.
+- Guardar-la automàticament com:
+`/home/ramon/Imatges/captura-telegram.png´
+![[Pasted image 20260923190612.png]]
