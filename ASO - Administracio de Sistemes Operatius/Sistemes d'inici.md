@@ -74,3 +74,9 @@ Tot seguit he modificat l'arxiu el servei per a que execute el script:
 
 I he actualitzat el systemd, i tambe he fet una prova de l'escript, per veure si funciona:
 ![[Pasted image 20260923174648.png]]
+
+Ara he modificat l'escript d'aquesta manera
+![[Pasted image 20260923175112.png]]
+
+Tot seguit l'hi he donat permisos i he fet una prova, i ha obert automaticament telegram
+![[Pasted image 20260923175241.png]]
