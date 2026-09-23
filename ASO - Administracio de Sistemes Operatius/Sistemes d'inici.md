@@ -80,3 +80,5 @@ Ara he modificat l'escript d'aquesta manera
 
 Tot seguit l'hi he donat permisos i he fet una prova, i ha obert automaticament telegram
 ![[Pasted image 20260923175241.png]]
+
+Ara per el tema de la captura de la pantalla, he hagut de provar i investigar molt, ja que amb Ubuntu 26 no deixa canviar la interficie a X11, i amb wyland no es pot 
