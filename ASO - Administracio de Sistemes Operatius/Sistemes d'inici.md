@@ -20,6 +20,8 @@
 - **Servei** -> programa associat SO i 2n pla
 - **Procés** -> f(x) intern del SO
     - _Nota:_ Aplicacions i serveis -> generen processos (sincronitzar i planificar)
+---
+
 ## 1. SystemV vs Upstart vs Systemd
 
 ## 1.1 Nivells d'execució (tasca systemd)
