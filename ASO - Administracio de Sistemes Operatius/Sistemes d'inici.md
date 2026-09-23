@@ -26,7 +26,7 @@
 
 ## 1.1 Nivells d'execució (tasca systemd)
 
-Crear un target propi amb el meu nom, i canviar a que sigui el per defecte.
+Crear un target propi amb el meu nom, fer-ho default target i comprovar que accediu amb el vostre target 
 
 - Que cride un .service que executara un script abans que s'executi res.
 - Amb permisos root.
