@@ -81,4 +81,6 @@ Ara he modificat l'escript d'aquesta manera
 Tot seguit l'hi he donat permisos i he fet una prova, i ha obert automaticament telegram
 ![[Pasted image 20260923175241.png]]
 
-Ara per el tema de la captura de la pantalla, he hagut de provar i investigar molt, ja que amb Ubuntu 26 no deixa canviar la interficie a X11, i amb wyland no es pot 
+Ara per el tema de la captura de la pantalla, he hagut de provar i investigar molt, ja que amb Ubuntu 26 no deixa canviar la interficie a X11, i amb wyland no garanteix que un procés root pugui saltar-se silenciosament aquests permisos, pero he pogut saltar-me el proces de demanar permis amb la comanda: `gdbus call --session \ --dest org.freedesktop.portal.Desktop \ --object-path /org/freedesktop/portal/desktop \--method org.freedesktop.portal.Screenshot.Screenshot \  "" \  "{'interactive':<false>}"` , 
+
+Tot seguit 
