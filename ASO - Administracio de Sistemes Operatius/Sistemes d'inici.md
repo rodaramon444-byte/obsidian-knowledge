@@ -26,7 +26,7 @@
 
 ## 1.1 Nivells d'execució (tasca systemd)
 
-Crear un ramon.target amb el meu nom i canviar a que sigui el per defecte.
+Crear un target propi amb el meu nom, i canviar a que sigui el per defecte.
 
 - Que cride un .service que executara un script abans que s'executi res.
 - Amb permisos root.
