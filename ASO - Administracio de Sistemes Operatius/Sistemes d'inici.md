@@ -56,3 +56,6 @@
 	WantedBy=ramon.target
 
 ![[Pasted image 20260923171510.png]]
+
+Al reiniciar hem sortia aquest error, pero simplement he fet sudo systemctl reboot -i, ja que he fet una instantania de la mv
+![[Pasted image 20260923172629.png]]
