@@ -62,3 +62,12 @@ Al reiniciar hem sortia aquest error, pero simplement he fet sudo systemctl rebo
 
 Al reiniciar he comprovat que el servei arranca automàticament i el fitxer demostrar que s'ha executat com a root:
 ![[Pasted image 20260923173029.png]]
+
+Ara que ja tinc el target amb el servei i tot, vaig a crear el script
+![[Pasted image 20260923173520.png]]
+
+Despres li he donat permisos
+![[Pasted image 20260923173615.png]]
+
+Tot seguit he modificat l'archiu el servei:
+![[Pasted image 20260923173745.png]]
