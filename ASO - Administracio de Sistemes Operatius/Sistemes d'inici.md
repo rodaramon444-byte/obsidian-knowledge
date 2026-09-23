@@ -90,3 +90,10 @@ Tot seguit el que he ingeniat es un programa amb python que:
 - Guardar-la automàticament com:
 `/home/ramon/Imatges/captura-telegram.png´
 ![[Pasted image 20260923190612.png]]
+
+Ara he modificat ramon.sh per a que nomes amb aquell script funcione tot, despres l'he provat, i efectivament funciona i obre telegram i fa una captura de pantalla
+![[Pasted image 20260923191422.png]]
+
+![[Pasted image 20260923191530.png]]
+
+![[Pasted image 20260923191604.png|545]]
