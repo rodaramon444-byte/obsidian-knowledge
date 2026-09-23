@@ -31,5 +31,27 @@
 - **Modificar el servei per a que execute un script amb permisos root.**
 - **Programar script amb el que vulgueu i executar-lo manualment per a veure si funciona**
 
-Primerament, he creat el servei amb nom "ramon.target" de la següent manera:
+**Crear target propi, fer-lo default target i comprovar que accediu amb el vostre target.** 
+- Primer he creat el ramon.target amb: `sudo nano /etc/systemd/system/ramon.target` 
+- Tot seguit he posat:
+	[Unit]
+	Description=Target personalitzat de Ramon
+	Requires=graphical.target
+	After=graphical.target
+	AllowIsolate=yes`
+
 ![[Pasted image 20260923170943.png]]
+
+**Crear un servei dintre del target i comprovar que s'inicia en reiniciar**. +
+- Primer he creat el ramon.service amb la comanda seguent:  `sudo nano /etc/systemd/system/ramon.service`
+- De moment he fet un servei molt simple per comprovar que arrenca:
+	[Unit]
+	Description=Servei de Ramon
+	After=graphical.target
+	[Service]
+	Type=oneshot
+	ExecStart=/usr/bin/touch /tmp/ramon-servei-iniciat
+	RemainAfterExit=yes
+	[Install]
+	WantedBy=ramon.target
+![[Pasted image 20260923171510.png]]
