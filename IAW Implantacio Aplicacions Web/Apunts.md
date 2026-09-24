@@ -1,6 +1,6 @@
-Arquitectura de una web
+- Arquitectura de una web
 	Client --> Servidor --> BD
 
-Evolucio del Web i d'internet d'aplicacions web
+- Evolucio del Web i d'internet d'aplicacions web
 
 
