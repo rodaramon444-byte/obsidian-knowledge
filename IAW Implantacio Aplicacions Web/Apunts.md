@@ -3,6 +3,6 @@
 
 - Evolucio del Web i d'internet d'aplicacions web
 	Internet:
-		Infraestructura de xarxa interconectada
-	
+		Infraestructura de xarxa interconectada, inclou Web, Correu electronic, FTP, Xats, videotrucades, jocs en linea...
+- 
 
