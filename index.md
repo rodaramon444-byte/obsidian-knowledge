@@ -1,3 +1,3 @@
 # Roadmap Ramon Roda 
 
-![[Pasted image 20260916192607.png]]
+![[Pasted image 20260928161748.png|640]]
