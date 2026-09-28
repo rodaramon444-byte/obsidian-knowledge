@@ -13,4 +13,5 @@
 
 	- **Amb Internet**: El dispositiu enviaria les dades  al servidor, xifrades sempre de la seguent manera: ESP32 --> MQTT Mosquitto --> Node-RED --> Base de dades -->Web / App
 
-Aqui hi ha una altra pregunta: Es volen guardar les dades havent o no internet?
+Pregunta: Es volen guardar les dades havent o no internet?
+
