@@ -11,4 +11,4 @@
         
         Mòbil → 192.168.10.20
 
-		Amb Internet
+	- **Amb Internet**: 
