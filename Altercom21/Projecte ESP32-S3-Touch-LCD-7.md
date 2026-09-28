@@ -21,3 +21,9 @@ Es pot fer PWA Progressive Web App i aixi l'usuari podria instal·lar-la al mòb
 Conclusió d'avui:
 
 **ESP32 + LVGL** per la pantalla tàctil, **MQTT** per comunicacions, **Mosquitto** com a broker, **Node-RED** per fer un prototip ràpid i una PWA per web/app.
+
+**MQTT** = el protocol/idioma que utilitzen per comunicar-se.  
+**Mosquitto** = el servidor que gestiona aquests missatges.  
+**ESP32** = envia dades i rep ordres.  
+**Backend/Node-RED** = processa les dades i decideix què fer amb elles.  
+**Base de dades** = guarda l'historial.
