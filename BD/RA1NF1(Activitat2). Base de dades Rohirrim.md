@@ -1,17 +1,18 @@
 
 1.  Tasques a realitzar
-    
 
 2. Crea una taula anomenada CAVALLS amb els camps nom, tipus, raça, pes i color. Tingues en compte d'afegir a la taula un camp clau. I fixaràs que al camp tipus només puguis posar dos valors, 'cavall' i 'poni'.  
 
 Per a fixar que al camp tipus i que només pugui posar els dos valors, he creat una taula ‘tipus’ on hi ha els dos tipus, i després relaciono codi de la taula tipus amb tipus de la taula cavalls i creare un quadre de llista perquè llisti les dues opcions o poni o cavall:
 
 Tula cavalls:
+![[Pasted image 20260928123232.png]]
 
 Taula tipus:
+![[Pasted image 20260928123243.png]]
 
 i inserixo els tipus:
-
+![[Pasted image 20260928123254.png]]
   
 
 2. Insereix 5 registres a la taula CAVALLS. 
