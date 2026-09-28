@@ -1,5 +1,5 @@
 
-1. # Tasques a realitzar
+1.  Tasques a realitzar
     
 
 2. Crea una taula anomenada CAVALLS amb els camps nom, tipus, raça, pes i color. Tingues en compte d'afegir a la taula un camp clau. I fixaràs que al camp tipus només puguis posar dos valors, 'cavall' i 'poni'.  
