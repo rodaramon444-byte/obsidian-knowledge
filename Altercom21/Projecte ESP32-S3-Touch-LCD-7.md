@@ -18,4 +18,6 @@ Pregunta: Es volen guardar les dades havent o no internet?
 **Web i aplicació**
 Es pot fer PWA Progressive Web App i aixi l'usuari podria instal·lar-la al mòbil i tenir una icona com si fos una aplicació.
 
-Es evident que si 
+Conclusio d'avui:
+
+**ESP32 + LVGL** per la pantalla tàctil, **MQTT** per comunicacions, **Mosquitto** com a broker, **Node-RED** per fer un prototip ràpid i una PWA per web/app.
