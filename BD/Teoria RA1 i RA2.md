@@ -194,3 +194,5 @@ Definició: Una relació és una correspondència o associació entre dos o més
 **3.4. Participació**
 	La participació d'una ocurrència d'una entitat, indica mitjançant una parella de números, el mínim i el màxim número de vegades que pot aparèixer la ocurrència en qüestió en la relació associada a un altra ocurrència d'entitat. Les possibles combinacions són..
 	![[Pasted image 20260929091157.png]]
+
+![[Pasted image 20260929091651.png]]
