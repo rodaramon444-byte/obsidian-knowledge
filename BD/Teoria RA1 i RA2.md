@@ -128,3 +128,8 @@ alguna cosa inesperada, es poden desfer totes les accions realitzades (ROLLBACK)
 
 - ESPECIFICACIÓ DE REQUISITS SOFTWARE (Document ERS) 
 
+**2. El model de dades**
+
+- Modelització: Consisteix en representar el problema realitzant múltiples abstraccions per assimilar tota la informació d'un problema. I d'aquesta manera generar un mapa on estiguin identificats tots els objectes de la base de dades.
+	- Abstracció: Separar les qualitats (son els ATR) d'un objecte per a considerar-les de forma aïllada.
+	-  Objectes (2): Entitat i Relacio
