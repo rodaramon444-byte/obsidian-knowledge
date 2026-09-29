@@ -121,7 +121,8 @@ alguna cosa inesperada, es poden desfer totes les accions realitzades (ROLLBACK)
 ---
 **RA2 Models lògics interpretant diagrames E/R**
 
-Una base de dades representa la informació continguda en algun domini del món real. Pel que fa al disseny de bases de dades, això consisteix en extreure totes les dades rellevants d'un problema.
+- Una base de dades representa la informació continguda en algun domini del món real. Pel que fa al disseny de bases de dades, això consisteix en extreure totes les dades rellevants d'un problema.
 
-Empresa de fruita --> Problema --> Extreure les dades mes **importants** del probelma 
---> modelitzacio (construir mitjançant alguna eina de disseny un esquema que mostri amb exactitud totes les dades que el problema vol emmagatzemar)
+- Empresa de fruita --> Problema --> Extreure les dades mes **importants** del probelma 
+	--> modelitzacio (construir mitjançant alguna eina de disseny un esquema que mostri amb exactitud totes les dades que el problema vol emmagatzemar)
+
