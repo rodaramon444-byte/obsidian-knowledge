@@ -135,9 +135,10 @@ alguna cosa inesperada, es poden desfer totes les accions realitzades (ROLLBACK)
 	-  Objectes (2): Entitat i Relacio
 
 - El model conceptual. És un model que te gran poder expressiu per interactuar amb un usuari que no és un expert informàtic. Té una gran potència per a representar el domini del problema tal i com l'usuari l'entén. Nosaltres utilitzarem el model Entitat-Relació.
-
+	
 - El model lògic. Aquest model és més tècnic que l'anterior. Els conceptes expressats amb aquest model solen ser difícils d'entendre pels usuaris i generalment tenen traducció directa al model físic (el que entén el SGBD). El model lògic a escollir depèn de la implementació de la BD, per tant, podem dir que no és el mateix modelitzar una BD OO que una BD relacional. Nosaltres utilitzarem el model relacional. 
-
+	
 - El model físic. És el resultat d'aplicar el model lògic a un SGBD concret. Normalment està expressat en un llenguatge de programació de BDs tipus SQL. Nosaltres transformarem el model relacional a model físic mitjançant el subllenguatge DDL de SQL.
-
+	
 ![[Pasted image 20260929084347.png]]
+
