@@ -165,9 +165,9 @@ Característiques:
 	![[Pasted image 20260929090129.png]]
 
 **3.2. Ocurrència d'una entitat** 
-	
+	**Ocurrencia = Registre**
 - És una instància d'una determinada entitat. És a dir, una unitat del conjunt que representa la entitat. 
-- Exemple: L'entitat COTXE té diverses instàncies, una d'elles és: Ocurrencia: “BMW serie3 7777HDD de color blanc i 5 portes”.
+- Exemple: L'entitat COTXE té diverses instàncies, una d'elles és:  “BMW serie3 7777HDD de color blanc i 5 portes”.
 
 **3.3. Relació**
 	
@@ -190,3 +190,7 @@ Definició: Una relació és una correspondència o associació entre dos o més
 	![[Pasted image 20260929090919.png]]
 
 4. Relacions N-àries (grau > 3), són aquelles on participen més de tres entitats. Apareixen en contades ocasions, ja que generalment es poden des-composar en diverses relacions de grau 2 o 3.
+
+**3.4. Participació**
+	La participació d'una ocurrència d'una entitat, indica mitjançant una parella de números, el mínim i el màxim número de vegades que pot aparèixer la ocurrència en qüestió en la relació associada a un altra ocurrència d'entitat. Les possibles combinacions són..
+	![[Pasted image 20260929091157.png]]
