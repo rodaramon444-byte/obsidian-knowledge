@@ -119,7 +119,7 @@ alguna cosa inesperada, es poden desfer totes les accions realitzades (ROLLBACK)
 
 --- 
 ---
-**RA2 Models lògics interpretant diagrames E/R**
+**RA2 Models lògics interpretant diagrames E/R**   --> MODEL LOGIC
 
 - Una base de dades representa la informació continguda en algun domini del món real. Pel que fa al disseny de bases de dades, això consisteix en extreure totes les dades rellevants d'un problema.
 
