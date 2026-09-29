@@ -155,3 +155,38 @@ alguna cosa inesperada, es poden desfer totes les accions realitzades (ROLLBACK)
 - Exemples:
 	![[Pasted image 20260929085734.png]]
 	Sempre en SINGULAR
+
+Característiques: 
+	- Existeixen dos tipus d'entitats: fortes i dèbils. 
+	- Les entitats dèbils es representen mitjançant un rectangle doble. 
+	- Una entitat dèbil, és una entitat la existència de la qual depèn de la existència d'un altra entitat. 
+	- Una entitat forta és una entitat que existeix per mèrits propis, o el que és el mateix, que no és dèbil.
+	- 
+	![[Pasted image 20260929090129.png]]
+
+**3.2. Ocurrència d'una entitat** 
+	
+- És una instància d'una determinada entitat. És a dir, una unitat del conjunt que representa la entitat. 
+- Exemple: L'entitat COTXE té diverses instàncies, una d'elles és: Ocurrencia: “BMW serie3 7777HDD de color blanc i 5 portes”.
+
+**3.3. Relació**
+	
+Definició: Una relació és una correspondència o associació entre dos o més entitats
+-  Cada relació té un nom que descriu la seva funció. 
+
+-  S'han d'utilitzar noms que expressen inequívocament la finalitat de la relació, evitant noms que puguin significar moltes coses. Per exemple, tenir, fer, ... 
+
+-  Les relacions es representen gràficament mitjançant rombes i el seu nom apareix a l'interior. Normalment aquest nom és un verb, ja que les relacions descriuen les accions entre dos o més entitats. 
+
+-  Les relacions estan classificades segons el seu grau. El grau és el número d'entitats que participen en la relació. Segons això podem tenir els següents tipus de relacions:
+
+1. Relacions **Binaries** (grau 2), són aquelles que es donen entre dos entitats.
+	![[Pasted image 20260929090739.png]]
+
+2. Relacions **Ternàries** (grau3), són aquelles que es donen entre tres entitats.
+	![[Pasted image 20260929090805.png]]
+
+3. Relacions Unàries o reflexives (grau 1), és una relació on la mateixa entitat participa més d'un cop en la relació però amb rols diferents. El nom d'aquests rols és important per a determinar la funció de cada participació.
+	![[Pasted image 20260929090919.png]]
+
+4. Relacions N-àries (grau > 3), són aquelles on participen més de tres entitats. Apareixen en contades ocasions, ja que generalment es poden des-composar en diverses relacions de grau 2 o 3.
