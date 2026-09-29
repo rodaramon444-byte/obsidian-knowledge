@@ -103,3 +103,8 @@ Ara que ja funciona tot, arriba la prova final, reiniciar i comprovar que obre t
 
 I efectivament, s'obre telegram i tot seguit fa una captura de pantalla sense que visualment es notigue. La captura s'ha fet a les 20:13, com a comprovacio.
 ![[Pasted image 20260929201520.png]]
+
+Mes comprovacions de que ha funcionat:
+![[Pasted image 20260929201756.png]]
+
+![[Pasted image 20260929201838.png]]
