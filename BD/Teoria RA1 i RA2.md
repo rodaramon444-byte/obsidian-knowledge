@@ -117,3 +117,7 @@ simultània com si fos una comanda atòmica o indivisible. Si es possible execut
 les comandes s'aplica la transacció (COMMIT), i si en algun pas de l'execució succeeix
 alguna cosa inesperada, es poden desfer totes les accions realitzades (ROLLBACK).
 
+--- 
+---
+**RA2 Models lògics interpretant diagrames E/R**
+
