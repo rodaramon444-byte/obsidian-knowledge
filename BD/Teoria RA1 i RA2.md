@@ -143,3 +143,12 @@ alguna cosa inesperada, es poden desfer totes les accions realitzades (ROLLBACK)
 ![[Pasted image 20260929084347.png]]
 
 **3. Diagrama E/R**
+	
+- Per a representar el model conceptual utilitzarem el model Entitat-Relació. L'objectiu d'aquest model és plasmar el resultat de l'anàlisi del problema mitjançant diagrames entitat-relació.
+
+-  Van ser proposats per Peter P. Chen a la dècada dels 70 per a la representació conceptual de les dades i establir quines relacions existeixen entre elles.
+-  La notació és molt senzilla, i això ens permet representar el món real d'una forma que l'usuari pot validar si el model proposat s'ajusta a la resolució del problema.
+
+**3.1. Entitat**
+	
+- Definició: Qualsevol tipus d'objecte o concepte sobre el que es recull informació. Cosa, persona, concepte abstracte o succés. Es representa mitjançant un rectangle amb el nom a l'interior (en singular normalment). Un nom d'entitat només pot aparèixer un cop al diagrama.
