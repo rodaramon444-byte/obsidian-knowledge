@@ -126,3 +126,5 @@ alguna cosa inesperada, es poden desfer totes les accions realitzades (ROLLBACK)
 - Empresa de fruita --> Problema --> Extreure les dades mes **importants** del probelma 
 	--> modelitzacio (construir mitjançant alguna eina de disseny un esquema que mostri amb exactitud totes les dades que el problema vol emmagatzemar)
 
+- ESPECIFICACIÓ DE REQUISITS SOFTWARE (Document ERS) 
+
