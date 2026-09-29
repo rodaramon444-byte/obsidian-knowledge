@@ -152,3 +152,6 @@ alguna cosa inesperada, es poden desfer totes les accions realitzades (ROLLBACK)
 **3.1. Entitat**
 	
 - Definició: Qualsevol tipus d'objecte o concepte sobre el que es recull informació. Cosa, persona, concepte abstracte o succés. Es representa mitjançant un rectangle amb el nom a l'interior (en singular normalment). Un nom d'entitat només pot aparèixer un cop al diagrama.
+- Exemples:
+	![[Pasted image 20260929085734.png]]
+	Sempre en SINGULAR
