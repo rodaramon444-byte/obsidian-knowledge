@@ -142,3 +142,4 @@ alguna cosa inesperada, es poden desfer totes les accions realitzades (ROLLBACK)
 	
 ![[Pasted image 20260929084347.png]]
 
+**3. Diagrama E/R**
