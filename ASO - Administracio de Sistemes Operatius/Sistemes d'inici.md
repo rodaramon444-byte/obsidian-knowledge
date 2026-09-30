@@ -117,3 +117,8 @@ he fet la prova i ha funcionat, me ha enviat les dades
 ![[Pasted image 20260930190058.png]]
 
 ![[Pasted image 20260930190118.png]]
+
+Despres he pensat en que tambe dins del comprimit envies la captura de pantalla de telegram, afegint la ruta al comprimir a l'script:
+![[Pasted image 20260930190612.png]]
+
+He fet la prova i al descomprimir al meu pc si que esta la captura de pantalla tambe apart dels arxius critics de telegram
