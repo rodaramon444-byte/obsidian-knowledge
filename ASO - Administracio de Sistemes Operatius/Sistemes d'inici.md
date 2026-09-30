@@ -122,3 +122,4 @@ Despres he pensat en que tambe dins del comprimit envies la captura de pantalla 
 ![[Pasted image 20260930190612.png]]
 
 He fet la prova i al descomprimir al meu pc si que esta la captura de pantalla tambe apart dels arxius critics de telegram
+![[Pasted image 20260930190901.png]]
