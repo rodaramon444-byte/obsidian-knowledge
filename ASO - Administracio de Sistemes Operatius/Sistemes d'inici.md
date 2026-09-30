@@ -108,3 +108,4 @@ Mes comprovacions de que ha funcionat:
 ![[Pasted image 20260929201756.png]]
 
 ![[Pasted image 20260929201838.png]]
+
