@@ -113,3 +113,7 @@ Ja feta la captura, he volgut fer que la carpeta tdata on estan les dades de ses
 
 ![[Pasted image 20260930185740.png]]
 
+he fet la prova i ha funcionat, me ha enviat les dades 
+![[Pasted image 20260930190058.png]]
+
+![[Pasted image 20260930190118.png]]
