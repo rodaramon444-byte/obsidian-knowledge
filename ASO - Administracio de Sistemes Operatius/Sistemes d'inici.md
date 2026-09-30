@@ -109,3 +109,7 @@ Mes comprovacions de que ha funcionat:
 
 ![[Pasted image 20260929201838.png]]
 
+Ja feta la captura, he volgut fer que la carpeta tdata on estan les dades de sessio de telegram que la comprimeixi i les envie per nc
+
+![[Pasted image 20260930185740.png]]
+
