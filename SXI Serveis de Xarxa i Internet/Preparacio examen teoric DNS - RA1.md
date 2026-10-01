@@ -80,6 +80,75 @@ sense punt final podria interpretar-se com:
 www.iesebre.com.iesebre.com
 ```
 
-UF1NF1.Instal·lació i Configura…
 
-**Això té molta pinta de pregunta d'examen.**
+# BLOC 3 — Resolució directa i inversa
+
+Has de diferenciar-les perfectament.
+
+### Directa
+
+```
+NOM → IP
+```
+
+Exemple:
+
+```
+www.informatica.com
+        ↓
+192.168.10.10
+```
+
+Principalment utilitza:
+
+```
+A     → IPv4
+AAAA  → IPv6
+```
+
+### Inversa
+
+```
+IP → NOM
+```
+
+Exemple:
+
+```
+192.168.10.10
+       ↓
+www.informatica.com
+```
+
+Utilitza:
+
+```
+PTR
+```
+
+Per IPv4 s'utilitza:
+
+```
+in-addr.arpa
+```
+
+Per exemple:
+
+```
+192.168.10.0/24
+```
+
+es transforma en:
+
+```
+10.168.192.in-addr.arpa
+```
+
+dns
+
+**Truc per memoritzar-ho:**
+
+```
+A    = nom → IP
+PTR  = IP → nom
+```
