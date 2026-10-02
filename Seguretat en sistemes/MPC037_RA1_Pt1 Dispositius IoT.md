@@ -4,3 +4,143 @@ Respon a les qüestions dels diferents apartats segons el que et demani l’enun
 
 1. El següent exercici consisteix en realitzar una cerca a Internet, per tal de veure que a la vida quotidiana estem envoltats de dispositius IoT. Prova de buscar informació sobre quins són els més utilitzats o estan més presents. Pots fer una taula indicant-ho en percentatges per exemple. Anota la font d’on has extret la informació.(Webgrafia)
     
+	Actualment, els dispositius IoT (Internet of Things) estan molt presents en la nostra vida quotidiana. Són dispositius capaços de connectar-se a Internet i intercanviar informació amb altres dispositius o serveis.
+
+Alguns exemples habituals són els televisors intel·ligents, rellotges intel·ligents, altaveus com Alexa o Google Home, electrodomèstics intel·ligents, càmeres de seguretat, vehicles connectats o dispositius relacionats amb la salut.
+
+Segons les dades publicades per Eurostat sobre l'ús de dispositius connectats a Internet a la Unió Europea durant l'any 2024, un **70,9 % de les persones d'entre 16 i 74 anys utilitzaven algun dispositiu IoT**. Els dispositius més utilitzats van ser els següents:
+
+|Tipus de dispositiu IoT|Percentatge d'ús|
+|---|---|
+|Televisors connectats a Internet (Smart TV)|57,9 %|
+|Rellotges intel·ligents i polseres d'activitat|29,9 %|
+|Consoles de videojocs connectades|19,5 %|
+|Sistemes d'àudio domèstics connectats|19,3 %|
+|Altaveus intel·ligents / assistents virtuals|16,0 %|
+|Sistemes intel·ligents de gestió d'energia|14,2 %|
+|Electrodomèstics intel·ligents|12,8 %|
+|Sistemes intel·ligents de seguretat de la llar|11,8 %|
+|Vehicles amb connexió sense fils integrada|10,5 %|
+|Dispositius IoT relacionats amb la salut|7,9 %|
+|Joguines connectades a Internet|2,3 %|
+
+Cal tenir en compte que aquests percentatges no han de sumar el 100 %, ja que una mateixa persona pot utilitzar diversos tipus de dispositius IoT.
+
+### Webgrafia
+
+**Eurostat – Internet-connected devices are widely used in the EU**  
+[https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20250828-2](https://ec.europa.eu/eurostat/en/web/products-eurostat-news/w/ddn-20250828-2?utm_source=chatgpt.com)
+
+**Eurostat – Digitalisation in Europe 2025**  
+[https://ec.europa.eu/eurostat/web/interactive-publications/digitalisation-2025](https://ec.europa.eu/eurostat/web/interactive-publications/digitalisation-2025?utm_source=chatgpt.com)
+
+## Preguntes
+
+### 1. En la recerca realitzada, quin tipus de dispositiu IoT t'ha resultat interessant o t'ha cridat l'atenció?
+
+Els dispositius IoT que més m'han cridat l'atenció són els **sistemes de seguretat intel·ligents**, com ara càmeres IP, timbres intel·ligents, sensors de moviment i alarmes.
+
+Em semblen interessants perquè permeten controlar la seguretat d'una casa o empresa des de qualsevol lloc mitjançant Internet. Per exemple, podem veure les càmeres des del telèfon mòbil o rebre una notificació quan un sensor detecta moviment.
+
+### 2. Des del punt de vista de la seguretat, com creus que aquest tipus de dispositius ens poden afectar?
+
+Els dispositius IoT poden suposar un risc de seguretat si no estan correctament configurats o actualitzats.
+
+Una vulnerabilitat podria permetre que un atacant accedís al dispositiu, obtingués informació privada o fins i tot el controlés remotament. Per exemple, una càmera IP vulnerable podria permetre veure imatges de l'interior d'una casa.
+
+També existeix el risc que aquests dispositius siguin infectats amb malware i utilitzats per formar part d'una botnet.
+
+Per reduir aquests riscos és important **canviar les contrasenyes predeterminades, mantenir el firmware actualitzat, utilitzar contrasenyes segures i evitar exposar directament els dispositius a Internet**.
+
+# 2. Sistemes operatius per a dispositius IoT
+
+Existeixen diferents sistemes operatius especialment dissenyats per funcionar en dispositius IoT. Alguns estan destinats a dispositius molt petits, com sensors o microcontroladors, mentre que altres poden funcionar en dispositius més potents, com Raspberry Pi, gateways IoT o ordinadors industrials.
+
+A continuació es mostren alguns dels sistemes operatius IoT més coneguts i els seus requeriments aproximats:
+
+|Sistema operatiu|RAM / requeriments|Emmagatzematge / Flash|Arquitectures / Hardware|
+|---|---|---|---|
+|**Ubuntu Core**|Mínim 512 MB RAM|Mínim 1 GB|amd64, arm64, armhf i riscv64|
+|**FreeRTOS**|Depèn del microcontrolador i configuració. En implementacions IoT completes pot treballar amb aproximadament 64 KB RAM|Aproximadament 256 KB Flash en determinades configuracions amb OTA|Microcontroladors ARM, RISC-V i altres|
+|**Zephyr OS**|Molt reduïda i variable segons la configuració|Una configuració mínima pot tenir un footprint de ROM d'aproximadament 7-8 KB|ARM, x86, RISC-V i altres|
+|**RIOT OS**|Depèn de la placa. Existeixen dispositius compatibles amb aproximadament 20 KB RAM|Alguns dispositius compatibles disposen de 128 KB Flash|ARM, ESP32, RISC-V i altres microcontroladors|
+|**Contiki-NG**|Pot funcionar, per exemple, en plataformes amb 32 KB RAM|Plataformes compatibles com OpenMote disposen de 256/512 KB Flash|Principalment microcontroladors de baix consum|
+
+Els requeriments de FreeRTOS, Zephyr, RIOT i Contiki-NG **no són un mínim universal**, perquè depenen de la placa, els controladors i les funcionalitats que s'incloguin en cada compilació. Són sistemes molt configurables.
+
+Ubuntu Core, en canvi, té uns requisits generals oficials de **512 MB de RAM i 1 GB d'emmagatzematge**, i suporta arquitectures com AMD64, ARM i RISC-V.
+
+Zephyr està especialment pensat per ocupar molt poc espai. La seva documentació mostra configuracions mínimes que poden tenir un footprint de ROM d'aproximadament **7-8 KB**, tot i que una aplicació IoT real necessitarà més memòria en funció dels serveis utilitzats.
+
+RIOT també està orientat a dispositius amb recursos molt limitats. Els requeriments depenen de l'aplicació i del hardware utilitzat; per exemple, RIOT suporta microcontroladors CC26x0/CC13x0 amb **20 KB de RAM i 128 KB de Flash**.
+
+Contiki-NG pot funcionar sobre dispositius molt limitats. Per exemple, la plataforma OpenMote CC2538 compatible amb Contiki-NG disposa de **32 KB de RAM i 256/512 KB de Flash**.
+
+### Webgrafia
+
+**Ubuntu Core – System requirements**  
+[https://documentation.ubuntu.com/core/system-requirements/](https://documentation.ubuntu.com/core/system-requirements/?utm_source=chatgpt.com)
+
+**FreeRTOS**  
+[https://www.freertos.org/](https://www.freertos.org/?utm_source=chatgpt.com)
+
+**Zephyr Project**  
+[https://www.zephyrproject.org/](https://www.zephyrproject.org/?utm_source=chatgpt.com)
+
+**RIOT OS**  
+[https://www.riot-os.org/](https://www.riot-os.org/?utm_source=chatgpt.com)
+
+**Contiki-NG**  
+[https://contiki-ng.org/](https://contiki-ng.org/?utm_source=chatgpt.com)
+
+## Preguntes
+
+### 1. Coneixies o havies sentit a parlar d'algun dels sistemes operatius trobats? Què et semblen els requeriments hardware que tenen per tal de poder ser instal·lats i executats?
+
+Coneixia **Ubuntu**, però no sabia que existia una versió anomenada **Ubuntu Core** especialment orientada a dispositius IoT.
+
+El que més m'ha cridat l'atenció són els pocs recursos que necessiten alguns d'aquests sistemes operatius. Sistemes com Zephyr, RIOT o Contiki-NG poden funcionar en microcontroladors amb molt poca memòria RAM i emmagatzematge.
+
+Això és important en IoT perquè molts dispositius, com sensors, actuadors o sistemes domòtics, tenen un hardware molt més limitat que un ordinador convencional.
+
+### 2. Articles sobre problemes de seguretat en dispositius IoT
+
+Un dels casos de seguretat relacionats amb IoT més coneguts és la **botnet Mirai**.
+
+#### Botnet Mirai – 2016
+
+Mirai era un malware que buscava automàticament dispositius IoT accessibles des d'Internet que tenien una seguretat deficient, especialment dispositius que mantenien noms d'usuari i contrasenyes predeterminats o incorporats pel fabricant.
+
+Quan trobava un dispositiu vulnerable, l'infectava i aquest passava a formar part d'una **botnet**, és a dir, una xarxa formada per molts dispositius infectats que podien ser controlats remotament.
+
+L'octubre de 2016, la botnet Mirai va ser utilitzada per realitzar un atac distribuït de denegació de servei (**DDoS**) contra l'empresa Dyn, que proporcionava serveis DNS.
+
+L'atac va provocar problemes d'accés a importants serveis i pàgines d'Internet. Aquest cas va demostrar que dispositius IoT aparentment simples poden convertir-se en una amenaça important si no disposen de mesures de seguretat adequades.
+
+**Conseqüències principals:**
+
+- Gran quantitat de dispositius IoT infectats.
+    
+- Utilització dels dispositius sense que els seus propietaris ho sabessin.
+    
+- Creació d'una gran botnet.
+    
+- Atacs DDoS contra serveis d'Internet.
+    
+- Interrupció temporal de l'accés a diferents pàgines i serveis.
+    
+- Va demostrar la importància de canviar les credencials predeterminades i mantenir actualitzats els dispositius IoT.
+    
+
+### Article / font
+
+**CISA – Informe que analitza l'atac de Mirai contra Dyn**  
+[CISA – Mirai Botnet i atac contra Dyn](https://www.cisa.gov/sites/default/files/publications/NSTAC%20Report%20to%20the%20President%20on%20ICR%20FINAL%20%2810-12-17%29%20%281%29-%20508%20compliant_0.pdf?utm_source=chatgpt.com)
+
+## Conclusió
+
+La realització d'aquest exercici permet veure que els dispositius IoT formen part cada vegada més de la nostra vida quotidiana. Televisors, rellotges, electrodomèstics, càmeres, vehicles o sensors poden estar permanentment connectats a Internet.
+
+Aquests dispositius necessiten sistemes operatius adaptats al seu hardware, que en molts casos disposa de recursos molt limitats. Sistemes com FreeRTOS, Zephyr, RIOT o Contiki-NG estan especialment dissenyats per funcionar en microcontroladors, mentre que Ubuntu Core està orientat a dispositius IoT amb més capacitat.
+
+Finalment, casos com la botnet Mirai demostren que la seguretat és un aspecte molt important en IoT, ja que un dispositiu mal configurat o vulnerable pot arribar a ser utilitzat per un atacant sense que el propietari se n'adoni.
