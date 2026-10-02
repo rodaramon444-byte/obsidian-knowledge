@@ -167,3 +167,8 @@ Per finalitzar amb l’exercici, analitzaràs les diferents possibilitats del si
 	![[Pasted image 20261002120457.png]]
 	
 	![[Pasted image 20261002120507.png]]
+
+- **Aplicacions i serveis d’Ubuntu Core 26.** Mitjançant `snap list` s’han consultat els components instal·lats en format Snap. Entre aquests es troben `core26`, que proporciona el sistema base; `pc-kernel`, que proporciona el kernel; `pc`, relacionat amb l’arrencada i el maquinari; `snapd`, encarregat de gestionar els paquets Snap; i `console-conf`, utilitzat per a la configuració inicial. També s’han consultat els serveis en execució amb `systemctl`, observant serveis com SSH, gestió de xarxa, resolució DNS i Snap.
+	![[Pasted image 20261002121430.png]]
+
+	![[Pasted image 20261002121439.png|608]]
