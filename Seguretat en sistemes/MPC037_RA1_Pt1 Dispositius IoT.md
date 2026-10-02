@@ -175,3 +175,8 @@ Per finalitzar amb l’exercici, analitzaràs les diferents possibilitats del si
 
 - **Instal·lació d’un servei IoT en Ubuntu Core.** S’ha instal·lat Mosquitto 2.1.2 mitjançant el sistema de paquets Snap. Mosquitto és un broker MQTT que permet l’intercanvi de missatges entre dispositius IoT. Amb `snap services` s’ha comprovat que el servei està habilitat i actiu.
 	![[Pasted image 20261002121701.png]]
+
+- **Prova de comunicació MQTT.** Per comprovar el funcionament del broker Mosquitto s’han utilitzat dues terminals. En una s’ha creat un subscriptor al tòpic `asix/iot` mitjançant `mosquitto_sub`, mentre que des de l’altra s’ha publicat el missatge “Hola IoT des d’Ubuntu Core” mitjançant `mosquitto_pub`. El missatge s’ha rebut correctament, demostrant el funcionament del protocol MQTT i del broker instal·lat.
+	![[Pasted image 20261002121950.png]]
+
+	![[Pasted image 20261002122230.png|640]]
