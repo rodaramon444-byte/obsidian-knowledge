@@ -148,5 +148,9 @@ Per finalitzar amb l’exercici, analitzaràs les diferents possibilitats del si
 ---
 ## REALITZACIÓ
 
-- He escollit Ubuntu Core perquè està orientat específicament a **IoT i sistemes embeguts/edge**, utilitza paquets `snap`, té actualitzacions transaccionals i està dissenyat amb un enfocament important en la seguretat.
+- He escollit **Ubuntu Core** perquè està orientat específicament a **IoT i sistemes embeguts/edge**, utilitza paquets `snap`, té actualitzacions transaccionals i està dissenyat amb un enfocament important en la seguretat.
 - Abans de crear la màquina virtual necessitem descarregar la imatge d’**Ubuntu Core** adequada per executar-la virtualitzada.
+
+**Comprovació de l’entorn de virtualització.** El sistema amfitrió utilitzat és Ubuntu 24.04.4 LTS i s’ha comprovat que VirtualBox està instal·lat correctament, concretament la versió 7.1.18.
+![[Pasted image 20261002115030.png]]
+
