@@ -172,3 +172,6 @@ Per finalitzar amb l’exercici, analitzaràs les diferents possibilitats del si
 	![[Pasted image 20261002121430.png]]
 
 	![[Pasted image 20261002121439.png|608]]
+
+- **Instal·lació d’un servei IoT en Ubuntu Core.** S’ha instal·lat Mosquitto 2.1.2 mitjançant el sistema de paquets Snap. Mosquitto és un broker MQTT que permet l’intercanvi de missatges entre dispositius IoT. Amb `snap services` s’ha comprovat que el servei està habilitat i actiu.
+	![[Pasted image 20261002121701.png]]
