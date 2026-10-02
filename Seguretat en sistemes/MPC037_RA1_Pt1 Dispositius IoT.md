@@ -2,27 +2,27 @@ Exercici 1 (50%)
 
 Respon a les qüestions dels diferents apartats segons el que et demani l’enunciat de cada apartat en particular. 
 
-1. El següent exercici consisteix en realitzar una cerca a Internet, per tal de veure que a la vida quotidiana estem envoltats de dispositius IoT. Prova de buscar informació sobre quins són els més utilitzats o estan més presents. Pots fer una taula indicant-ho en percentatges per exemple. Anota la font d’on has extret la informació.(Webgrafia)
----
+1. El següent exercici consisteix en realitzar una cerca a Internet, per tal de veure que a la vida quotidiana estem envoltats de dispositius IoT. Prova de buscar informació sobre quins són els més utilitzats o estan més presents. Pots fer una taula indicant-ho en percentatges per exemple. Anota la font d’on has extret la informació.(Webgrafia) 
+
 	Actualment, els dispositius IoT (Internet of Things) estan molt presents en la nostra vida quotidiana. Són dispositius capaços de connectar-se a Internet i intercanviar informació amb altres dispositius o serveis. 
 	- 
 	 Alguns exemples habituals són els televisors intel·ligents, rellotges intel·ligents, altaveus com Alexa o Google Home, electrodomèstics intel·ligents, càmeres de seguretat, vehicles connectats o dispositius relacionats amb la salut. 
 	- 
 	 Segons les dades publicades per Eurostat sobre l'ús de dispositius connectats a Internet a la Unió Europea durant l'any 2024, un **70,9 % de les persones d'entre 16 i 74 anys utilitzaven algun dispositiu IoT**. Els dispositius més utilitzats van ser els següents:
 
-|Tipus de dispositiu IoT|Percentatge d'ús|
-|---|---|
-|Televisors connectats a Internet (Smart TV)|57,9 %|
-|Rellotges intel·ligents i polseres d'activitat|29,9 %|
-|Consoles de videojocs connectades|19,5 %|
-|Sistemes d'àudio domèstics connectats|19,3 %|
-|Altaveus intel·ligents / assistents virtuals|16,0 %|
-|Sistemes intel·ligents de gestió d'energia|14,2 %|
-|Electrodomèstics intel·ligents|12,8 %|
-|Sistemes intel·ligents de seguretat de la llar|11,8 %|
-|Vehicles amb connexió sense fils integrada|10,5 %|
-|Dispositius IoT relacionats amb la salut|7,9 %|
-|Joguines connectades a Internet|2,3 %|
+| Tipus de dispositiu IoT                        | Percentatge d'ús |
+| ---------------------------------------------- | ---------------- |
+| Televisors connectats a Internet (Smart TV)    | 57,9 %           |
+| Rellotges intel·ligents i polseres d'activitat | 29,9 %           |
+| Consoles de videojocs connectades              | 19,5 %           |
+| Sistemes d'àudio domèstics connectats          | 19,3 %           |
+| Altaveus intel·ligents / assistents virtuals   | 16,0 %           |
+| Sistemes intel·ligents de gestió d'energia     | 14,2 %           |
+| Electrodomèstics intel·ligents                 | 12,8 %           |
+| Sistemes intel·ligents de seguretat de la llar | 11,8 %           |
+| Vehicles amb connexió sense fils integrada     | 10,5 %           |
+| Dispositius IoT relacionats amb la salut       | 7,9 %            |
+| Joguines connectades a Internet                | 2,3 %            |
 Cal tenir en compte que aquests percentatges no han de sumar el 100 %, ja que una mateixa persona pot utilitzar diversos tipus de dispositius IoT.
 ### Webgrafia
 
