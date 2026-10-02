@@ -151,12 +151,19 @@ Per finalitzar amb l’exercici, analitzaràs les diferents possibilitats del si
 - He escollit **Ubuntu Core** perquè està orientat específicament a **IoT i sistemes embeguts/edge**, utilitza paquets `snap`, té actualitzacions transaccionals i està dissenyat amb un enfocament important en la seguretat.
 - Abans de crear la màquina virtual necessitem descarregar la imatge d’**Ubuntu Core** adequada per executar-la virtualitzada.
 
-**Comprovació de l’entorn de virtualització.** El sistema amfitrió utilitzat és Ubuntu 24.04.4 LTS i s’ha comprovat que VirtualBox està instal·lat correctament, concretament la versió 7.1.18.
-![[Pasted image 20261002115030.png]]
+- **Comprovació de l’entorn de virtualització.** El sistema amfitrió utilitzat és Ubuntu 24.04.4 LTS i s’ha comprovat que VirtualBox està instal·lat correctament, concretament la versió 7.1.18.
+	![[Pasted image 20261002115030.png]]
 
-**Versions disponibles d’Ubuntu Core.** S’ha instal·lat Multipass i s’ha utilitzat l’ordre `multipass find` per consultar les imatges disponibles. Entre les diferents versions s’ha escollit **Ubuntu Core 26**, ja que és la versió més recent disponible d’Ubuntu Core.
-![[Pasted image 20261002120112.png|640]]
+- **Versions disponibles d’Ubuntu Core.** S’ha instal·lat Multipass i s’ha utilitzat l’ordre `multipass find` per consultar les imatges disponibles. Entre les diferents versions s’ha escollit **Ubuntu Core 26**, ja que és la versió més recent disponible d’Ubuntu Core.
+	![[Pasted image 20261002120112.png|640]]
 
-**Creació de la màquina virtual IoT.** S’ha creat i iniciat una màquina virtual anomenada `iot-core` utilitzant la imatge d’Ubuntu Core 26 mitjançant Multipass. El missatge `Launched: iot-core` confirma que el procés s’ha completat correctament.
-![[Pasted image 20261002120130.png]]
+- **Creació de la màquina virtual IoT.** S’ha creat i iniciat una màquina virtual anomenada `iot-core` utilitzant la imatge d’Ubuntu Core 26 mitjançant Multipass. El missatge `Launched: iot-core` confirma que el procés s’ha completat correctament.
+	![[Pasted image 20261002120130.png]]
 
+- **Comprovació de l’estat de la màquina virtual.** Mitjançant les ordres `multipass list` i `multipass info iot-core` s’ha comprovat que la màquina virtual està en execució. Ubuntu Core 26 disposa d’1 CPU, aproximadament 1 GB de memòria RAM i 8,9 GB d’espai en disc. També se li ha assignat l’adreça IP `10.189.183.80`.
+	![[Pasted image 20261002120309.png]]
+
+- **Accés a Ubuntu Core 26 i identificació del sistema.** S’ha accedit a la màquina virtual mitjançant `multipass shell iot-core`. Amb `cat /etc/os-release` s’ha comprovat que el sistema instal·lat és Ubuntu Core 26. També s’ha utilitzat `uname -a` per consultar el kernel, observant que utilitza Linux 7.0.0-38-generic sobre arquitectura x86_64.
+	![[Pasted image 20261002120457.png]]
+	
+	![[Pasted image 20261002120507.png]]
