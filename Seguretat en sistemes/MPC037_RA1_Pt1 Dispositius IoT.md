@@ -131,15 +131,8 @@ L'atac va provocar problemes d'accés a importants serveis i pàgines d'Internet
 - Va demostrar la importància de canviar les credencials predeterminades i mantenir actualitzats els dispositius IoT.
     
 
-### Article / font
+### Font
 
 **CISA – Informe que analitza l'atac de Mirai contra Dyn**  
 [CISA – Mirai Botnet i atac contra Dyn](https://www.cisa.gov/sites/default/files/publications/NSTAC%20Report%20to%20the%20President%20on%20ICR%20FINAL%20%2810-12-17%29%20%281%29-%20508%20compliant_0.pdf?utm_source=chatgpt.com)
 
-## Conclusió
-
-La realització d'aquest exercici permet veure que els dispositius IoT formen part cada vegada més de la nostra vida quotidiana. Televisors, rellotges, electrodomèstics, càmeres, vehicles o sensors poden estar permanentment connectats a Internet.
-
-Aquests dispositius necessiten sistemes operatius adaptats al seu hardware, que en molts casos disposa de recursos molt limitats. Sistemes com FreeRTOS, Zephyr, RIOT o Contiki-NG estan especialment dissenyats per funcionar en microcontroladors, mentre que Ubuntu Core està orientat a dispositius IoT amb més capacitat.
-
-Finalment, casos com la botnet Mirai demostren que la seguretat és un aspecte molt important en IoT, ja que un dispositiu mal configurat o vulnerable pot arribar a ser utilitzat per un atacant sense que el propietari se n'adoni.
