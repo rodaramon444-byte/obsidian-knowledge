@@ -3,12 +3,12 @@ Exercici 1 (50%)
 Respon a les qüestions dels diferents apartats segons el que et demani l’enunciat de cada apartat en particular. 
 
 1. El següent exercici consisteix en realitzar una cerca a Internet, per tal de veure que a la vida quotidiana estem envoltats de dispositius IoT. Prova de buscar informació sobre quins són els més utilitzats o estan més presents. Pots fer una taula indicant-ho en percentatges per exemple. Anota la font d’on has extret la informació.(Webgrafia)
-    
-	Actualment, els dispositius IoT (Internet of Things) estan molt presents en la nostra vida quotidiana. Són dispositius capaços de connectar-se a Internet i intercanviar informació amb altres dispositius o serveis.
-
-Alguns exemples habituals són els televisors intel·ligents, rellotges intel·ligents, altaveus com Alexa o Google Home, electrodomèstics intel·ligents, càmeres de seguretat, vehicles connectats o dispositius relacionats amb la salut.
-
-Segons les dades publicades per Eurostat sobre l'ús de dispositius connectats a Internet a la Unió Europea durant l'any 2024, un **70,9 % de les persones d'entre 16 i 74 anys utilitzaven algun dispositiu IoT**. Els dispositius més utilitzats van ser els següents:
+---
+	Actualment, els dispositius IoT (Internet of Things) estan molt presents en la nostra vida quotidiana. Són dispositius capaços de connectar-se a Internet i intercanviar informació amb altres dispositius o serveis. 
+	- 
+	 Alguns exemples habituals són els televisors intel·ligents, rellotges intel·ligents, altaveus com Alexa o Google Home, electrodomèstics intel·ligents, càmeres de seguretat, vehicles connectats o dispositius relacionats amb la salut. 
+	- 
+	 Segons les dades publicades per Eurostat sobre l'ús de dispositius connectats a Internet a la Unió Europea durant l'any 2024, un **70,9 % de les persones d'entre 16 i 74 anys utilitzaven algun dispositiu IoT**. Els dispositius més utilitzats van ser els següents:
 
 |Tipus de dispositiu IoT|Percentatge d'ús|
 |---|---|
@@ -23,9 +23,7 @@ Segons les dades publicades per Eurostat sobre l'ús de dispositius connectats a
 |Vehicles amb connexió sense fils integrada|10,5 %|
 |Dispositius IoT relacionats amb la salut|7,9 %|
 |Joguines connectades a Internet|2,3 %|
-
 Cal tenir en compte que aquests percentatges no han de sumar el 100 %, ja que una mateixa persona pot utilitzar diversos tipus de dispositius IoT.
-
 ### Webgrafia
 
 **Eurostat – Internet-connected devices are widely used in the EU**  
