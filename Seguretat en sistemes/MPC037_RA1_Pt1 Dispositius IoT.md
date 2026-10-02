@@ -180,3 +180,8 @@ Per finalitzar amb l’exercici, analitzaràs les diferents possibilitats del si
 	![[Pasted image 20261002121950.png]]
 
 	![[Pasted image 20261002122230.png|640]]
+
+- **Comprovació de la configuració del sistema.** S’ha analitzat la configuració de xarxa, la versió del gestor Snap i l’emmagatzematge d’Ubuntu Core. La màquina disposa de la interfície `ens3` amb l’adreça IPv4 `10.189.183.80/24` i utilitza `10.189.183.1` com a porta d’enllaç. El sistema funciona sobre arquitectura AMD64 amb el kernel Linux `7.0.0-38-generic` i utilitza Snap 2.75.2 per gestionar els components i aplicacions.
+	![[Pasted image 20261002122726.png]]
+	
+	![[Pasted image 20261002122738.png]]
