@@ -24,7 +24,6 @@ Respon a les qüestions dels diferents apartats segons el que et demani l’enun
 | Vehicles amb connexió sense fils integrada     | 10,5 %           |
 | Dispositius IoT relacionats amb la salut       | 7,9 %            |
 | Joguines connectades a Internet                | 2,3 %            |
-Cal tenir en compte que aquests percentatges no han de sumar el 100 %, ja que una mateixa persona pot utilitzar diversos tipus de dispositius IoT.
 ### Webgrafia
 
 **Eurostat – Internet-connected devices are widely used in the EU**  
@@ -35,6 +34,7 @@ Cal tenir en compte que aquests percentatges no han de sumar el 100 %, ja que un
 
 ## A continuació respon a les següents preguntes de forma breu i concisa.
 
+---
 ### 1. En la recerca realitzada, quin tipus de dispositiu IoT t'ha resultat interessant o t'ha cridat l'atenció?
 
 - Els dispositius IoT que més m'han cridat l'atenció són els **sistemes de seguretat intel·ligents**, com ara càmeres IP, timbres intel·ligents, sensors de moviment i alarmes.
@@ -64,16 +64,16 @@ Cal tenir en compte que aquests percentatges no han de sumar el 100 %, ja que un
 |**Zephyr OS**|Molt reduïda i variable segons la configuració|Una configuració mínima pot tenir un footprint de ROM d'aproximadament 7-8 KB|ARM, x86, RISC-V i altres|
 |**RIOT OS**|Depèn de la placa. Existeixen dispositius compatibles amb aproximadament 20 KB RAM|Alguns dispositius compatibles disposen de 128 KB Flash|ARM, ESP32, RISC-V i altres microcontroladors|
 |**Contiki-NG**|Pot funcionar, per exemple, en plataformes amb 32 KB RAM|Plataformes compatibles com OpenMote disposen de 256/512 KB Flash|Principalment microcontroladors de baix consum|
-
-Els requeriments de FreeRTOS, Zephyr, RIOT i Contiki-NG **no són un mínim universal**, perquè depenen de la placa, els controladors i les funcionalitats que s'incloguin en cada compilació. Són sistemes molt configurables.
-
-Ubuntu Core, en canvi, té uns requisits generals oficials de **512 MB de RAM i 1 GB d'emmagatzematge**, i suporta arquitectures com AMD64, ARM i RISC-V.
-
-Zephyr està especialment pensat per ocupar molt poc espai. La seva documentació mostra configuracions mínimes que poden tenir un footprint de ROM d'aproximadament **7-8 KB**, tot i que una aplicació IoT real necessitarà més memòria en funció dels serveis utilitzats.
-
-RIOT també està orientat a dispositius amb recursos molt limitats. Els requeriments depenen de l'aplicació i del hardware utilitzat; per exemple, RIOT suporta microcontroladors CC26x0/CC13x0 amb **20 KB de RAM i 128 KB de Flash**.
-
-Contiki-NG pot funcionar sobre dispositius molt limitats. Per exemple, la plataforma OpenMote CC2538 compatible amb Contiki-NG disposa de **32 KB de RAM i 256/512 KB de Flash**.
+	
+- Els requeriments de FreeRTOS, Zephyr, RIOT i Contiki-NG **no són un mínim universal**, perquè depenen de la placa, els controladors i les funcionalitats que s'incloguin en cada compilació. Són sistemes molt configurables.
+	
+- Ubuntu Core, en canvi, té uns requisits generals oficials de **512 MB de RAM i 1 GB d'emmagatzematge**, i suporta arquitectures com AMD64, ARM i RISC-V.
+	
+- Zephyr està especialment pensat per ocupar molt poc espai. La seva documentació mostra configuracions mínimes que poden tenir un footprint de ROM d'aproximadament **7-8 KB**, tot i que una aplicació IoT real necessitarà més memòria en funció dels serveis utilitzats.
+	
+- RIOT també està orientat a dispositius amb recursos molt limitats. Els requeriments depenen de l'aplicació i del hardware utilitzat; per exemple, RIOT suporta microcontroladors CC26x0/CC13x0 amb **20 KB de RAM i 128 KB de Flash**.
+	
+- Contiki-NG pot funcionar sobre dispositius molt limitats. Per exemple, la plataforma OpenMote CC2538 compatible amb Contiki-NG disposa de **32 KB de RAM i 256/512 KB de Flash**.
 
 ### Webgrafia
 
