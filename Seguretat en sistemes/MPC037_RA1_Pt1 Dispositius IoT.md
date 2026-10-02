@@ -3,12 +3,13 @@ Exercici 1 (50%)
 Respon a les qüestions dels diferents apartats segons el que et demani l’enunciat de cada apartat en particular. 
 
 1. El següent exercici consisteix en realitzar una cerca a Internet, per tal de veure que a la vida quotidiana estem envoltats de dispositius IoT. Prova de buscar informació sobre quins són els més utilitzats o estan més presents. Pots fer una taula indicant-ho en percentatges per exemple. Anota la font d’on has extret la informació.(Webgrafia) 
+---
 
-	Actualment, els dispositius IoT (Internet of Things) estan molt presents en la nostra vida quotidiana. Són dispositius capaços de connectar-se a Internet i intercanviar informació amb altres dispositius o serveis. 
-	- 
-	 Alguns exemples habituals són els televisors intel·ligents, rellotges intel·ligents, altaveus com Alexa o Google Home, electrodomèstics intel·ligents, càmeres de seguretat, vehicles connectats o dispositius relacionats amb la salut. 
-	- 
-	 Segons les dades publicades per Eurostat sobre l'ús de dispositius connectats a Internet a la Unió Europea durant l'any 2024, un **70,9 % de les persones d'entre 16 i 74 anys utilitzaven algun dispositiu IoT**. Els dispositius més utilitzats van ser els següents:
+- Actualment, els dispositius IoT (Internet of Things) estan molt presents en la nostra vida quotidiana. Són dispositius capaços de connectar-se a Internet i intercanviar informació amb altres dispositius o serveis. 
+
+- Alguns exemples habituals són els televisors intel·ligents, rellotges intel·ligents, altaveus com Alexa o Google Home, electrodomèstics intel·ligents, càmeres de seguretat, vehicles connectats o dispositius relacionats amb la salut. 
+
+- Segons les dades publicades per Eurostat sobre l'ús de dispositius connectats a Internet a la Unió Europea durant l'any 2024, un **70,9 % de les persones d'entre 16 i 74 anys utilitzaven algun dispositiu IoT**. Els dispositius més utilitzats van ser els següents:
 
 | Tipus de dispositiu IoT                        | Percentatge d'ús |
 | ---------------------------------------------- | ---------------- |
@@ -32,23 +33,23 @@ Cal tenir en compte que aquests percentatges no han de sumar el 100 %, ja que un
 **Eurostat – Digitalisation in Europe 2025**  
 [https://ec.europa.eu/eurostat/web/interactive-publications/digitalisation-2025](https://ec.europa.eu/eurostat/web/interactive-publications/digitalisation-2025?utm_source=chatgpt.com)
 
-## Preguntes
+## A continuació respon a les següents preguntes de forma breu i concisa.
 
 ### 1. En la recerca realitzada, quin tipus de dispositiu IoT t'ha resultat interessant o t'ha cridat l'atenció?
 
-Els dispositius IoT que més m'han cridat l'atenció són els **sistemes de seguretat intel·ligents**, com ara càmeres IP, timbres intel·ligents, sensors de moviment i alarmes.
+- Els dispositius IoT que més m'han cridat l'atenció són els **sistemes de seguretat intel·ligents**, com ara càmeres IP, timbres intel·ligents, sensors de moviment i alarmes.
 
-Em semblen interessants perquè permeten controlar la seguretat d'una casa o empresa des de qualsevol lloc mitjançant Internet. Per exemple, podem veure les càmeres des del telèfon mòbil o rebre una notificació quan un sensor detecta moviment.
+- Em semblen interessants perquè permeten controlar la seguretat d'una casa o empresa des de qualsevol lloc mitjançant Internet. Per exemple, podem veure les càmeres des del telèfon mòbil o rebre una notificació quan un sensor detecta moviment.
 
 ### 2. Des del punt de vista de la seguretat, com creus que aquest tipus de dispositius ens poden afectar?
 
-Els dispositius IoT poden suposar un risc de seguretat si no estan correctament configurats o actualitzats.
+- Els dispositius IoT poden suposar un risc de seguretat si no estan correctament configurats o actualitzats.
 
-Una vulnerabilitat podria permetre que un atacant accedís al dispositiu, obtingués informació privada o fins i tot el controlés remotament. Per exemple, una càmera IP vulnerable podria permetre veure imatges de l'interior d'una casa.
+- Una vulnerabilitat podria permetre que un atacant accedís al dispositiu, obtingués informació privada o fins i tot el controlés remotament. Per exemple, una càmera IP vulnerable podria permetre veure imatges de l'interior d'una casa.
 
-També existeix el risc que aquests dispositius siguin infectats amb malware i utilitzats per formar part d'una botnet.
+- També existeix el risc que aquests dispositius siguin infectats amb malware i utilitzats per formar part d'una botnet.
 
-Per reduir aquests riscos és important **canviar les contrasenyes predeterminades, mantenir el firmware actualitzat, utilitzar contrasenyes segures i evitar exposar directament els dispositius a Internet**.
+- Per reduir aquests riscos és important **canviar les contrasenyes predeterminades, mantenir el firmware actualitzat, utilitzar contrasenyes segures i evitar exposar directament els dispositius a Internet**.
 
 # 2. Sistemes operatius per a dispositius IoT
 
