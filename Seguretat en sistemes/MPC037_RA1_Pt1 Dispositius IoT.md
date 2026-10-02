@@ -1,5 +1,6 @@
-![[Pasted image 20261002123500.jpg|252]]                              Ramon Roda Adame 
+![[Pasted image 20261002123500.jpg|252]]                                                       **Ramon Roda Adame** 
 
+Tambe podreu troba la practica al meu Git com:  https://rodaramon444-byte.github.io/obsidian-knowledge/seguretat-en-sistemes/mpc037_ra1_pt1-dispositius-iot
 
 **Exercici 1 (50%)**
 
