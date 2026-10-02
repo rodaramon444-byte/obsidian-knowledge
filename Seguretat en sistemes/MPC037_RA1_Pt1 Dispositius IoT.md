@@ -1,4 +1,7 @@
-Exercici 1 (50%)
+![[Pasted image 20261002123500.jpg|252]]                              Ramon Roda Adame 
+
+
+**Exercici 1 (50%)**
 
 Respon a les qüestions dels diferents apartats segons el que et demani l’enunciat de cada apartat en particular. 
 
