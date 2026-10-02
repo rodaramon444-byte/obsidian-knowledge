@@ -154,3 +154,9 @@ Per finalitzar amb l’exercici, analitzaràs les diferents possibilitats del si
 **Comprovació de l’entorn de virtualització.** El sistema amfitrió utilitzat és Ubuntu 24.04.4 LTS i s’ha comprovat que VirtualBox està instal·lat correctament, concretament la versió 7.1.18.
 ![[Pasted image 20261002115030.png]]
 
+**Versions disponibles d’Ubuntu Core.** S’ha instal·lat Multipass i s’ha utilitzat l’ordre `multipass find` per consultar les imatges disponibles. Entre les diferents versions s’ha escollit **Ubuntu Core 26**, ja que és la versió més recent disponible d’Ubuntu Core.
+![[Pasted image 20261002120112.png|640]]
+
+**Creació de la màquina virtual IoT.** S’ha creat i iniciat una màquina virtual anomenada `iot-core` utilitzant la imatge d’Ubuntu Core 26 mitjançant Multipass. El missatge `Launched: iot-core` confirma que el procés s’ha completat correctament.
+![[Pasted image 20261002120130.png]]
+
