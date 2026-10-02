@@ -136,3 +136,11 @@ L'atac va provocar problemes d'accés a importants serveis i pàgines d'Internet
 **CISA – Informe que analitza l'atac de Mirai contra Dyn**  
 [CISA – Mirai Botnet i atac contra Dyn](https://www.cisa.gov/sites/default/files/publications/NSTAC%20Report%20to%20the%20President%20on%20ICR%20FINAL%20%2810-12-17%29%20%281%29-%20508%20compliant_0.pdf?utm_source=chatgpt.com)
 
+---
+
+**Exercici 2 (50%)
+
+1. Un cop realitzat l’exercici 1, hauràs vist que hi ha molts sistemes operatius per dispositius IoT. Es pretén que en aquest exercici realitzis la instal·lació d’un sistema operatiu per IoT en una màquina virtual. Hauràs de realitzar les captures de pantalla amb tots els passos en el procés d’instal·lació realitzats, i comentar les mateixes. Abans de fer res, seria interessant que miressis per Internet i valoressis quin sistema operatiu instal·lar veient les possibilitats d’aquest. (Raspbian, Windows 10 IoT, ...)
+    
+
+Per finalitzar amb l’exercici, analitzaràs les diferents possibilitats del sistema operatiu instal·lat, així com els menús que conté el sistema operatiu en qüestió un cop instal·lat, indicant clarament sobre quin altre sistema operatiu es basa, i què et permet fer el sistema operatiu (aplicacions que conté, serveis, ...)**
