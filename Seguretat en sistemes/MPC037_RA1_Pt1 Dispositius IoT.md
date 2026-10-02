@@ -92,17 +92,17 @@ Respon a les qüestions dels diferents apartats segons el que et demani l’enun
 **Contiki-NG**  
 [https://contiki-ng.org/](https://contiki-ng.org/?utm_source=chatgpt.com)
 
-## Preguntes
+##  A continuació respon a les següents preguntes de forma breu i concisa.
 
 ### 1. Coneixies o havies sentit a parlar d'algun dels sistemes operatius trobats? Què et semblen els requeriments hardware que tenen per tal de poder ser instal·lats i executats?
 
-Coneixia **Ubuntu**, però no sabia que existia una versió anomenada **Ubuntu Core** especialment orientada a dispositius IoT.
+- Coneixia **Ubuntu**, però no sabia que existia una versió anomenada **Ubuntu Core** especialment orientada a dispositius IoT.
 
-El que més m'ha cridat l'atenció són els pocs recursos que necessiten alguns d'aquests sistemes operatius. Sistemes com Zephyr, RIOT o Contiki-NG poden funcionar en microcontroladors amb molt poca memòria RAM i emmagatzematge.
+- El que més m'ha cridat l'atenció són els pocs recursos que necessiten alguns d'aquests sistemes operatius. Sistemes com Zephyr, RIOT o Contiki-NG poden funcionar en microcontroladors amb molt poca memòria RAM i emmagatzematge.
 
-Això és important en IoT perquè molts dispositius, com sensors, actuadors o sistemes domòtics, tenen un hardware molt més limitat que un ordinador convencional.
+- Això és important en IoT perquè molts dispositius, com sensors, actuadors o sistemes domòtics, tenen un hardware molt més limitat que un ordinador convencional.
 
-### 2. Articles sobre problemes de seguretat en dispositius IoT
+### 2. Busca articles per Internet que parli sobre problemes de seguretat que van aparèixer i que van afectar a diferents dispositius IoT. Hauràs d’anotar els links, i explicar de forma breu, clara i concisa el problema que van tenir i les seves conseqüències. (Després ho hauràs de comentar a classe amb la resta de companys).
 
 Un dels casos de seguretat relacionats amb IoT més coneguts és la **botnet Mirai**.
 
