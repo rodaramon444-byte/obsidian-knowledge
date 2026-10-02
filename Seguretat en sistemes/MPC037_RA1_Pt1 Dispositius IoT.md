@@ -51,11 +51,11 @@ Cal tenir en compte que aquests percentatges no han de sumar el 100 %, ja que un
 
 - Per reduir aquests riscos és important **canviar les contrasenyes predeterminades, mantenir el firmware actualitzat, utilitzar contrasenyes segures i evitar exposar directament els dispositius a Internet**.
 
-# 2. Sistemes operatius per a dispositius IoT
+# 2. Realitza una cerca dels diferents sistemes operatius existents per a                       dispositius IoT. Fes una taula, indicant els requeriments hardware d’aquests.
 
-Existeixen diferents sistemes operatius especialment dissenyats per funcionar en dispositius IoT. Alguns estan destinats a dispositius molt petits, com sensors o microcontroladors, mentre que altres poden funcionar en dispositius més potents, com Raspberry Pi, gateways IoT o ordinadors industrials.
+- Existeixen diferents sistemes operatius especialment dissenyats per funcionar en dispositius IoT. Alguns estan destinats a dispositius molt petits, com sensors o microcontroladors, mentre que altres poden funcionar en dispositius més potents, com Raspberry Pi, gateways IoT o ordinadors industrials.
 
-A continuació es mostren alguns dels sistemes operatius IoT més coneguts i els seus requeriments aproximats:
+- A continuació es mostren alguns dels sistemes operatius IoT més coneguts i els seus requeriments aproximats:
 
 |Sistema operatiu|RAM / requeriments|Emmagatzematge / Flash|Arquitectures / Hardware|
 |---|---|---|---|
