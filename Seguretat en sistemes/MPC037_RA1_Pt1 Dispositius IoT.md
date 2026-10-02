@@ -144,3 +144,9 @@ L'atac va provocar problemes d'accés a importants serveis i pàgines d'Internet
     
 
 Per finalitzar amb l’exercici, analitzaràs les diferents possibilitats del sistema operatiu instal·lat, així com els menús que conté el sistema operatiu en qüestió un cop instal·lat, indicant clarament sobre quin altre sistema operatiu es basa, i què et permet fer el sistema operatiu (aplicacions que conté, serveis, ...)**
+
+---
+## REALITZACIÓ
+
+- He escollit Ubuntu Core perquè està orientat específicament a **IoT i sistemes embeguts/edge**, utilitza paquets `snap`, té actualitzacions transaccionals i està dissenyat amb un enfocament important en la seguretat.
+- Abans de crear la màquina virtual necessitem descarregar la imatge d’**Ubuntu Core** adequada per executar-la virtualitzada.
