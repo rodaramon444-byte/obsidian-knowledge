@@ -104,7 +104,7 @@ Respon a les qüestions dels diferents apartats segons el que et demani l’enun
 
 ### 2. Busca articles per Internet que parli sobre problemes de seguretat que van aparèixer i que van afectar a diferents dispositius IoT. Hauràs d’anotar els links, i explicar de forma breu, clara i concisa el problema que van tenir i les seves conseqüències. (Després ho hauràs de comentar a classe amb la resta de companys).
 
-Un dels casos de seguretat relacionats amb IoT més coneguts és la **botnet Mirai**.
+- Un dels casos de seguretat relacionats amb IoT més coneguts és la **botnet Mirai**.
 
 #### Botnet Mirai – 2016
 
