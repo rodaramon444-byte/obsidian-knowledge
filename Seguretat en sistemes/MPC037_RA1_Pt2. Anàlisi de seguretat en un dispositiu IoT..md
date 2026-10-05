@@ -24,38 +24,7 @@ l’anàlisi dels problemes de seguretat i prendre les mesures oportunes
 per tal de minimitzar, corregir, i/o eliminar les vulnerabilitats
 trobades.
 
-**<span class="mark">Entrega</span>**
 
-- <span class="mark">Format PDF amb el nom del fitxer:
-  > **RA1P**</span>**t2<span class="mark">@CognomNom.pdf</span>**
-
-- <span class="mark">Es valorarà positivament que l'activitat sigui
-  > ordenada, estructurada i ben documentada, amb captures de pantalla
-  > quan sigui el cas.</span>
-
-- <span class="mark">Es valorarà negativament aquelles activitats que es
-  > presenten incompletes.</span>
-
-- <span class="mark">És requisit indispensable per poder aprovar la
-  > pràctica presentar tots i cadascun dels exercicis.</span>
-
-##  
-
-## <span class="mark">Entorn i Requisits Previs</span>
-
-La pràctica es realitzarà amb dues màquines virtuals (VM) Linux
-(preferentment Ubuntu Server/Desktop) en **VirtualBox**.
-
-- **Configuració de xarxa a VirtualBox:  
-  > Aneu** a les opcions de xarxa de totes dues VM i seleccioneu
-  > **Adaptador només-amfitrió** (*Host-Only*) o **Xarxa interna**
-  > (*Internal Network*). Podeu usar altres modes que funcionen.
-
-- **Assignació de rols i direccions IP d'exemple:  
-  > - VM 1 (Servidor / Broker / Víctima):** 192.168.56.10  
-  > - **VM 2 (Client / Atacant / Observador):** 192.168.56.20
-
-## 
 
 ## <span class="mark">Exercici 1 (50%)</span>
 
