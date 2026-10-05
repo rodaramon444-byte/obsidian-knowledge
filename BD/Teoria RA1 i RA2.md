@@ -196,3 +196,18 @@ Definició: Una relació és una correspondència o associació entre dos o més
 	![[Pasted image 20260929091157.png]]
 
 ![[Pasted image 20260929091651.png]]
+
+
+Activitat: Justifica quines serien les participacions i la cardinalitat de la següent relació, tenint en compte que... 
+- Una figura pot contenir-se a ella mateixa (com el cas dels fractals). 
+- Una figura pot estar formada per múltiples tipus diferents de figures.
+	![[Pasted image 20261005124936.png]]
+
+
+3.8. Atributs i dominis 
+Definició: 
+- Els atributs d'una entitat són les característiques o propietats que la defineixen com a entitat. Es representen mitjançant el·lipses connectades directament a la entitat.
+	![[Pasted image 20261005125021.png]]
+
+**Atribut Clau**
+- Un atribut s'anomena clau, quan no pot repetir-se en cap ocurrència de la entitat. Aquest camp identifica inequívocament a una entitat, és a dir, que accedint al camp clau tenim accés a la resta d'atributs de forma directa.
