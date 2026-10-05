@@ -27,10 +27,6 @@ trobades.
 
 ## Anàlisi de Seguretat en el Protocol MQTT
 
-En aquesta activitat s'analitzaran els Riscos de la transmissió en text
-pla, la manca d'autenticació per defecte i la injecció de missatges no
-autoritzats.
-
 ### Configuració del Broker MQTT Insegur (VM 1)
 
 Instal·leu el broker Mosquitto a la VM 1 i configureu-lo per permetre
