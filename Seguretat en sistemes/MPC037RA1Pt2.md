@@ -12,8 +12,8 @@
 </tbody>
 </table>
 
-| <span class="mark">Nom:</span> |     | <span class="mark">Cognoms:</span> |     |
-|--------------------------------|-----|------------------------------------|-----|
+| <span class="mark">Nom:</span> | Ramon | <span class="mark">Cognoms:</span> | Roda Adame |
+| ------------------------------ | ----- | ---------------------------------- | ---------- |
 
 **<span class="mark">Competències</span>**
 
