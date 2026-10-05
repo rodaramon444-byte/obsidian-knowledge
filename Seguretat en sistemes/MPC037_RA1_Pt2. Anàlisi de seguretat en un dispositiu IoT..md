@@ -1,3 +1,4 @@
+![[Pasted image 20261005162606.png]]
 <table>
 <colgroup>
 <col style="width: 100%" />
@@ -15,16 +16,12 @@
 | <span class="mark">Nom:</span> | Ramon | <span class="mark">Cognoms:</span> | Roda Adame |
 | ------------------------------ | ----- | ---------------------------------- | ---------- |
 
-**<span class="mark">Competències</span>**
-
 En aquesta segona pràctica, l’alumnat realitzarà l’analisi de
 Vulnerabilitats i Seguretat en MQTT i CoAP com a sistemes operatius IoT
 instal·lat en una màquina virtual. L’alumnat haurà de realitzar
 l’anàlisi dels problemes de seguretat i prendre les mesures oportunes
 per tal de minimitzar, corregir, i/o eliminar les vulnerabilitats
 trobades.
-
-
 
 ## <span class="mark">Exercici 1 (50%)</span>
 
@@ -39,7 +36,6 @@ autoritzats.
 Instal·leu el broker Mosquitto a la VM 1 i configureu-lo per permetre
 connexions externes sense autenticació.
 
-Ini
 
 1.  Instal·leu el servei Mosquitto:
 
