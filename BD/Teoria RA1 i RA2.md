@@ -210,7 +210,10 @@ Definició:
 	![[Pasted image 20261005125021.png]]
 
 **Atribut Clau**
-- Un atribut s'anomena clau, quan no pot repetir-se en cap ocurrència de la entitat. Aquest camp identifica inequívocament a una entitat, és a dir, que accedint al camp clau tenim accés a la resta d'atributs de forma directa.
+- En l'accés a l'hangar del creuer espacial un pilot (entitat forta) té una nau espacial (entitat feble).
+
+
+
 
 **Atribut de relació**
 És aquell que es propi d'una relació i que no pot aparèixer a les entitats que intervenen en la relació. Per exemple, un mecànic repara un vehicle, la reparació es realitza en una determinada data.
