@@ -89,12 +89,16 @@ través de MQTT sense TLS.
 >
 > \>sudo tshark -i **eth0** -f "tcp port 1883" -Y "mqtt" -V
 
+![[Pasted image 20261006191841.png]]
+
 3.  Des d'una altra terminal a la **VM 2** (o des de la VM 1), simuleu
     > un dispositiu IoT enviant informació sensible (per exemple,
     > credencials de la xarxa Wi-Fi local):
 
 > \>mosquitto_pub -h 192.168.56.10 -t "casa/sensors/wifi_config" -m
 > '{"ssid": "XarxaPrivada", "password": "ClauSuperSegura123"}'
+
+![[Pasted image 20261006191754.png]]
 
 4.  Identifiqueu a la captura de Wireshark/Tshark el paquet ***Publish
     > Message*** i cerqueu el camp *Payload* per comprovar que les dades
