@@ -222,5 +222,6 @@ Definició:
 
 ![[Pasted image 20261006083809.png]]
 
-ENTITAT/RELACIO
+**Creacio Diagrama ENTITAT/RELACIO**
+
 
