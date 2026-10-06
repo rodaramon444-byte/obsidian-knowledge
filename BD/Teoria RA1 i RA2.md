@@ -240,3 +240,5 @@ Definició:
 
 7. Esbrinar les participacions i les cardinalitats.
 8. Refinar el diagrama fins eliminar totes les incoherències
+
+--- 
