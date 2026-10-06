@@ -37,6 +37,12 @@ connexions externes sense autenticació.
 
 > \>sudo apt update && sudo apt install -y mosquitto mosquitto-clients
 
+Primer he configurat el servidor amb la 192.168.56.10
+![[Pasted image 20261006184448.png]]
+
+i el client amb la 192.168.56.20 
+![[Pasted image 20261006184520.png]]
+
 2.  Per defecte, les versions recents de Mosquitto bloquegen connexions
     > externes no anònimes. Creeu un fitxer de configuració permissiu
     > per al laboratori:
