@@ -213,7 +213,7 @@ Definició:
 
 **Atribut de relació**
 És aquell que es propi d'una relació i que no pot aparèixer a les entitats que intervenen en la relació. Per exemple, un mecànic repara un vehicle, la reparació es realitza en una determinada data.
-
+![[Pasted image 20261006084110.png]]
 
 ![[Excalidraw/Drawing 2026-10-05 13.25.54.excalidraw]]
 
@@ -221,3 +221,4 @@ Definició:
 - En l'accés a l'hangar del creuer espacial un pilot (entitat forta) té una nau espacial (entitat feble).
 
 ![[Pasted image 20261006083809.png]]
+
