@@ -126,11 +126,11 @@ comunicacions o enviar comandes no autoritzades.
 > \>mosquitto_pub -h 192.168.56.10 -t "industria/caldera/temp" -m "75C"
 >
 > \>mosquitto_pub -h 192.168.56.10 -t "domotica/porta/estat" -m "TANCAT"
+![[Pasted image 20261006192754.png]]
 
 3.  Comproveu que la VM 2 rep tot el tràfic.
-
-4.  A la **VM 2**, injecteu una ordre falsa per alterar l'estat d'un
-    > actuador crític:  
+![[Pasted image 20261006192824.png]]
+4.  A la **VM 2**, injecteu una ordre falsa per alterar l'estat d'un actuador crític:  
     > \>mosquitto_pub -h 192.168.56.10 -t "domotica/porta/comanda" -m
     > "OBRIR_PORTA"
 
