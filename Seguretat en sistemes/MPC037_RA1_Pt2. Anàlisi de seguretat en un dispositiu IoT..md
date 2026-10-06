@@ -103,7 +103,9 @@ través de MQTT sense TLS.
 4.  Identifiqueu a la captura de Wireshark/Tshark el paquet ***Publish
     > Message*** i cerqueu el camp *Payload* per comprovar que les dades
     > viatgen en text plàning.
+![[Pasted image 20261006192059.png]]
 
+![[Pasted image 20261006192129.png]]
 ### Subscripció Global (Wildcards) i Injecció de Comandes (VM 2)
 
 MQTT permet l'ús de comodins com \# (tots els nivells) i + (un nivell).
