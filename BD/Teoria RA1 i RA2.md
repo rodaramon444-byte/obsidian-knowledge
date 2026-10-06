@@ -227,3 +227,7 @@ Definició:
 1. **Identificar les entitats:** Solen ser aquells noms comuns per exemple, empleat, vehicle, agència. (¿necessito guarda informació de este nom?)
 
 2. **Extreure els atributs de cada entitat**:  (Diferencia si hi ha un atribut clau), Es solen distingir per ser adjectius associats a un nom comú identificat anteriorment com una entitat. Exemple, color és un adjectiu que pot anar associat a l'entitat vehicle. S'ha d'escollir el tipus dels atributs, seleccionant també si és opcional, obligatori, multivaluat, compost o derivat. Si es compost s'indica la seva composició i si és derivat, com es calcula. 
+
+3. És fàcil identificar les generalitzacions si obtenim un atribut que és aplicable a més d'una entitat. En aquest cas, es pot intentat aplicar una generalització/especialització, indicant superclasse i les subclasses. També s'ha d'indicar els tipus d'especialització (inclusiva, exclusiva, parcial i total).
+
+4. Identificar els atributs de cada relació. Es solen identificar, igual que els d'entitat, per ser adjectius, tenint en compte que per a que siguin de relació, només han de ser aplicables a la relació, i no a cap de les entitats relacionades. (Mecànic repara vehicle (data))
