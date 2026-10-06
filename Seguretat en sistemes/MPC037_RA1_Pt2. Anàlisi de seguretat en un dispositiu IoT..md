@@ -106,6 +106,8 @@ través de MQTT sense TLS.
 ![[Pasted image 20261006192059.png]]
 
 ![[Pasted image 20261006192129.png]]
+
+![[Pasted image 20261006192254.png]]
 ### Subscripció Global (Wildcards) i Injecció de Comandes (VM 2)
 
 MQTT permet l'ús de comodins com \# (tots els nivells) i + (un nivell).
