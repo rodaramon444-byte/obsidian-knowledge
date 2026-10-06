@@ -224,4 +224,4 @@ Definició:
 
 **Creacio Diagrama ENTITAT/RELACIO**
 
-
+1. **Identificar les entitats:** Solen ser aquells noms comuns per exemple, empleat, vehicle, agència. (¿necessito guarda informacio de este nom?)
