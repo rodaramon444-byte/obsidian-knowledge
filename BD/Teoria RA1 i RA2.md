@@ -231,3 +231,12 @@ Definició:
 3. És fàcil identificar les generalitzacions si obtenim un atribut que és aplicable a més d'una entitat. En aquest cas, es pot intentat aplicar una generalització/especialització, indicant superclasse i les subclasses. També s'ha d'indicar els tipus d'especialització (inclusiva, exclusiva, parcial i total).
 
 4. Identificar els atributs de cada relació. Es solen identificar, igual que els d'entitat, per ser adjectius, tenint en compte que per a que siguin de relació, només han de ser aplicables a la relació, i no a cap de les entitats relacionades. (Mecànic repara vehicle (data))
+
+5. **És possible que els noms comuns continguin continguin molt poca informació,** i no sigui possible incloure'ls com a entitats. En aquest cas, es poden seleccionar com a atributs d'una altra entitat. Exemple, l'autor d'un llibre pot ser una entitat, però si només es disposa del nom de l'autor, no té sentit crea una entitat amb un únic atribut, per tant, el podríem incloure com atribut de l'entitat llibre.
+
+6. Identificar les relacions (VERBS): Les entitats relacionades seran el subjecte i el predicat units pel verb que fa de relació. Aquest és el moment de veure les entitats fortes de les febles fent preguntes tipus: 
+	- **Té sentit aquesta ocurrència d'entitat si llevo una ocurrència d'un altra entitat?** Si la resposta és positiva, les dos entitats són fortes, si no alguna d'elles és feble 
+	- **Es poden identificar per si soles les ocurrències de cada entitat?** Si la resposta és positiva, dependran només en existència, si és negativa, alguna de les dos depèn en identificació de l'altra
+
+7. Esbrinar les participacions i les cardinalitats.
+8. Refinar el diagrama fins eliminar totes les incoherències
