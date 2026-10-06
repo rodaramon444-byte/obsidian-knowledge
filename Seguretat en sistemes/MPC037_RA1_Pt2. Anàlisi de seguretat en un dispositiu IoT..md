@@ -58,9 +58,15 @@ Ara si, he instalat mosquitto al server
 >
 > ***allow_anonymous true***
 
+![[Pasted image 20261006185251.png]]
+
 3.  Reinicieu el servei:
 
 \>sudo systemctl restart mosquitto
+
+![[Pasted image 20261006185356.png]]
+
+![[Pasted image 20261006185445.png]]
 
 ### Captura de Tràfic no Xifrat / Sniffing (VM 2)
 
