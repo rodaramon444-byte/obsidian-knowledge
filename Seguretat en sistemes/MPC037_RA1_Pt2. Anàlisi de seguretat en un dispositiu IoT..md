@@ -140,7 +140,9 @@ comunicacions o enviar comandes no autoritzades.
     > anomenat **actuador1**:
 
 > \>sudo mosquitto_passwd -c /etc/mosquitto/passwd_lab actuador1
+![[Pasted image 20261006193239.png]]
 
+![[Pasted image 20261006193253.png]]
 2.  Introduïu la contrasenya que vulgueu quan la demani.*  
     > *
 
