@@ -43,6 +43,11 @@ Primer he configurat el servidor amb la 192.168.56.10
 i el client amb la 192.168.56.20 
 ![[Pasted image 20261006184520.png]]
 
+Ara si, he instalat mosquitto al server
+![[Pasted image 20261006184829.png]]
+	
+![[Pasted image 20261006184918.png]]
+
 2.  Per defecte, les versions recents de Mosquitto bloquegen connexions
     > externes no anònimes. Creeu un fitxer de configuració permissiu
     > per al laboratori:
