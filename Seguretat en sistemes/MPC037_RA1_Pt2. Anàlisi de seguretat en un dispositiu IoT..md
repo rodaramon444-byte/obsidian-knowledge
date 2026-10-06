@@ -118,6 +118,7 @@ comunicacions o enviar comandes no autoritzades.
     > escoltar tot el tràfic del broker:
 
 > \>mosquitto_sub -h 192.168.56.10 -t "#" -v
+![[Pasted image 20261006192538.png]]
 
 2.  A la **VM 1** (Simulant dispositius legítims), publiqueu contingut
     > en diversos canals:
