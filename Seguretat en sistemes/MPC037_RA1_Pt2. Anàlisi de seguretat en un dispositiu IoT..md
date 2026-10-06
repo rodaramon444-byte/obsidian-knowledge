@@ -79,6 +79,8 @@ través de MQTT sense TLS.
 > \>sudo apt update && sudo apt install -y wireshark tshark
 > mosquitto-clients
 
+![[Pasted image 20261006185800.png]]
+
 2.  Obriu Wireshark de forma gràfica, seleccioneu la interfície i
     > apliqueu el filtre **mqtt**.
 
