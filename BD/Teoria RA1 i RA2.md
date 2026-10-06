@@ -209,13 +209,14 @@ Definició:
 - Els atributs d'una entitat són les característiques o propietats que la defineixen com a entitat. Es representen mitjançant el·lipses connectades directament a la entitat.
 	![[Pasted image 20261005125021.png]]
 
-**Atribut Clau**
-- En l'accés a l'hangar del creuer espacial un pilot (entitat forta) té una nau espacial (entitat feble).
-
-
 
 
 **Atribut de relació**
 És aquell que es propi d'una relació i que no pot aparèixer a les entitats que intervenen en la relació. Per exemple, un mecànic repara un vehicle, la reparació es realitza en una determinada data.
 
 ![[Excalidraw/Drawing 2026-10-05 13.25.54.excalidraw]]
+
+**Atribut Clau**
+- En l'accés a l'hangar del creuer espacial un pilot (entitat forta) té una nau espacial (entitat feble).
+
+![[Pasted image 20261006083809.png]]
