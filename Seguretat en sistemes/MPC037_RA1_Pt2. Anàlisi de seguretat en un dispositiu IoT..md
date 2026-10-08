@@ -169,6 +169,8 @@ comunicacions o enviar comandes no autoritzades.
 
 > \>sudo systemctl restart mosquitto
 
+![[Pasted image 20261008155655.png]]
+
 7.  A la **VM 2**, intenteu publicar sense credencials (ha de fallar amb
     > error **Connection Refused: not authorised**):
 
