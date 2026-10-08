@@ -271,7 +271,7 @@ Mentre que HTTP utilitza TLS (**https://**), CoAP utilitza **DTLS**
 
 > \>coap-server-openssl -A 192.168.56.10 -k "LaMevaClauSecreta123" -u
 > "usuariIoT"
-![[Pasted image 20261008165122.png]]
+
 6.  Intenteu accedir des de la **VM 2** utilitzant el protocol no xifrat
     > (Ha de fallar. Això és degut a que al servidor hem obert el servei
     > segur al port 5684 ):
@@ -283,7 +283,7 @@ Mentre que HTTP utilitza TLS (**https://**), CoAP utilitza **DTLS**
 
 > \>coap-client-openssl -m get -k "LaMevaClauSecreta123" -u "usuariIoT"
 > coaps://192.168.56.10:5684/time
-
+![[Pasted image 20261008165122.png]]
 ## Simulació d'Atac d'Amplificació UDP i IP Spoofing en CoAP(Denegació de Servei - DoS)
 
 El protocol **CoAP** s'executa habitualment sobre UDP (un protocol no
