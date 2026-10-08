@@ -348,7 +348,10 @@ vulnerable a tàctiques de suplantació d'identitat (**IP Spoofing**) i
 
 - Verifiqueu amb Wireshark, tshark o tcpdump a la IP de la víctima
   > (192.168.56.99) si s'ha rebut la resposta del servidor CoAP.
+![[Pasted image 20261008171028.png]]
+![[Pasted image 20261008171049.png]]
 
+![[Pasted image 20261008171112.png]]
 - Vegeu la diferència de mida entre una petició de pocs bytes i la
   > resposta generada pel servei CoAP observant el contingut a la
   > pantalla o via **tshark**:
