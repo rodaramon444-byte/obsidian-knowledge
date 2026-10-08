@@ -351,21 +351,4 @@ vulnerable a tàctiques de suplantació d'identitat (**IP Spoofing**) i
 ![[Pasted image 20261008171028.png]]
 ![[Pasted image 20261008171049.png]]
 
-![[Pasted image 20261008171112.png]]
-- Vegeu la diferència de mida entre una petició de pocs bytes i la
-  > resposta generada pel servei CoAP observant el contingut a la
-  > pantalla o via **tshark**:
-
-  - Mida sol·licitud CoAP GET: **~30-40 bytes  
-    > **
-
-  - Mida resposta CoAP (**.well-known/core**): Pot superar fàcilment els
-    > **200-500 bytes** (factor d'amplificació de x5 a x10).
-
-## 
-
-## <span class="mark">Exercici 3 (Opcional)</span>
-
-Afegeix les línies de configuració a Mosquitto per activar l'ús de
-certificats digitals (TLS) al port 8883. Realitza la configuració al
-servidor i al client, i mostra el correcte funcionament amb certificats.
+![[Pasted image 20261008171426.png]]
