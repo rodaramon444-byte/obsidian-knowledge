@@ -175,7 +175,7 @@ comunicacions o enviar comandes no autoritzades.
     > error **Connection Refused: not authorised**):
 
 > \>mosquitto_pub -h 192.168.56.10 -t "test" -m "hola"
-
+![[Pasted image 20261008160324.png]]
 8.  Publiqueu indicant les credencials correctes:
 
 > \>mosquitto_pub -h 192.168.56.10 -t "test" -m "hola" -u "actuador1" -P
