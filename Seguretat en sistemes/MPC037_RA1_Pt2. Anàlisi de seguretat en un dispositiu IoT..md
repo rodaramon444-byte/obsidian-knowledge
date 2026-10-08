@@ -249,7 +249,7 @@ Mentre que HTTP utilitza TLS (**https://**), CoAP utilitza **DTLS**
 
 > \>coap-server-openssl -A 192.168.56.10 -p 5684 -k
 > "LaMevaClauSecreta123" -u "usuariIoT"
-
+![[Pasted image 20261008163948.png]]
 3.  Intenteu accedir des de la **VM 2** utilitzant el protocol no xifrat
     > (Hauria de respondre, tot i que intentem accedir des del client
     > sense validar-nos. Això és degut a que al servidor hem obert el
@@ -262,7 +262,7 @@ Mentre que HTTP utilitza TLS (**https://**), CoAP utilitza **DTLS**
 
 > \>coap-client-openssl -m get -k "LaMevaClauSecreta123" -u "usuariIoT"
 > coaps://192.168.56.10:5684/time
->
+>![[Pasted image 20261008164020.png]]
 > Anem ara al servidor, a restringir l’accés en mode segur. (Ara no
 > especifiquem el port, per tant serà el port 5684 en mode segur)
 
