@@ -154,6 +154,8 @@ comunicacions o enviar comandes no autoritzades.
 >
 > ***password_file /etc/mosquitto/passwd_lab***
 
+![[Pasted image 20261008155445.png]]
+
 4.  Assignem la propietat del fitxer de contrasenyes a l'usuari de
     > Mosquitto
 
