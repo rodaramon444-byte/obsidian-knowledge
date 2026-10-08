@@ -304,7 +304,7 @@ vulnerable a tàctiques de suplantació d'identitat (**IP Spoofing**) i
 - A la **VM 2**, instal·leu **nmap** per fer ús de l'eina **nping**:
 
 > \>sudo apt update && sudo apt install -y nmap
-
+![[Pasted image 20261008165355.png]]
 - Enviament de la Petició Suplantada (IP Spoofing)
 
 > (*Executeu aquest pas exclusivament en l'entorn de laboratori
