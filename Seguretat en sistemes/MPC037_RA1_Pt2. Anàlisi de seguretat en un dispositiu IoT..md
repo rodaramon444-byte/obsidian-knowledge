@@ -217,6 +217,8 @@ HTTP.
 
 > \>coap-client-openssl -m get coap://192.168.56.10/time
 
+![[Pasted image 20261008161535.png]]
+
 4.  En un altre terminal de la **VM 2**, inicieu una captura amb
     > Wireshark/Tshark filtrant per UDP port 5683:
 
