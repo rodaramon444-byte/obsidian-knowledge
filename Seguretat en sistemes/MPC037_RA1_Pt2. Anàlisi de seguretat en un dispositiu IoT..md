@@ -223,7 +223,7 @@ HTTP.
     > Wireshark/Tshark filtrant per UDP port 5683:
 
 > \>sudo tshark -i eth0 -f "udp port 5683" -Y "coap" -V
-
+![[Pasted image 20261008161900.png]]
 5.  Realitzeu una petició **PUT** per modificar o crear un recurs remot:
 
 > \>coap-client-openssl -m put -e "NOVA_CONFIGURACIO_MALICIOSA"
