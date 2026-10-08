@@ -181,6 +181,8 @@ comunicacions o enviar comandes no autoritzades.
 > \>mosquitto_pub -h 192.168.56.10 -t "test" -m "hola" -u "actuador1" -P
 > "LA_VOSTRA_CONTRASENYA"
 ![[Pasted image 20261008160558.png]]
+
+![[Pasted image 20261008160701.png]]
 ## <span class="mark">Exercici 2 (50%)</span>
 
 ## Anàlisi de Seguretat en el Protocol CoAP
