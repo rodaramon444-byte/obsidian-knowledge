@@ -223,15 +223,18 @@ HTTP.
     > Wireshark/Tshark filtrant per UDP port 5683:
 
 > \>sudo tshark -i eth0 -f "udp port 5683" -Y "coap" -V
+> ![[Pasted image 20261008162119.png]]
 ![[Pasted image 20261008161900.png]]
 5.  Realitzeu una petició **PUT** per modificar o crear un recurs remot:
 
 > \>coap-client-openssl -m put -e "NOVA_CONFIGURACIO_MALICIOSA"
 > coap://192.168.56.10/example_data
-
+![[Pasted image 20261008162155.png]]
 6.  Verifiqueu a la captura com tota la capçalera CoAP i el payload UDP
     > es transmeten clarament sense cap mena de xifratge.
+![[Pasted image 20261008162209.png]]
 
+![[Pasted image 20261008162226.png]]
 ### Mitigació en CoAP: DTLS (Datagram Transport Layer Security)
 
 Mentre que HTTP utilitza TLS (**https://**), CoAP utilitza **DTLS**
