@@ -201,7 +201,7 @@ HTTP.
     > xarxa:
 
 > \>coap-server-openssl -A 192.168.56.10 -p 5683
-
+![[Pasted image 20261008161417.png]]
 ### Inspecció de Recursos i Atac de Lectura/Escriptura no Autoritzada (VM 2)
 
 1.  A la **VM 2**, instal·leu el client CoAP:
@@ -212,7 +212,7 @@ HTTP.
     > estàndard **.well-known/core**:
 
 > \>coap-client-openssl -m get coap://192.168.56.10/.well-known/core
-
+![[Pasted image 20261008161430.png]]
 3.  Obtingueu informació d'un recurs (ex. l'hora del servidor):
 
 > \>coap-client-openssl -m get coap://192.168.56.10/time
