@@ -319,7 +319,7 @@ vulnerable a tàctiques de suplantació d'identitat (**IP Spoofing**) i
 >
 > *(On **192.168.56.99** seria la IP de la víctima que rebria la
 > resposta sense haver-la demanat).*
-
+![[Pasted image 20261008165533.png]]
 ***Paràmetres utilitzats:***
 
 - **-g 12345**: Port d'origen definit manualment.
