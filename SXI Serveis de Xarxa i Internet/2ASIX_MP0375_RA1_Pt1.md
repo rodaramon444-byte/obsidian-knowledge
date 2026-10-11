@@ -51,6 +51,9 @@ Utilitzaràs les comandes de systemctl per iniciar, aturar i reiniciar el servei
 **Configuració DNS del client:** S'ha configurat mitjançant Netplan el servidor `10.0.0.10` com a DNS del client i el domini de cerca `marvel.com`.
 ![[Pasted image 20261011164802.png]]
 
+**Configuració DNS del client:** El client utilitza `systemd-resolved` com a resolutor local. Mitjançant `resolvectl` s'ha comprovat que la interfície `enp0s3` utilitza el servidor DNS intern `10.0.0.10` i el domini de cerca `marvel.com`.
+![[Pasted image 20261011172237.png]]
+
 **Proves des del client:** S'ha configurat `10.0.0.10` com a servidor DNS del client. Les proves amb `dig` confirmen la resolució directa i inversa de la zona principal i dels subdominis Wolverine i Deadpool, així com el funcionament dels registres MX.
 ![[Pasted image 20261011164820.png]]
 
