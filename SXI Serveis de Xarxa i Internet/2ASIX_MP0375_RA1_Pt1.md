@@ -41,6 +41,9 @@ Com que el DNS és un servei crític, hauràs d’aplicar mesures bàsiques de s
 
 **Seguretat del servidor DNS:** S'ha comprovat que les transferències de zona AXFR estan bloquejades per a clients no autoritzats i que la versió real de BIND9 està oculta.
 ![[Pasted image 20261011165212.png]]
+
+**Usuari del servei i AppArmor:** S'ha comprovat que el procés `named` s'executa amb l'usuari restringit `bind` i no com a root. També s'ha verificat que AppArmor està actiu, afegint una capa de protecció al servidor.
+![[Pasted image 20261011165737.png]]
 ## Gestió, monitorització i client
 
 Utilitzaràs les comandes de systemctl per iniciar, aturar i reiniciar el servei, i comprovaràs que s’inicia automàticament en arrencar el sistema. Activaràs el registre de consultes i monitoritzaràs el servei mentre fas peticions, revisant tant el syslog com el fitxer de log específic de BIND si el configures. Al client, configuraràs la xarxa amb Netplan i faràs que el DNS primari apunti al teu servidor. Hauràs de raonar si cal o no configurar un DNS secundari en aquesta fase i justificar-ho. Finalment, comprovaràs la configuració del client i el contingut del seu resolv.conf.
