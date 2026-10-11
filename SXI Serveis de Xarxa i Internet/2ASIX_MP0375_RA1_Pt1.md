@@ -39,7 +39,7 @@ Al servidor hi instal·laràs BIND9 i les utilitats associades. A partir d’aqu
 
 Com que el DNS és un servei crític, hauràs d’aplicar mesures bàsiques de seguretat. No es tracta de fer una configuració avançada, sinó d’evitar que el teu servidor es converteixi en un open resolver o que qualsevol pugui transferir les teves zones. Hauràs de restringir les consultes i la recursió només a la xarxa local, denegar les transferències de zona no autoritzades i ocultar la versió del servei. També comprovaràs que BIND s’executa amb l’usuari adequat i que AppArmor està actiu. A l’informe hauràs d’explicar què fa cada mesura i per què és important en un entorn real.
 
-**Proves de seguretat:** S'ha comprovat que les transferències de zona AXFR estan bloquejades per a clients no autoritzats i que el servidor no mostra públicament la versió real de BIND9.
+**Seguretat del servidor DNS:** S'ha comprovat que les transferències de zona AXFR estan bloquejades per a clients no autoritzats i que la versió real de BIND9 està oculta.
 ![[Pasted image 20261011165212.png]]
 ## Gestió, monitorització i client
 
@@ -51,7 +51,7 @@ Utilitzaràs les comandes de systemctl per iniciar, aturar i reiniciar el servei
 **Proves des del client:** S'ha configurat `10.0.0.10` com a servidor DNS del client. Les proves amb `dig` confirmen la resolució directa i inversa de la zona principal i dels subdominis Wolverine i Deadpool, així com el funcionament dels registres MX.
 ![[Pasted image 20261011164820.png]]
 
-**Comprovació dels registres CNAME:** S'ha verificat que els àlies `web` apunten correctament als registres `www` corresponents de cada zona i que aquests poden resoldre finalment la seva adreça IP.
+**Comprovació dels registres CNAME:** S'ha verificat que els àlies `web` apunten correctament als registres `www` de cada zona i que aquests resolen finalment la seva adreça IP.
 ![[Pasted image 20261011165054.png]]
 
 ## Validació i proves
