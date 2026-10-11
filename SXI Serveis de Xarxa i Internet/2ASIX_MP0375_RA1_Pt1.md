@@ -60,6 +60,8 @@ Utilitzaràs les comandes de systemctl per iniciar, aturar i reiniciar el servei
 **Monitorització del servei DNS:** S'ha activat el registre de consultes de BIND9 amb `rndc querylog`. Posteriorment s'han realitzat peticions des del client `10.0.0.20` i s'ha comprovat al registre del servei que el servidor rep i processa correctament les consultes DNS.
 ![[Pasted image 20261011170225.png]]
 
+**Gestió del servei:** S'ha comprovat que BIND9 està habilitat per iniciar-se automàticament amb el sistema. També s'han provat correctament les operacions d'aturada, inici i reinici del servei mitjançant `systemctl`.
+![[Pasted image 20261011170609.png]]
 ## Validació i proves
 
 Abans de donar la pràctica per acabada, validaràs la sintaxi de tots els fitxers amb named-checkconf i named-checkzone. Des del client, faràs consultes amb dig, host i nslookup per comprovar la resolució directa i inversa de la zona principal i dels dos subdominis. També comprovaràs la connectivitat amb ping. A més, hauràs de demostrar que les mesures de seguretat funcionen: que no es revela la versió del servei, que una transferència de zona no autoritzada falla i que el servidor no respon com a open resolver des de fora de la xarxa local. Cada prova ha d’anar acompanyada d’una captura i d’una explicació pròpia.
