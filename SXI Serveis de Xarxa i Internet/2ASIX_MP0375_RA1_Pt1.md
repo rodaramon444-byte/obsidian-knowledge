@@ -66,6 +66,8 @@ Utilitzaràs les comandes de systemctl per iniciar, aturar i reiniciar el servei
 **Gestió del servei:** S'ha comprovat que BIND9 està habilitat per iniciar-se automàticament amb el sistema. També s'han provat correctament les operacions d'aturada, inici i reinici del servei mitjançant `systemctl`.
 ![[Pasted image 20261011170609.png]]
 
+**DNS secundari:** En aquest escenari no s'ha implementat un servidor DNS secundari, ja que es tracta d'un entorn de pràctiques reduït amb un únic servidor DNS. En un entorn de producció seria recomanable disposar d'un servidor secundari per proporcionar redundància i alta disponibilitat en cas de fallada del servidor principal.
+
 ## Validació i proves
 
 Abans de donar la pràctica per acabada, validaràs la sintaxi de tots els fitxers amb named-checkconf i named-checkzone. Des del client, faràs consultes amb dig, host i nslookup per comprovar la resolució directa i inversa de la zona principal i dels dos subdominis. També comprovaràs la connectivitat amb ping. A més, hauràs de demostrar que les mesures de seguretat funcionen: que no es revela la versió del servei, que una transferència de zona no autoritzada falla i que el servidor no respon com a open resolver des de fora de la xarxa local. Cada prova ha d’anar acompanyada d’una captura i d’una explicació pròpia.
