@@ -2,6 +2,9 @@
 
 Partiràs de dues màquines virtuals: una amb Ubuntu Server que farà de servidor DNS i una altra amb Ubuntu Desktop que actuarà com a client. Totes dues han de tenir IP estàtica dins d’una xarxa interna aïllada. La configuració de xarxa, tant del servidor com del client, s’ha de fer amb Netplan. No es farà servir l’entorn gràfic ni NetworkManager per a aquesta part. Hauràs de documentar els fitxers Netplan que modifiquis, les adreces assignades, la màscara, la porta d’enllaç i els DNS configurats. També és recomanable fer una snapshot de les màquines abans de començar a tocar configuracions crítiques.
 
+MV client i servidor:
+![[Pasted image 20261011160326.png]]
+![[Pasted image 20261011160356.png]]
 ## Servidor DNS primari
 
 Al servidor hi instal·laràs BIND9 i les utilitats associades. A partir d’aquí, hauràs de crear una zona principal marvel.com i dues zones secundàries o subdominis delegats, que seran els dos superherois que et pertoquin segons la taula de l’annex. Per a cada zona caldrà crear els fitxers de zona directa i inversa corresponents, amb els registres necessaris: SOA, NS, A, PTR, CNAME, MX i els que consideris oportuns. És important que els fitxers estiguin comentats i que expliquis què fa cada línia i per què has pres aquelles decisions. La delegació de subdominis no és un simple exercici de sintaxi: ha de quedar clar que entens com es relacionen la zona pare i les zones filles.
