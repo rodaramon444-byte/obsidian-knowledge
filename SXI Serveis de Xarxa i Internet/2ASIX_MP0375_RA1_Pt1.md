@@ -21,6 +21,10 @@ Al servidor hi instal·laràs BIND9 i les utilitats associades. A partir d’aqu
 **Instal·lació de BIND9:** S'ha instal·lat BIND9 i s'ha comprovat que el servei `named` està actiu i habilitat a l'arrencada. També s'ha verificat que escolta a l'adreça `10.0.0.10` pel port DNS 53 mitjançant UDP i TCP.
 ![[Pasted image 20261011162106.png]]
 
+**Configuració i seguretat de BIND9:** S'ha restringit l'accés i la recursió DNS a la xarxa local `10.0.0.0/24`, s'han denegat les transferències de zona no autoritzades i s'ha ocultat la versió del servidor. La configuració s'ha validat correctament amb `named-checkconf`.
+![[Pasted image 20261011162407.png]]
+
+
 ## Seguretat bàsica del servei
 
 Com que el DNS és un servei crític, hauràs d’aplicar mesures bàsiques de seguretat. No es tracta de fer una configuració avançada, sinó d’evitar que el teu servidor es converteixi en un open resolver o que qualsevol pugui transferir les teves zones. Hauràs de restringir les consultes i la recursió només a la xarxa local, denegar les transferències de zona no autoritzades i ocultar la versió del servei. També comprovaràs que BIND s’executa amb l’usuari adequat i que AppArmor està actiu. A l’informe hauràs d’explicar què fa cada mesura i per què és important en un entorn real.
