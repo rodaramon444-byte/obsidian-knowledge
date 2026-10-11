@@ -18,7 +18,8 @@ MV client i servidor:
 
 Al servidor hi instal·laràs BIND9 i les utilitats associades. A partir d’aquí, hauràs de crear una zona principal marvel.com i dues zones secundàries o subdominis delegats, que seran els dos superherois que et pertoquin segons la taula de l’annex. Per a cada zona caldrà crear els fitxers de zona directa i inversa corresponents, amb els registres necessaris: SOA, NS, A, PTR, CNAME, MX i els que consideris oportuns. És important que els fitxers estiguin comentats i que expliquis què fa cada línia i per què has pres aquelles decisions. La delegació de subdominis no és un simple exercici de sintaxi: ha de quedar clar que entens com es relacionen la zona pare i les zones filles.
 
-
+**Instal·lació de BIND9:** S'ha instal·lat BIND9 i s'ha comprovat que el servei `named` està actiu i habilitat a l'arrencada. També s'ha verificat que escolta a l'adreça `10.0.0.10` pel port DNS 53 mitjançant UDP i TCP.
+![[Pasted image 20261011162106.png]]
 
 ## Seguretat bàsica del servei
 
