@@ -10,9 +10,15 @@ MV client i servidor:
 
 ![[Pasted image 20261011160617.png]]
 ![[Pasted image 20261011160633.png]]
+
+**Configuració i comprovació de la xarxa interna:** S'han assignat mitjançant Netplan les adreces IP estàtiques `10.0.0.10/24` al servidor i `10.0.0.20/24` al client. S'ha comprovat la connectivitat entre les dues màquines mitjançant `ping`, obtenint un 0% de pèrdua de paquets.
+![[Pasted image 20261011161448.png]]
+![[Pasted image 20261011161456.png]]
 ## Servidor DNS primari
 
 Al servidor hi instal·laràs BIND9 i les utilitats associades. A partir d’aquí, hauràs de crear una zona principal marvel.com i dues zones secundàries o subdominis delegats, que seran els dos superherois que et pertoquin segons la taula de l’annex. Per a cada zona caldrà crear els fitxers de zona directa i inversa corresponents, amb els registres necessaris: SOA, NS, A, PTR, CNAME, MX i els que consideris oportuns. És important que els fitxers estiguin comentats i que expliquis què fa cada línia i per què has pres aquelles decisions. La delegació de subdominis no és un simple exercici de sintaxi: ha de quedar clar que entens com es relacionen la zona pare i les zones filles.
+
+
 
 ## Seguretat bàsica del servei
 
