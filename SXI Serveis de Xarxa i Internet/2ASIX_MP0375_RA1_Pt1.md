@@ -43,9 +43,22 @@ Com que el DNS és un servei crític, hauràs d’aplicar mesures bàsiques de s
 
 Utilitzaràs les comandes de systemctl per iniciar, aturar i reiniciar el servei, i comprovaràs que s’inicia automàticament en arrencar el sistema. Activaràs el registre de consultes i monitoritzaràs el servei mentre fas peticions, revisant tant el syslog com el fitxer de log específic de BIND si el configures. Al client, configuraràs la xarxa amb Netplan i faràs que el DNS primari apunti al teu servidor. Hauràs de raonar si cal o no configurar un DNS secundari en aquesta fase i justificar-ho. Finalment, comprovaràs la configuració del client i el contingut del seu resolv.conf.
 
+**Configuració DNS del client:** S'ha configurat mitjançant Netplan el servidor `10.0.0.10` com a DNS del client i el domini de cerca `marvel.com`.
+![[Pasted image 20261011164802.png]]
+
+**Proves des del client:** S'ha configurat `10.0.0.10` com a servidor DNS del client. Les proves amb `dig` confirmen la resolució directa i inversa de la zona principal i dels subdominis Wolverine i Deadpool, així com el funcionament dels registres MX.
+![[Pasted image 20261011164820.png]]
+
+**Comprovació dels registres CNAME:** S'ha verificat que els àlies `web` apunten correctament als registres `www` corresponents de cada zona i que aquests poden resoldre finalment la seva adreça IP.
+![[Pasted image 20261011165054.png]]
+
 ## Validació i proves
 
 Abans de donar la pràctica per acabada, validaràs la sintaxi de tots els fitxers amb named-checkconf i named-checkzone. Des del client, faràs consultes amb dig, host i nslookup per comprovar la resolució directa i inversa de la zona principal i dels dos subdominis. També comprovaràs la connectivitat amb ping. A més, hauràs de demostrar que les mesures de seguretat funcionen: que no es revela la versió del servei, que una transferència de zona no autoritzada falla i que el servidor no respon com a open resolver des de fora de la xarxa local. Cada prova ha d’anar acompanyada d’una captura i d’una explicació pròpia.
+
+
+
+
 
 ## Vídeos de validació
 
@@ -59,6 +72,4 @@ Per assegurar que la pràctica és real i no copiada, hauràs d’enregistrar v�
 
 Hauràs d’entregar un informe en PDF amb portada, índex, captures de pantalla comentades, justificació de les configuracions, mesures de seguretat aplicades, resolució dels errors que hagis trobat i conclusions. A més, caldrà adjuntar els fitxers els enllaços o arxius dels vídeos de validació. El document ha de ser clar, ordenat i entenedor; no s’acceptaran treballs incomplets o mal redactats.
 
-| Ramon Roda | wolverine.marvel.com | deadpool.marvel.com |
-| ---------- | -------------------- | ------------------- |
   
