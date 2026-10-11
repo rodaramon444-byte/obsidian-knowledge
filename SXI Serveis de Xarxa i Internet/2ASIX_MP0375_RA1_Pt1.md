@@ -73,6 +73,10 @@ Abans de donar la pràctica per acabada, validaràs la sintaxi de tots els fitxe
 **Proves de resolució DNS des del client:** S'ha comprovat el funcionament del servidor DNS utilitzant les eines `dig`, `host` i `nslookup`. Les proves confirmen la resolució directa de `www.marvel.com`, `www.wolverine.marvel.com` i `www.deadpool.marvel.com`, així com la resolució inversa de l'adreça `10.0.0.12`.
 ![[Pasted image 20261011171226.png]]
 
+**Prova de resolució interna i externa:** Des del client s'ha comprovat que el servidor DNS `10.0.0.10` resol correctament tant els dominis interns de la zona `marvel.com` com dominis externs d'Internet. La resposta de `www.marvel.com` és autoritativa, mentre que la consulta externa es resol mitjançant recursió.
+![[Pasted image 20261011172442.png]]
+
+![[Pasted image 20261011172504.png]]
 
 
 ## Vídeos de validació
