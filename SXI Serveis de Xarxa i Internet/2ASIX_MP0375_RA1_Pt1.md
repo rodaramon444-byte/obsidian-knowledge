@@ -29,6 +29,9 @@ Al servidor hi instal·laràs BIND9 i les utilitats associades. A partir d’aqu
 
 **Creació del subdomini Wolverine:** S'ha creat la zona `wolverine.marvel.com` i s'ha delegat des de la zona pare `marvel.com` mitjançant un registre NS i el corresponent glue record. S'ha validat la zona i comprovat la resolució dels registres A i MX.
 ![[Pasted image 20261011163135.png]]
+
+**Validació de les zones DNS:** S'han validat correctament la zona pare `marvel.com` i les zones filles `wolverine.marvel.com` i `deadpool.marvel.com`. Els dos subdominis s'han delegat al servidor autoritatiu `ns.marvel.com`.
+![[Pasted image 20261011164159.png]]
 ## Seguretat bàsica del servei
 
 Com que el DNS és un servei crític, hauràs d’aplicar mesures bàsiques de seguretat. No es tracta de fer una configuració avançada, sinó d’evitar que el teu servidor es converteixi en un open resolver o que qualsevol pugui transferir les teves zones. Hauràs de restringir les consultes i la recursió només a la xarxa local, denegar les transferències de zona no autoritzades i ocultar la versió del servei. També comprovaràs que BIND s’executa amb l’usuari adequat i que AppArmor està actiu. A l’informe hauràs d’explicar què fa cada mesura i per què és important en un entorn real.
