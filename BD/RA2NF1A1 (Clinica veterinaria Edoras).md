@@ -49,4 +49,4 @@ Els **cavalls també poden ser sol·licitats** per habitants o aliats de Rohan *
 | Propietari - Servei “Supervisar”<br><br>Cardinalitat 1:N       | —                                                       |
 
 
-Grup 1: ismail i robert
+Grup 1: ismail, robert, vericat, 
