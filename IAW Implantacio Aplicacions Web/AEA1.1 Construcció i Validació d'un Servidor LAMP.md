@@ -67,3 +67,7 @@ Accedeix al client de línia de comandes de MariaDB i executa les sentències SQ
 # Fase 4: Instal·lació i Configuració de PHP
 
 La pràctica demana instal·lar PHP juntament amb els mòduls necessaris perquè funcioni amb Apache i pugui comunicar-se amb MariaDB. Després haurem de crear un fitxer `info.php` per verificar-ho des del navegador.
+
+![[Pasted image 20261013195611.png]]
+
+# Fase 5: Verificació de la Pila Completa (LAMP)
