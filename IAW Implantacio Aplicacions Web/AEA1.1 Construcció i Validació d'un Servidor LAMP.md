@@ -71,4 +71,5 @@ La pràctica demana instal·lar PHP juntament amb els mòduls necessaris perquè
 ![[Pasted image 20261013195611.png]]
 
 # Fase 5: Verificació de la Pila Completa (LAMP)
+![[Pasted image 20261013200004.png]]
 ![[Pasted image 20261013195840.png]]
