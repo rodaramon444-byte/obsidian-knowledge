@@ -39,3 +39,11 @@ Comprova que el servei d'Apache s'està executant correctament. Fes servir l'ein
 
 ![[Pasted image 20261013193858.png]]
 ![[Pasted image 20261013193948.png|522]]
+
+# Fase 3: Implementació de la Base de Dades (La 'M' de MariaDB)
+
+## 1. Instal·lació
+
+### Enunciat
+
+Instal·la el paquet del servidor MariaDB utilitzant el gestor de paquets.
