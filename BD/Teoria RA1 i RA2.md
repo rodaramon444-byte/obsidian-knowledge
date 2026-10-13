@@ -242,3 +242,7 @@ Definició:
 8. Refinar el diagrama fins eliminar totes les incoherències
 
 --- 
+
+**4.1. Generalització i especialització**
+
+GENERALITZACIÓ: Una entitat E és una generalització d'un grup d'entitats E1, E2, ..., En, si cada ocurrència de cadascuna d'aquestes entitats és també una ocurrència de E.
