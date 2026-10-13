@@ -49,8 +49,11 @@ Comprova que el servei d'Apache s'està executant correctament. Fes servir l'ein
 Instal·la el paquet del servidor MariaDB utilitzant el gestor de paquets.
 ![[Pasted image 20261013194429.png]]
 
-## Securització (Pas Crític)
-
-### Enunciat
+2. ## Securització (Pas Crític)
 
 MariaDB inclou un script interactiu per millorar la seguretat de la instal·lació inicial. Executa aquest script i segueix les seves recomanacions per establir una contrasenya de root, eliminar usuaris anònims i altres mesures de seguretat.
+
+- He executat l'eina `mariadb-secure-installation` per millorar la seguretat de la instal·lació. Durant el procés he eliminat els usuaris anònims, deshabilitat l'accés remot de l'usuari root, eliminat la base de dades de proves i recarregat les taules de privilegis perquè els canvis s'apliquin immediatament.
+## 3. Creació de la BBDD per al CMS
+
+Accedeix al client de línia de comandes de MariaDB i executa les sentències SQL necessàries per crear una base de dades anomenada `cms_db`, crear un usuari `cms_user` i assignar-li tots els permisos sobre `cms_db`. Finalment, s'ha de fer una captura de terminal que demostri que la base de dades i l'usuari s'han creat correctament.
