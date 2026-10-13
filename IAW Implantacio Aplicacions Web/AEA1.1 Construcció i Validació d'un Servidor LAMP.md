@@ -1,3 +1,11 @@
+- Ramon Roda Adame
+
+**IMPLANTACIÓ D’APLICACIONS WEB**
+
+**Activitat Pràctica: Construcció i Validació d'un Servidor LAMP**
+
+![[Pasted image 20261013200336.png]]
+
 ## Fase 1: Preparació de l'Entorn Virtual (El Sistema Operatiu 'L')
 
 ### 1. Creació de la Màquina Virtual (MV)
