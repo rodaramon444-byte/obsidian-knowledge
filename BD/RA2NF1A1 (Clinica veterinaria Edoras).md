@@ -35,7 +35,7 @@ Els **cavalls també poden ser sol·licitats** per habitants o aliats de Rohan *
 | CAVALL             | - Codi    <br>- Nom    <br>- Raça    <br>- Edat    <br>- Color    <br>- Pes    <br>- Estat                 |
 | PROPIETARI         | - Codi    <br>- Nom    <br>- Cognom    <br>- Llinatge    <br>- Rang militar    <br>- Ciutat     <br>- Zona |
 | SANADOR            | - Codi    <br>- Nom    <br>- Cognom    <br>- Família    <br>- Especialitat                                 |
-| TRACTAMENTS        | - Codi    <br>- Tipus    <br>- DataInici    <br>- DataFi    <br>- Resultat                                 |
+| TRACTAMENT         | - Codi    <br>- Tipus    <br>- DataInici    <br>- DataFi    <br>- Resultat                                 |
 | MEDICAMENT (feble) | - Codi    <br>- Nom    <br>- Descripcio    <br>- Tipus    <br>- Dosis    <br>- Efectes secundaris          |
 | SERVEIS            | - Codi    <br>- CodiCavall    <br>- DataInici    <br>- DataFi                                              |
 
