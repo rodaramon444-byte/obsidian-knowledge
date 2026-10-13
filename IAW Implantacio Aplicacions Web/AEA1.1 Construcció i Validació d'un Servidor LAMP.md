@@ -47,3 +47,10 @@ Comprova que el servei d'Apache s'està executant correctament. Fes servir l'ein
 ### Enunciat
 
 Instal·la el paquet del servidor MariaDB utilitzant el gestor de paquets.
+![[Pasted image 20261013194429.png]]
+
+## Securització (Pas Crític)
+
+### Enunciat
+
+MariaDB inclou un script interactiu per millorar la seguretat de la instal·lació inicial. Executa aquest script i segueix les seves recomanacions per establir una contrasenya de root, eliminar usuaris anònims i altres mesures de seguretat.
