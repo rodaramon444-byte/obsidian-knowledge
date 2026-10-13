@@ -26,3 +26,27 @@ Els **cavalls també poden ser sol·licitats** per habitants o aliats de Rohan *
 - Hi ha informació que pertany més a una relació que a una entitat?
 
 ## **Tasques a realitzar**
+
+1. Realitza una llista de candidats a entitats, relacions i atributs, indicant després si l'admets o la refuses com a tal indicant el perquè de la teua decisió. Per a cada relació, raona el seu tipus i la seva cardinalitat.
+
+
+| ENTITATS           | ATRIBUTS                                                                                                   |
+| ------------------ | ---------------------------------------------------------------------------------------------------------- |
+| CAVALL             | - Codi    <br>- Nom    <br>- Raça    <br>- Edat    <br>- Color    <br>- Pes    <br>- Estat                 |
+| PROPIETARI         | - Codi    <br>- Nom    <br>- Cognom    <br>- Llinatge    <br>- Rang militar    <br>- Ciutat     <br>- Zona |
+| SANADOR            | - Codi    <br>- Nom    <br>- Cognom    <br>- Família    <br>- Especialitat                                 |
+| TRACTAMENTS        | - Codi    <br>- Tipus    <br>- DataInici    <br>- DataFi    <br>- Resultat                                 |
+| MEDICAMENT (feble) | - Codi    <br>- Nom    <br>- Descripcio    <br>- Tipus    <br>- Dosis    <br>- Efectes secundaris          |
+| SERVEIS            | - Codi    <br>- CodiCavall    <br>- DataInici    <br>- DataFi                                              |
+
+| RELACIONS                                                      | ATRIBUTS                                                |
+| -------------------------------------------------------------- | ------------------------------------------------------- |
+| Cavall-Propietari “pertànyer”<br><br>Cardinalitat: 1:N         | —                                                       |
+| Cavall-Tractament “Rep_tractament”<br><br>Cardinalitat: 1:N    | - Data inici<br>    <br>- Data fi<br>    <br>- resultat |
+| Sanador - Tractament “Participa”<br><br>Cardinalitat: N:M      | —                                                       |
+| Tractament - Medicament “Administrar”<br><br>Cardinalitat: N:M | - Dosi<br>    <br>- Durada                              |
+| Cavall - Servei “Solicitar”<br><br>Cardinalitat: 1:N           | —                                                       |
+| Propietari - Servei “Supervisar”<br><br>Cardinalitat 1:N       | —                                                       |
+
+
+Grup 
