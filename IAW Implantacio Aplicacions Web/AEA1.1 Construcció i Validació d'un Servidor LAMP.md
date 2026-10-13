@@ -57,3 +57,13 @@ MariaDB inclou un script interactiu per millorar la seguretat de la instal·laci
 ## 3. Creació de la BBDD per al CMS
 
 Accedeix al client de línia de comandes de MariaDB i executa les sentències SQL necessàries per crear una base de dades anomenada `cms_db`, crear un usuari `cms_user` i assignar-li tots els permisos sobre `cms_db`. Finalment, s'ha de fer una captura de terminal que demostri que la base de dades i l'usuari s'han creat correctament.
+
+![[Pasted image 20261013195226.png]]
+
+![[Pasted image 20261013195240.png]]
+
+![[Pasted image 20261013195317.png]]
+
+# Fase 4: Instal·lació i Configuració de PHP
+
+La pràctica demana instal·lar PHP juntament amb els mòduls necessaris perquè funcioni amb Apache i pugui comunicar-se amb MariaDB. Després haurem de crear un fitxer `info.php` per verificar-ho des del navegador.
