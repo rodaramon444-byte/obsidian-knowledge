@@ -129,3 +129,4 @@ He fet la prova i al descomprimir al meu pc si que esta la captura de pantalla t
 ![[Pasted image 20261001165031.png]]
 
 ![[Pasted image 20261001165113.png]]
+
