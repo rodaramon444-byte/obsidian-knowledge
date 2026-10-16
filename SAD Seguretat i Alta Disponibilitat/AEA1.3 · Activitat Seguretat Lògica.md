@@ -54,3 +54,6 @@ A diferència dels fitxers originals protegits amb EFS, l'administrador ha pogut
 **Preparació del disc per al xifratge LUKS**  
 Per realitzar la prova de xifratge amb LUKS s'ha utilitzat una màquina virtual Ubuntu Desktop 26.04 executada amb VirtualBox. S'ha afegit un segon disc dur virtual independent del disc principal del sistema operatiu. D'aquesta manera es pot realitzar el procés de xifratge sense afectar la instal·lació d'Ubuntu.
 ![[Pasted image 20261016162542.png]]
+
+**Identificació del disc virtual**  
+Mitjançant la comanda `lsblk` s'han identificat els dispositius d'emmagatzematge disponibles. El disc `/dev/sda`, de 25 GB, correspon al disc principal on està instal·lat Ubuntu, mentre que `/dev/sdb`, de 5 GB, correspon al disc virtual afegit específicament per realitzar la prova de xifratge. Per tant, el procés amb LUKS es realitzarà exclusivament sobre `/dev/sdb`.![[Pasted image 20261016163023.png]]
