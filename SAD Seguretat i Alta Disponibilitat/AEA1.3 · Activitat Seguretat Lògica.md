@@ -40,3 +40,11 @@ En intentar copiar `Document1.txt` a l'Escriptori de l'usuari administrador `rod
 
 Per tant, en la configuració provada, l'administrador no ha pogut copiar el fitxer protegit. Aquesta prova, juntament amb l'intent de lectura anterior, mostra que disposar de privilegis administratius no implica automàticament poder accedir al contingut protegit per EFS.
 ![[Pasted image 20261016160730.png]]
+
+**Comprovació del fitxer ZIP**  
+Després de xifrar la carpeta `Documents_EFS` mitjançant EFS, s'ha creat un fitxer ZIP des del compte `usuari_efs`. Posteriorment s'ha iniciat sessió amb l'usuari administrador `rodar` i s'ha accedit al contingut del ZIP.
+
+A diferència dels fitxers originals protegits amb EFS, l'administrador ha pogut obrir `Document1.txt` des del ZIP i llegir-ne el contingut sense cap error. A més, l'Explorador de Windows mostra que els fitxers continguts al ZIP no estan protegits.
+
+**Conclusió:** en aquesta prova, la compressió a ZIP ha provocat que la còpia dels documents emmagatzemada dins del fitxer comprimit no mantingui el xifratge EFS. Per tant, encara que els fitxers originals continuïn protegits, el ZIP creat des del compte autoritzat conté còpies accessibles sense la protecció EFS. Això demostra que comprimir dades xifrades amb EFS d'aquesta manera pot generar una còpia que perdi aquesta protecció i suposar un risc per a la confidencialitat.
+![[Pasted image 20261016161142.png]]
