@@ -149,3 +149,4 @@ Finalment, `rkhunter` ha advertit que l'opció SSH `PermitRootLogin` no està de
 
 **Verificació prèvia del xifratge:** Després de reiniciar el sistema i autenticar-se correctament mitjançant el carregador de prearrencada de VeraCrypt, Windows s'ha iniciat amb normalitat. En tornar a executar-se l'assistent, VeraCrypt ha informat que la prova del xifratge del sistema s'havia completat amb èxit. Això confirma que el mecanisme de prearrencada funciona correctament abans d'iniciar el xifratge definitiu.
 ![[Pasted image 20261016174922.png]]
+![[Pasted image 20261016183830.png]]
