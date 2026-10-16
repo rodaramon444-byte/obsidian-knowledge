@@ -94,3 +94,15 @@ Aquesta prova demostra que les dades no s'havien eliminat durant el bloqueig, si
 
 **Conclusió:** LUKS permet protegir un dispositiu d'emmagatzematge complet mitjançant xifratge. Quan el volum està bloquejat, el sistema de fitxers i les dades no són accessibles de manera normal; en proporcionar la credencial correcta, el volum es desbloqueja i les dades tornen a estar disponibles.
 ![[Pasted image 20261016164811.png]]
+
+Integritat — Windows amb SFC
+
+**Comprovació de la integritat dels fitxers de Windows amb SFC**
+
+S'ha executat l'eina **System File Checker (SFC)** des d'un símbol del sistema amb privilegis d'administrador mitjançant la comanda:
+
+`sfc /scannow`
+
+L'anàlisi ha arribat correctament al 100 % i Windows ha retornat el missatge _“Protección de recursos de Windows no encontró ninguna infracción de integridad”_. Aquest resultat indica que SFC no ha detectat fitxers protegits del sistema corruptes, modificats o amb problemes d'integritat que requereixin reparació.
+
+**Planificació d'actuació:** En no haver-se detectat cap infracció d'integritat, no és necessari efectuar cap acció correctiva immediata. Com a mesura preventiva, es recomana mantenir Windows actualitzat i repetir l'anàlisi amb SFC en cas de detectar comportaments anòmals, errors del sistema o sospites de corrupció dels fitxers. Si en una futura anàlisi SFC detectés fitxers corruptes que no pogués reparar, caldria analitzar els registres corresponents i aplicar eines de reparació addicionals abans de repetir la comprovació.
