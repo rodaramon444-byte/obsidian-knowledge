@@ -172,3 +172,4 @@ L'operació ha fallat mostrant l'error `wrong fs type, bad option, bad superbloc
 
 
 **Incidència:** Inicialment s'ha intentat utilitzar Windows Sandbox. Tot i que la característica `Espacio aislado de Windows` estava disponible a Windows 11 Pro, en intentar activar-la el sistema ha indicat que el processador no disposava de les capacitats de virtualització necessàries. Això és degut al fet que Windows s'està executant dins d'una màquina virtual de VirtualBox i la virtualització necessària per executar una altra màquina virtual a l'interior no està disponible en la configuració actual.
+![[Pasted image 20261016190429.png]]
