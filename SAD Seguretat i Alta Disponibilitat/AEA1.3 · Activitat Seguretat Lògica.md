@@ -144,3 +144,6 @@ Finalment, `rkhunter` ha advertit que l'opció SSH `PermitRootLogin` no està de
 
 ## VeraCrypt
 
+**Prova del carregador de prearrencada:** Després de configurar el xifratge del sistema, VeraCrypt ha instal·lat el seu carregador de prearrencada. En reiniciar la màquina virtual, abans de carregar Windows, s'ha sol·licitat la contrasenya configurada a VeraCrypt. D'aquesta manera, l'accés al sistema operatiu queda condicionat a una autenticació prèvia.
+![[Pasted image 20261016174705.png]]
+
