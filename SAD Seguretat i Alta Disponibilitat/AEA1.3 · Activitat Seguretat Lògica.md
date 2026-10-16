@@ -85,3 +85,12 @@ Per comprovar la protecció de les dades, primer s'ha desmuntat el sistema de fi
 En intentar accedir posteriorment a `document_confidencial.txt`, el sistema indica que el fitxer no existeix a la ruta de muntatge. Això és degut al fet que el sistema de fitxers que el conté ja no està accessible: les dades continuen emmagatzemades al disc, però el volum LUKS està bloquejat.
 ![[Pasted image 20261016164607.png]]
 ![[Pasted image 20261016164619.png]]
+
+**Desbloqueig i recuperació de les dades**
+
+Finalment, s'ha tornat a desbloquejar `/dev/sdb` mitjançant `cryptsetup open`, introduint la frase de pas configurada. Després de muntar novament `/dev/mapper/disc_luks` a `/mnt/disc_luks`, s'ha pogut llegir correctament `document_confidencial.txt`.
+
+Aquesta prova demostra que les dades no s'havien eliminat durant el bloqueig, sinó que havien quedat inaccessibles mentre el volum LUKS estava tancat. Només després d'introduir la frase de pas correcta s'ha pogut tornar a accedir al sistema de fitxers i recuperar-ne el contingut.
+
+**Conclusió:** LUKS permet protegir un dispositiu d'emmagatzematge complet mitjançant xifratge. Quan el volum està bloquejat, el sistema de fitxers i les dades no són accessibles de manera normal; en proporcionar la credencial correcta, el volum es desbloqueja i les dades tornen a estar disponibles.
+![[Pasted image 20261016164811.png]]
