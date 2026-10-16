@@ -27,3 +27,7 @@ Des del compte administrador `rodar` s'ha accedit a la ubicació de la carpeta `
 
 Per tant, disposar de privilegis d'administrador no és suficient per llegir directament el contingut xifrat mitjançant EFS, ja que l'accés a les dades xifrades requereix la credencial EFS corresponent
 ![[Pasted image 20261016160218.png]]
+
+**Prova de modificació dels atributs**  
+Des del compte administrador `rodar` s'ha accedit a les propietats de `Document1.txt` i s'ha modificat l'atribut del fitxer, activant l'opció de només lectura. A diferència de la lectura del contingut, aquesta operació s'ha pogut realitzar sense errors. Per tant, EFS impedeix l'accés al contingut xifrat, però això no implica necessàriament que l'administrador no pugui efectuar determinades operacions sobre les metadades o atributs del fitxer.
+![[Pasted image 20261016160508.png]]
