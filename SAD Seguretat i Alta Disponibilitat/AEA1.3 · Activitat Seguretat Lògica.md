@@ -111,3 +111,6 @@ L'anàlisi ha arribat correctament al 100 % i Windows ha retornat el missatge _�
 
 ## GNU/Linux amb Rootkit Hunter
 
+**Instal·lació de Rootkit Hunter**  
+S'ha instal·lat l'eina `rkhunter` al sistema Ubuntu mitjançant el gestor de paquets APT. Posteriorment, s'ha executat `rkhunter --version` per verificar-ne la instal·lació, obtenint com a resultat **Rootkit Hunter 1.4.6**. Aquesta eina permet realitzar diferents comprovacions de seguretat del sistema, entre elles la detecció d'indicis associats a rootkits i altres anomalies.
+![[Pasted image 20261016172250.png]]
