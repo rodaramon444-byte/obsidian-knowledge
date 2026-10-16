@@ -21,3 +21,9 @@ S'ha iniciat sessió amb el compte local `usuari_efs`. Mitjançant la comanda `w
 **Accés des d'un compte administrador**  
 S'ha tancat la sessió de `usuari_efs` i s'ha iniciat sessió amb l'usuari `rodar`. Mitjançant les comandes `whoami` i `net localgroup Administradores` s'ha comprovat que aquest compte forma part del grup local d'administradors. A continuació es comprovarà si el fet de disposar de privilegis administratius permet accedir a les dades protegides amb EFS.
 ![[Pasted image 20261016160005.png]]
+
+**Prova de lectura des de l'usuari administrador**  
+Des del compte administrador `rodar` s'ha accedit a la ubicació de la carpeta `Documents_EFS` i s'ha intentat obrir el fitxer `Document1.txt`. El sistema ha denegat l'accés i ha mostrat el missatge _“No tiene permiso para abrir este archivo”_.
+
+Per tant, disposar de privilegis d'administrador no és suficient per llegir directament el contingut xifrat mitjançant EFS, ja que l'accés a les dades xifrades requereix la credencial EFS corresponent
+![[Pasted image 20261016160218.png]]
