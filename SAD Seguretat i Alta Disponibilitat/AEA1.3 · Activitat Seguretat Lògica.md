@@ -169,3 +169,6 @@ L'operació ha fallat mostrant l'error `wrong fs type, bad option, bad superbloc
 
 **Conclusió:** la prova permet observar la protecció que aporta el xifratge de disc davant d'un intent d'accés alternatiu mitjançant un sistema Live. A diferència d'un disc convencional que pugui ser muntat des d'un altre sistema operatiu, en la prova realitzada les dades de la partició protegida no han estat accessibles directament. Cal tenir en compte que el procés de xifratge s'havia ajornat al 34,815 %, per la qual cosa aquesta comprovació correspon a l'estat concret assolit durant el laboratori i no a una unitat completament xifrada.
 ![[Pasted image 20261016185709.png]]
+
+
+**Incidència:** Inicialment s'ha intentat utilitzar Windows Sandbox. Tot i que la característica `Espacio aislado de Windows` estava disponible a Windows 11 Pro, en intentar activar-la el sistema ha indicat que el processador no disposava de les capacitats de virtualització necessàries. Això és degut al fet que Windows s'està executant dins d'una màquina virtual de VirtualBox i la virtualització necessària per executar una altra màquina virtual a l'interior no està disponible en la configuració actual.
