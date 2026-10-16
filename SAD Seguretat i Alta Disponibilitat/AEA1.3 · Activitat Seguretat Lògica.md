@@ -61,3 +61,20 @@ Mitjançant la comanda `lsblk` s'han identificat els dispositius d'emmagatzematg
 **Inicialització del disc amb LUKS**  
 S'ha utilitzat `cryptsetup` per inicialitzar el disc virtual `/dev/sdb` mitjançant LUKS. En executar `sudo cryptsetup luksFormat /dev/sdb`, el sistema ha advertit que l'operació sobrescriuria les dades existents i ha requerit una confirmació explícita. Posteriorment s'ha establert una frase de pas que serà necessària per desbloquejar el volum xifrat.
 ![[Pasted image 20261016164012.png]]
+
+**Verificació del xifratge LUKS**  
+Després d'inicialitzar el disc, s'ha executat `lsblk`, comprovant que `/dev/sdb` apareix identificat com a `crypto_LUKS`. Posteriorment, mitjançant `cryptsetup luksDump /dev/sdb`, s'ha verificat la configuració del volum. El resultat confirma que s'utilitza LUKS versió 2 i que existeix un `Keyslot` actiu associat a la frase de pas configurada. Per tant, el disc virtual ha quedat correctament preparat com a volum xifrat LUKS.
+![[Pasted image 20261016164137.png]]
+![[Pasted image 20261016164157.png]]
+
+**Desbloqueig del volum LUKS**  
+S'ha desbloquejat el volum `/dev/sdb` mitjançant la comanda `sudo cryptsetup open /dev/sdb disc_luks`. El sistema ha sol·licitat la frase de pas configurada anteriorment i, després d'introduir-la correctament, ha creat el dispositiu virtual `/dev/mapper/disc_luks`. Mitjançant `lsblk` s'ha comprovat que aquest dispositiu apareix sota `/dev/sdb` amb el tipus `crypt`, demostrant que el volum LUKS s'ha desbloquejat correctament.
+![[Pasted image 20261016164255.png]]
+
+**Creació del sistema de fitxers**  
+Una vegada desbloquejat el volum LUKS, s'ha creat un sistema de fitxers `ext4` sobre el dispositiu `/dev/mapper/disc_luks` mitjançant `mkfs.ext4`. Posteriorment, amb `lsblk`, s'ha comprovat que `/dev/sdb` continua identificat com a `crypto_LUKS`, mentre que el volum desbloquejat `disc_luks` conté el sistema de fitxers `ext4`. D'aquesta manera, les dades que s'emmagatzemin al sistema de fitxers quedaran situades dins del volum protegit per LUKS.
+![[Pasted image 20261016164345.png]]
+
+**Muntatge i emmagatzematge de dades al volum xifrat**  
+S'ha muntat el dispositiu desbloquejat `/dev/mapper/disc_luks` al directori `/mnt/disc_luks`. A continuació s'ha creat el fitxer `document_confidencial.txt` amb informació de prova. Mitjançant la comanda `cat` s'ha comprovat que, mentre el volum LUKS està desbloquejat i muntat, les dades es poden llegir amb normalitat. Finalment, `lsblk` confirma que el sistema de fitxers `ext4` es troba muntat a `/mnt/disc_luks`.
+![[Pasted image 20261016164452.png]]
