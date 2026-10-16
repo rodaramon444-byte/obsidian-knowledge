@@ -11,3 +11,4 @@ Des del compte `usuari_efs` s'ha creat la carpeta `Documents_EFS` a l'Escriptori
 **Inici de sessió amb l'usuari no administrador**  
 S'ha iniciat sessió amb el compte local `usuari_efs`. Mitjançant la comanda `whoami` s'ha verificat que la sessió actual correspon efectivament a aquest usuari. A partir d'aquest compte es realitzaran les proves de xifratge mitjançant EFS.
 ![[Pasted image 20261016155335.png]]
+![[Pasted image 20261016155500.png]]
