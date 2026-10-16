@@ -31,3 +31,12 @@ Per tant, disposar de privilegis d'administrador no és suficient per llegir dir
 **Prova de modificació dels atributs**  
 Des del compte administrador `rodar` s'ha accedit a les propietats de `Document1.txt` i s'ha modificat l'atribut del fitxer, activant l'opció de només lectura. A diferència de la lectura del contingut, aquesta operació s'ha pogut realitzar sense errors. Per tant, EFS impedeix l'accés al contingut xifrat, però això no implica necessàriament que l'administrador no pugui efectuar determinades operacions sobre les metadades o atributs del fitxer.
 ![[Pasted image 20261016160508.png]]
+
+**Prova de còpia del fitxer xifrat**  
+En intentar copiar `Document1.txt` des de la carpeta de `usuari_efs` cap a l'Escriptori de l'administrador `rodar`, Windows informa que són necessaris permisos d'administrador per continuar amb l'operació. Això correspon als permisos d'accés a la ubicació del fitxer, per la qual cosa es continuarà l'operació per comprovar posteriorment si EFS permet copiar i accedir al contingut xifrat.
+![[Pasted image 20261016160654.png]]
+
+En intentar copiar `Document1.txt` a l'Escriptori de l'usuari administrador `rodar`, Windows ha sol·licitat inicialment privilegis d'administrador. Després de seleccionar l'opció **Continuar**, l'operació ha estat novament denegada i el sistema ha indicat que es requereixen permisos de l'usuari `usuari_efs`.
+
+Per tant, en la configuració provada, l'administrador no ha pogut copiar el fitxer protegit. Aquesta prova, juntament amb l'intent de lectura anterior, mostra que disposar de privilegis administratius no implica automàticament poder accedir al contingut protegit per EFS.
+![[Pasted image 20261016160730.png]]
