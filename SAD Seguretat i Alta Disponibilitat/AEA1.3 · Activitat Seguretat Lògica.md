@@ -11,4 +11,9 @@ Des del compte `usuari_efs` s'ha creat la carpeta `Documents_EFS` a l'Escriptori
 **Inici de sessió amb l'usuari no administrador**  
 S'ha iniciat sessió amb el compte local `usuari_efs`. Mitjançant la comanda `whoami` s'ha verificat que la sessió actual correspon efectivament a aquest usuari. A partir d'aquest compte es realitzaran les proves de xifratge mitjançant EFS.
 ![[Pasted image 20261016155335.png]]
+
+> **Xifratge de la carpeta mitjançant EFS**  
+> S'ha activat el xifratge EFS sobre la carpeta `Documents_EFS` i el seu contingut des del compte no administrador `usuari_efs`. Posteriorment, s'ha utilitzat la comanda `cipher` per comprovar l'estat del xifratge. El resultat mostra la lletra `E` davant de `Documents_EFS`, indicant que la carpeta està xifrada mitjançant EFS.
 ![[Pasted image 20261016155500.png]]
+
+![[Pasted image 20261016155651.png]]
