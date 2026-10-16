@@ -117,3 +117,30 @@ S'ha instal·lat l'eina `rkhunter` al sistema Ubuntu mitjançant el gestor de pa
 
 **Incidència durant l'actualització de Rootkit Hunter:** En intentar executar `sudo rkhunter --update`, l'eina ha retornat un error relacionat amb l'opció `WEB_CMD`. S'ha comprovat la configuració de `rkhunter` i s'ha mantingut la configuració proporcionada pel paquet de la distribució. Com que l'actualització prèvia és una recomanació de l'activitat i no impedeix efectuar les comprovacions locals, s'ha continuat amb l'anàlisi del sistema utilitzant la versió instal·lada mitjançant els repositoris d'Ubuntu.
 
+**Anàlisi del sistema GNU/Linux amb Rootkit Hunter**
+
+S'ha executat `sudo rkhunter --check` sobre el sistema Ubuntu. L'eina ha comprovat propietats de fitxers, indicis de rootkits coneguts, processos, configuració de xarxa, comptes d'usuari i diferents elements del sistema.
+
+L'anàlisi ha comprovat **144 fitxers** i **498 rootkits**, mostrant inicialment un fitxer sospitós i un possible rootkit. Tanmateix, aquests valors no constitueixen per si mateixos una confirmació d'infecció, sinó que indiquen que existeixen avisos que requereixen una revisió posterior. Texto pegado
+
+La revisió dels resultats mostra que els rootkits coneguts comprovats no han estat detectats. Tampoc s'han trobat processos executant fitxers sospitosos, backdoors d'inici de sessió, directoris sospitosos ni indicis d'una backdoor d'Apache. Texto pegado
+
+També s'han comprovat els ports de xarxa i les interfícies. No s'han detectat ports associats a backdoors ni interfícies funcionant en mode promiscu. Texto pegado
+
+**Anàlisi dels warnings:** `rkhunter` ha marcat `/usr/bin/lwp-request` perquè es tracta d'un script Perl; aquest fet requereix comprovació, però no demostra per si mateix que el fitxer sigui maliciós. També s'ha detectat un segment de memòria compartida de 32 MB associat al procés `mutter-x11-frames`, superior al llindar d'1 MB configurat a `rkhunter`.
+
+S'han detectat canvis als fitxers de comptes i grups perquè apareixen l'usuari `postfix` i els grups `postfix` i `postdrop`. En aquest cas els canvis són justificables, ja que Postfix s'ha instal·lat durant la preparació de les eines de la pràctica.
+
+A `/dev/shm` s'han detectat dos fitxers amb noms `PostgreSQL.*`, relacionats amb l'ús de memòria compartida. També s'han marcat com a ocults `/etc/.java`, `/etc/.resolv.conf.systemd-resolved.bak` i `/etc/.updated`. L'existència d'un fitxer ocult no implica necessàriament que sigui malware, de manera que aquests elements s'han de revisar abans de considerar-los una amenaça.
+
+Finalment, `rkhunter` ha advertit que l'opció SSH `PermitRootLogin` no està definida explícitament. Es tracta d'un avís de configuració de seguretat que convé revisar, però tampoc constitueix una detecció de rootkit. Els warnings d'aquest tipus expliquen per què el resum final informa de possibles elements sospitosos malgrat que les comprovacions específiques de rootkits coneguts hagin resultat negatives.
+![[Pasted image 20261016173028.png]]
+
+### Planificació d'actuació
+
+> Davant dels avisos obtinguts, primer s'ha de verificar individualment cada element abans d'eliminar o modificar cap fitxer. Es comprovaria que `/usr/bin/lwp-request` pertany a un paquet legítim instal·lat, s'identificarien els processos responsables de la memòria compartida i es confirmaria que els elements `PostgreSQL.*` corresponen a processos legítims. També es revisarien els fitxers ocults detectats i la configuració del servei SSH.
+> 
+> Si algun element no pogués justificar-se mitjançant paquets, processos o configuracions legítimes, s'hauria d'aprofundir en la investigació abans de considerar el sistema segur. En canvi, els avisos justificats es documentarien com a possibles falsos positius. També es recomana mantenir el sistema actualitzat i repetir periòdicament les comprovacions d'integritat.
+
+## VeraCrypt
+
