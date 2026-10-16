@@ -78,3 +78,10 @@ Una vegada desbloquejat el volum LUKS, s'ha creat un sistema de fitxers `ext4` s
 **Muntatge i emmagatzematge de dades al volum xifrat**  
 S'ha muntat el dispositiu desbloquejat `/dev/mapper/disc_luks` al directori `/mnt/disc_luks`. A continuació s'ha creat el fitxer `document_confidencial.txt` amb informació de prova. Mitjançant la comanda `cat` s'ha comprovat que, mentre el volum LUKS està desbloquejat i muntat, les dades es poden llegir amb normalitat. Finalment, `lsblk` confirma que el sistema de fitxers `ext4` es troba muntat a `/mnt/disc_luks`.
 ![[Pasted image 20261016164452.png]]
+
+**Desmuntatge i bloqueig del volum LUKS**  
+Per comprovar la protecció de les dades, primer s'ha desmuntat el sistema de fitxers amb `umount` i posteriorment s'ha tancat el volum mitjançant `cryptsetup close disc_luks`. En executar novament `lsblk`, el dispositiu desbloquejat `disc_luks` ha desaparegut i únicament es mostra `/dev/sdb` com a `crypto_LUKS`.
+
+En intentar accedir posteriorment a `document_confidencial.txt`, el sistema indica que el fitxer no existeix a la ruta de muntatge. Això és degut al fet que el sistema de fitxers que el conté ja no està accessible: les dades continuen emmagatzemades al disc, però el volum LUKS està bloquejat.
+![[Pasted image 20261016164607.png]]
+![[Pasted image 20261016164619.png]]
