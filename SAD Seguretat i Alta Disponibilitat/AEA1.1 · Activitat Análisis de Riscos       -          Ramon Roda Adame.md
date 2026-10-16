@@ -60,3 +60,41 @@ Una vegada identificades les amenaces, es realitza la seva valoració tenint en 
 |R08|Atacs intencionats|Accés no autoritzat|Direcció / Drive / Esfer@|Mitjana|Molt alt|**Alt**|
 
 ---
+
+**5. Registre, classificació i priorització d’iniciatives**
+
+A partir dels riscos identificats, es proposen diferents iniciatives de seguretat amb l’objectiu de reduir la probabilitat que es produeixin les amenaces o minimitzar-ne l’impacte. Per a cada amenaça es proposen tres iniciatives i se’ls assigna una prioritat segons la seva importància.
+
+|ID|Amenaça|Iniciativa proposada|Prioritat|
+|---|---|---|---|
+|I01|Foc / incendi|Mantenir la revisió periòdica dels extintors|Alta|
+|I02|Foc / incendi|Instal·lar detectors de fum a les sales amb servidors|Alta|
+|I03|Foc / incendi|Mantenir còpies de seguretat fora de la ubicació principal|Alta|
+|I04|Danys per aigua|Evitar instal·lar equips informàtics prop de canonades o zones amb risc d’aigua|Mitjana|
+|I05|Danys per aigua|Col·locar els servidors i equips crítics elevats respecte del terra|Mitjana|
+|I06|Danys per aigua|Instal·lar sensors de detecció de fuites d’aigua|Mitjana|
+|I07|Avaria física o lògica|Fer còpies de seguretat periòdiques|Alta|
+|I08|Avaria física o lògica|Revisar periòdicament l’estat dels discs i servidors|Alta|
+|I09|Avaria física o lògica|Disposar de sistemes redundants per a la informació crítica|Mitjana|
+|I10|Tall del subministrament elèctric|Instal·lar sistemes SAI als servidors|Alta|
+|I11|Tall del subministrament elèctric|Configurar l’apagada automàtica i segura dels servidors|Alta|
+|I12|Tall del subministrament elèctric|Revisar periòdicament els SAI i les seves bateries|Mitjana|
+|I13|Errors dels usuaris|Formar els usuaris en bones pràctiques de seguretat|Alta|
+|I14|Errors dels usuaris|Limitar els permisos segons les necessitats de cada usuari|Alta|
+|I15|Errors dels usuaris|Facilitar mecanismes de recuperació de fitxers eliminats accidentalment|Mitjana|
+|I16|Errors de l’administrador|Documentar els canvis realitzats als sistemes|Alta|
+|I17|Errors de l’administrador|Fer una còpia de la configuració abans de realitzar canvis importants|Alta|
+|I18|Errors de l’administrador|Comprovar els canvis en un entorn de proves abans d’aplicar-los|Mitjana|
+|I19|Suplantació d’identitat|Activar l’autenticació de doble factor (2FA)|Alta|
+|I20|Suplantació d’identitat|Aplicar una política de contrasenyes robustes|Alta|
+|I21|Suplantació d’identitat|Formar els usuaris per detectar intents de phishing|Alta|
+|I22|Accés no autoritzat|Revisar periòdicament els permisos d’accés|Alta|
+|I23|Accés no autoritzat|Bloquejar els comptes després de diversos intents d’accés fallits|Mitjana|
+|I24|Accés no autoritzat|Registrar i supervisar els accessos als sistemes crítics|Alta|
+
+---
+
+**INCIDÈNCIES**
+
+Durant la realització de la pràctica no s’han produït incidències destacables. S’ha pogut realitzar l’anàlisi de riscos a partir de la informació proporcionada sobre la infraestructura i els serveis informàtics del centre.
+
