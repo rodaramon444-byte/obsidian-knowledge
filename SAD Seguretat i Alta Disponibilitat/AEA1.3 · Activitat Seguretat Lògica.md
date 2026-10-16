@@ -17,3 +17,7 @@ S'ha iniciat sessió amb el compte local `usuari_efs`. Mitjançant la comanda `w
 ![[Pasted image 20261016155500.png]]
 
 ![[Pasted image 20261016155651.png]]
+
+**Accés des d'un compte administrador**  
+S'ha tancat la sessió de `usuari_efs` i s'ha iniciat sessió amb l'usuari `rodar`. Mitjançant les comandes `whoami` i `net localgroup Administradores` s'ha comprovat que aquest compte forma part del grup local d'administradors. A continuació es comprovarà si el fet de disposar de privilegis administratius permet accedir a les dades protegides amb EFS.
+![[Pasted image 20261016160005.png]]
