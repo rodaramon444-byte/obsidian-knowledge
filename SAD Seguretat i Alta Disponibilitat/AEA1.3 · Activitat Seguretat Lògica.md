@@ -57,3 +57,7 @@ Per realitzar la prova de xifratge amb LUKS s'ha utilitzat una màquina virtual 
 
 **Identificació del disc virtual**  
 Mitjançant la comanda `lsblk` s'han identificat els dispositius d'emmagatzematge disponibles. El disc `/dev/sda`, de 25 GB, correspon al disc principal on està instal·lat Ubuntu, mentre que `/dev/sdb`, de 5 GB, correspon al disc virtual afegit específicament per realitzar la prova de xifratge. Per tant, el procés amb LUKS es realitzarà exclusivament sobre `/dev/sdb`.![[Pasted image 20261016163023.png]]
+
+**Inicialització del disc amb LUKS**  
+S'ha utilitzat `cryptsetup` per inicialitzar el disc virtual `/dev/sdb` mitjançant LUKS. En executar `sudo cryptsetup luksFormat /dev/sdb`, el sistema ha advertit que l'operació sobrescriuria les dades existents i ha requerit una confirmació explícita. Posteriorment s'ha establert una frase de pas que serà necessària per desbloquejar el volum xifrat.
+![[Pasted image 20261016164012.png]]
