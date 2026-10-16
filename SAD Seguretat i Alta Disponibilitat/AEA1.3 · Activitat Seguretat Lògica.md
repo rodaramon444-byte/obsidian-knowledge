@@ -150,3 +150,22 @@ Finalment, `rkhunter` ha advertit que l'opció SSH `PermitRootLogin` no està de
 **Verificació prèvia del xifratge:** Després de reiniciar el sistema i autenticar-se correctament mitjançant el carregador de prearrencada de VeraCrypt, Windows s'ha iniciat amb normalitat. En tornar a executar-se l'assistent, VeraCrypt ha informat que la prova del xifratge del sistema s'havia completat amb èxit. Això confirma que el mecanisme de prearrencada funciona correctament abans d'iniciar el xifratge definitiu.
 ![[Pasted image 20261016174922.png]]
 ![[Pasted image 20261016183830.png]]
+
+**Xifratge del sistema amb VeraCrypt**
+
+S'ha utilitzat VeraCrypt en una màquina virtual amb Windows 11 per realitzar una prova de xifratge de la partició del sistema. S'ha seleccionat un xifratge normal de la partició de Windows utilitzant l'algoritme AES i SHA512-PBKDF2 com a KDF.
+
+Abans d'iniciar el xifratge, VeraCrypt ha realitzat una prova del sistema. Després de reiniciar la màquina, s'ha carregat el mecanisme d'autenticació de VeraCrypt abans de Windows i s'ha sol·licitat la contrasenya configurada. Només després d'introduir-la correctament s'ha permès l'arrencada de Windows, completant satisfactòriament la prova prèvia.
+
+Posteriorment s'ha iniciat el xifratge real de la partició. Durant la prova s'ha arribat al **34,815 %** i, a causa del temps necessari per completar tot el procés, s'ha utilitzat l'opció d'ajornar proporcionada per VeraCrypt, que permet interrompre controladament el procés i reprendre'l posteriorment.
+
+**Comprovació mitjançant una distribució Live:** s'ha iniciat Ubuntu 26.04.1 LTS en mode Live mitjançant una imatge ISO, sense iniciar Windows. Amb `lsblk` s'ha identificat `/dev/sda3`, de 79 GB, com la partició principal del sistema. Ubuntu no ha identificat directament un sistema de fitxers a aquesta partició.
+
+A continuació s'ha intentat muntar manualment:
+
+`sudo mount /dev/sda3 /mnt/windows`
+
+L'operació ha fallat mostrant l'error `wrong fs type, bad option, bad superblock...`. Per tant, en aquesta prova **Ubuntu Live no ha pogut muntar directament la partició ni accedir a les dades de Windows sense passar pel mecanisme de VeraCrypt**.
+
+**Conclusió:** la prova permet observar la protecció que aporta el xifratge de disc davant d'un intent d'accés alternatiu mitjançant un sistema Live. A diferència d'un disc convencional que pugui ser muntat des d'un altre sistema operatiu, en la prova realitzada les dades de la partició protegida no han estat accessibles directament. Cal tenir en compte que el procés de xifratge s'havia ajornat al 34,815 %, per la qual cosa aquesta comprovació correspon a l'estat concret assolit durant el laboratori i no a una unitat completament xifrada.
+![[Pasted image 20261016185709.png]]
