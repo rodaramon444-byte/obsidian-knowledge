@@ -51,3 +51,6 @@ A diferència dels fitxers originals protegits amb EFS, l'administrador ha pogut
 
 ## LUKS 
 
+**Preparació del disc per al xifratge LUKS**  
+Per realitzar la prova de xifratge amb LUKS s'ha utilitzat una màquina virtual Ubuntu Desktop 26.04 executada amb VirtualBox. S'ha afegit un segon disc dur virtual independent del disc principal del sistema operatiu. D'aquesta manera es pot realitzar el procés de xifratge sense afectar la instal·lació d'Ubuntu.
+![[Pasted image 20261016162542.png]]
