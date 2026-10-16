@@ -48,3 +48,6 @@ A diferència dels fitxers originals protegits amb EFS, l'administrador ha pogut
 
 **Conclusió:** en aquesta prova, la compressió a ZIP ha provocat que la còpia dels documents emmagatzemada dins del fitxer comprimit no mantingui el xifratge EFS. Per tant, encara que els fitxers originals continuïn protegits, el ZIP creat des del compte autoritzat conté còpies accessibles sense la protecció EFS. Això demostra que comprimir dades xifrades amb EFS d'aquesta manera pot generar una còpia que perdi aquesta protecció i suposar un risc per a la confidencialitat.
 ![[Pasted image 20261016161142.png]]
+
+## LUKS 
+
