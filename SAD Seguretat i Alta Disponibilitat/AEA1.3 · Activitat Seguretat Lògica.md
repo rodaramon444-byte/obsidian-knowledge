@@ -108,3 +108,6 @@ L'anàlisi ha arribat correctament al 100 % i Windows ha retornat el missatge _�
 **Planificació d'actuació:** En no haver-se detectat cap infracció d'integritat, no és necessari efectuar cap acció correctiva immediata. Com a mesura preventiva, es recomana mantenir Windows actualitzat i repetir l'anàlisi amb SFC en cas de detectar comportaments anòmals, errors del sistema o sospites de corrupció dels fitxers. Si en una futura anàlisi SFC detectés fitxers corruptes que no pogués reparar, caldria analitzar els registres corresponents i aplicar eines de reparació addicionals abans de repetir la comprovació.
 
 ![[Pasted image 20261016171408.png]]
+
+## GNU/Linux amb Rootkit Hunter
+
