@@ -116,3 +116,4 @@ S'ha instal·lat l'eina `rkhunter` al sistema Ubuntu mitjançant el gestor de pa
 ![[Pasted image 20261016172250.png]]
 
 **Incidència durant l'actualització de Rootkit Hunter:** En intentar executar `sudo rkhunter --update`, l'eina ha retornat un error relacionat amb l'opció `WEB_CMD`. S'ha comprovat la configuració de `rkhunter` i s'ha mantingut la configuració proporcionada pel paquet de la distribució. Com que l'actualització prèvia és una recomanació de l'activitat i no impedeix efectuar les comprovacions locals, s'ha continuat amb l'anàlisi del sistema utilitzant la versió instal·lada mitjançant els repositoris d'Ubuntu.
+
