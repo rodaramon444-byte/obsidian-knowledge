@@ -261,3 +261,6 @@ Tipus de claus
 **Transformacio d'entitats fortes**
 - Per a cada entitat A, entitat forta, amb atributs (a1,a2,...,an) es crea una taula A (amb el nom en plural) amb n columnes corresponents als atributs d'A, on cada fila de la taula A correspon a una ocurrència de l'entitat A. La clau primària de la taula A la formen els atributs clau de la entitat A.
 ![[Pasted image 20261020081814.png]]
+
+Existencia
+![[Pasted image 20261020082225.png]]
