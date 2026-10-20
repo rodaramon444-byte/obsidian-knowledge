@@ -278,3 +278,7 @@ Podria posarse codi com a camp clau i iasta a estudis
 **Excepcions a la regla general**
 - Relacions amb cardinalitat 1:N. En aquest cas, no es crea una taula per a la relació, si no que s'afegeix a la taula de l'entitat que actua amb participació màxima (N), la clau de la entitat que actua amb participació mínima (1) com a clau forana. Si a més, la relació tingués atributs també s'importarien.
 ![[Pasted image 20261020084830.png]]
+
+![[Pasted image 20261020085834.png]]
+En aquest exemple podem veure que l'empleat només pot tenir un cap, per tant, incorporem el DNI del cap de l'empleat (DNIsupervisor) com a clau forana. EMPLEATS (DNI, Nom, DNISupervisor)
+
