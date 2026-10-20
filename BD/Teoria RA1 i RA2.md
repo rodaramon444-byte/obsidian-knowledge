@@ -269,4 +269,4 @@ Identificacio
 ![[Pasted image 20261020082642.png]]
 
 *Transformació de relacions*
-Regla general per a les relacions: Es crea una taula amb tots els camps clau de les entitats relacionades i els atributs de la relació.
+**Regla general per a les relacions: Es crea una taula amb tots els camps clau de les entitats relacionades i els atributs de la relació.**
