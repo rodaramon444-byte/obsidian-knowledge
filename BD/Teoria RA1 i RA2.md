@@ -276,3 +276,5 @@ Identificacio
 Podria posarse codi com a camp clau i iasta a estudis
 
 **Excepcions a la regla general**
+- Relacions amb cardinalitat 1:N. En aquest cas, no es crea una taula per a la relació, si no que s'afegeix a la taula de l'entitat que actua amb participació màxima (N), la clau de la entitat que actua amb participació mínima (1) com a clau forana. Si a més, la relació tingués atributs també s'importarien.
+![[Pasted image 20261020084830.png]]
