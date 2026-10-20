@@ -302,3 +302,21 @@ Incorporar la clau de actors com a clau forana a la taula personatges i la clau 
 Generalitzacions i Especialitzacions
 **En aquest cas podem optar entre 4 opcions, cadascuna d'elles s'adaptarà millor o pitjor segons el tipus d'especialització que tinguem (Exclusiva, Inclusiva, Parcial, Total).**
 ![[Pasted image 20261020090938.png]]
+
+Es pot crear una taula per a la superclasse i tantes altres com subclasses tinguem, incorporant el camp clau de la superclasse a les taules de les subclasses:
+EMPLEATS (DNI, Nom, Càrrec) 
+DIRECTIUS (DNI, DPT) 
+TECNICS (DNI, Màquines) 
+COMERCIALS (DNI, Comissió)
+
+Es pot crear una taula per a cada subclasse incorporant tots els atributs de la classe pare, i no crear cap taula per a la superclasse:
+DIRECTIUS (DNI, Nom, Càrrec, DPT) 
+TECNICS (DNI, Nom, Càrrec, Màquines) 
+COMERCIALS (DNI, Nom, Càrrec, Comissió)
+
+Es pot crear una sola taula per a la superclasse, incorporant els atributs de totes les subclasses, i afegir, per a diferenciar el tipus de superclasse, un camp anomenat “tipus”, que contindrà el tipus de subclasse al que representa cada tupla. Aquest tipus s'adapta molt bé a les especialitzacions exclusives: 
+EMPLEATS (DNI, Nom, Càrrec, DPT, Màquines, Comissió, Tipus)
+
+Es pot crear una sola taula per a la superclasse com en l'opció anterior, però en aquest cas s'afegeixen diversos camps que indiquen si compleixen un perfil, d'aquesta manera es poden representar les especialitzacions inclusives:
+
+EMPLEATS (DNI, Nom, Càrrec, DPT, Màquines, Comissió, EsDirectiu, EsTècnic, ÉsComercial)
