@@ -272,3 +272,4 @@ Identificacio
 **Regla general per a les relacions: Es crea una taula amb tots els camps clau de les entitats relacionades i els atributs de la relació.**
 - La clau primària de la taula generada és la suma dels atributs clau de les entitats relacionades, i cada clau incorporada a la taula, serà una clau forana que referencia a la taula de la que s'importa.
 ![[Pasted image 20261020083101.png]]
+
