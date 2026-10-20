@@ -296,3 +296,8 @@ Incorporar la clau de actors com a clau forana a la taula personatges
 Incorporar la clau de actors com a clau forana a la taula personatges i la clau de personatges com a clau forana a la taula actors: 
 - ACTORS (Codi, Nom, CodiPersonatge) 
 - PERSONATGES (Codi, Nom, Pel·lícula, CodiActor)
+
+--- 
+
+Generalitzacions i Especialitzacions
+
