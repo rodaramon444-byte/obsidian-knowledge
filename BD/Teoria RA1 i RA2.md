@@ -300,4 +300,5 @@ Incorporar la clau de actors com a clau forana a la taula personatges i la clau 
 --- 
 
 Generalitzacions i Especialitzacions
-
+**En aquest cas podem optar entre 4 opcions, cadascuna d'elles s'adaptarà millor o pitjor segons el tipus d'especialització que tinguem (Exclusiva, Inclusiva, Parcial, Total).**
+![[Pasted image 20261020090938.png]]
