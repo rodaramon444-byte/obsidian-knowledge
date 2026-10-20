@@ -274,3 +274,5 @@ Identificacio
 ![[Pasted image 20261020083101.png]]
 
 Podria posarse codi com a camp clau i iasta a estudis
+
+**Excepcions a la regla general**
