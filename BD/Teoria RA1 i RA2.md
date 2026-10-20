@@ -282,3 +282,17 @@ Podria posarse codi com a camp clau i iasta a estudis
 ![[Pasted image 20261020085834.png]]
 En aquest exemple podem veure que l'empleat només pot tenir un cap, per tant, incorporem el DNI del cap de l'empleat (DNIsupervisor) com a clau forana. EMPLEATS (DNI, Nom, DNISupervisor)
 
+**Relacions 1:1.**
+Com les anteriors excepcions, aquesta tampoc genera cap taula. El pas a taules es realitza de forma molt semblant a les relacions 1:N, en aquest cas tens la llibertat d'incorporar la clau d'una de les dos entitats a la entitat que es vulgui o inclús a les dos
+![[Pasted image 20261020090042.png]]
+
+En aquest cas existeixen les següents opcions:
+Incorporar la clau de personatges com a clau forana a la taula actors: 
+- ACTORS (Codi, Nom, CodiPersonatge) 
+- PERSONATGES (Codi, Nom, Pel·lícula)
+Incorporar la clau de actors com a clau forana a la taula personatges
+- ACTORS (Codi, Nom) 
+- PERSONATGES (Codi, Nom, Pel·lícula, CodiActor) --> la millor
+Incorporar la clau de actors com a clau forana a la taula personatges i la clau de personatges com a clau forana a la taula actors: 
+- ACTORS (Codi, Nom, CodiPersonatge) 
+- PERSONATGES (Codi, Nom, Pel·lícula, CodiActor)
