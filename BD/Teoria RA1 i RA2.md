@@ -355,4 +355,8 @@ NORMALITZACIÓ
 
 **Formes Normals**
 1. Emmagatzemar a la BD cada fet un sol cop
-2. 
+2. Que els fets diferents s'emmagatzemin en llocs diferents
+
+Existeixen 6 formes normals, cadascuna agrupa a les anteriors
+Definim alguns conceptes:
+- **Dependència funcional:**  
