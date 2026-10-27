@@ -360,4 +360,6 @@ NORMALITZACIÓ
 Existeixen 6 formes normals, cadascuna agrupa a les anteriors
 Definim alguns conceptes:
 - **Dependència funcional:**  PRODUCTES (CodiProducte, Nom, Preu, Descripció) CodiProducte → Nom, ja que un codi de producte només pot tenir associat un únic nom, és a dir, a través del codi de producte és localitza un únic nom.
-- **Dependència funcional completa:**
+
+- **Dependència funcional completa:** COMPRES (CodiProducte, CodiProveïdor, Quantitat, DataCompra) CodiProducte, CodiProveïdor => DataCompra, ja que la DataCompra és única per a la combinació de CodiProducte i CodiProveïdor (es pot fer un comanda al dia de cada producte a cada proveïdor), en canvi, es poden fer diverses comandes del mateix producte a diferents proveïdors, és a dir, CodiProducte → Data.
+
