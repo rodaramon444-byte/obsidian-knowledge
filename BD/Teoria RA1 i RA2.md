@@ -352,3 +352,7 @@ PAS A TAULES
 NORMALITZACIÓ
 
 ![[Pasted image 20261027084614.png|640]]
+
+**Formes Normals**
+1. Emmagatzemar a la BD cada fet un sol cop
+2. 
