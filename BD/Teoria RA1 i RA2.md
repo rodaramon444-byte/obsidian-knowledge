@@ -340,3 +340,10 @@ PAS A TAULES
 7. **Disparadors o triggers:** Són procediments que s'executen per a fer una tasca concreta en el moment d'inserir, modificar o eliminar valors d'una taula. 
 8. **Genèriques addicionals o assercions (ASSERT):** Permet validar qualsevol dels atributs d'una a o diverses taules.
 
+**Clau**: Una clau és un conjunt d'atributs que identifiquen de forma única una ocurrència d'una entitat. En aquest cas, les claus poden ser simples (atòmiques) o compostes
+
+- **Tipus de claus**
+	1. **Superclau**: Identifica a una entitat (poden ser no mínimes). Per exemple, per a un empleat, les superclaus possibles possibles són el DNI, o el DNI+Nom, o el DNI+Nom+Nº Seguretat social, ... 
+	2. **Clau Candidata**: És la mínima superclau (en el cas anterior el DNI, o el Nº Seguretat Social) 
+	3. **Clau Primària**: És la clau candidata escollida pel dissenyador com a clau definitiva (en l'exemple anterior, s'escolliria el DNI per ser la més representativa per a un empleat). 
+	4. **Clau forana:** És un atribut d'una entitat, que és clau en una altra entitat. Per exemple, la nota d'una UF d'un MP correspon a un DNI, que és clau en un altra entitat. En aquest cas DNI és clau forana de la taula NOTES.
