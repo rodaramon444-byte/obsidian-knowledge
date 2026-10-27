@@ -373,3 +373,7 @@ FN1:
 ![[Pasted image 20261027090915.png|419]]
 
 FN2:
+	Exemple: COMPRES (CodiProducte, CodiProveïdor, NomProducte, Quantitat, DataCompra) CodiProducte → NomProducte, per tant, al no ser dependència funcional completa, no està en FN2, encara que la resta d'atributs si que estiguin en FN2.
+
+FN3: Un disseny es troba en FN3 si està en FN2 i a més, no hi ha cap cap atribut no clau que depengui de forma transitiva de la clau. 
+	Exemple PRODUCTES (CodiProducte, Nom, Fabricant, País) CodiProducte → Fabricant Fabricant → País CodiProducte - → País País depèn transitivament de CodiProducte, per tant, no està en tercera forma normal.
