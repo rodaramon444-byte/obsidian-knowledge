@@ -347,3 +347,8 @@ PAS A TAULES
 	2. **Clau Candidata**: És la mínima superclau (en el cas anterior el DNI, o el Nº Seguretat Social) 
 	3. **Clau Primària**: És la clau candidata escollida pel dissenyador com a clau definitiva (en l'exemple anterior, s'escolliria el DNI per ser la més representativa per a un empleat). 
 	4. **Clau forana:** És un atribut d'una entitat, que és clau en una altra entitat. Per exemple, la nota d'una UF d'un MP correspon a un DNI, que és clau en un altra entitat. En aquest cas DNI és clau forana de la taula NOTES.
+
+---
+NORMALITZACIÓ
+
+![[Pasted image 20261027084614.png|640]]
