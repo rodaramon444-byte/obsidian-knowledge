@@ -16,7 +16,6 @@ configuration:
     - "BD/**"
     - "Certificats/**"
     - "Excalidraw/**"
-    - "Fotos/**"
     - "IAW Implantacio Aplicacions Web/**"
     - "Projectes/**"
     - "SAD Seguretat i Alta Disponibilitat/**"
