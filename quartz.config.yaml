@@ -12,6 +12,18 @@ configuration:
     - private
     - templates
     - .obsidian
+    - "Altercom21/**"
+    - "BD/**"
+    - "Certificats/**"
+    - "Excalidraw/**"
+    - "Fotos/**"
+    - "IAW Implantacio Aplicacions Web/**"
+    - "Projectes/**"
+    - "SAD Seguretat i Alta Disponibilitat/**"
+    - "Seguretat en sistemes/**"
+    - "SXI Serveis de Xarxa i Internet/**"
+    - "XARXES/**"
+    - "quartz.config.yaml"
   theme:
     fontOrigin: googleFonts
     cdnCaching: true
