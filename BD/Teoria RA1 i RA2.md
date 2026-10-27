@@ -325,5 +325,7 @@ EMPLEATS (DNI, Nom, Càrrec, DPT, Màquines, Comissió, EsDirectiu, EsTècnic, �
 PAS A TAULES
 
 ---
+- Objectiu Principal: Protegir a l'usuari de la obligació de conèixer les estructures de dades físiques amb les que es representa la informació d'una base de dades. 
 
+- Què aconseguim? Desvincular aquestes estructures del disseny lògic (model relacional), permet que la base de dades es pugui implementar amb qualsevol gestor de bases de dades relacional (Oracle, MySQL, DB2, ...).
 
