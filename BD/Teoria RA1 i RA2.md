@@ -320,3 +320,10 @@ EMPLEATS (DNI, Nom, Càrrec, DPT, Màquines, Comissió, Tipus)
 Es pot crear una sola taula per a la superclasse com en l'opció anterior, però en aquest cas s'afegeixen diversos camps que indiquen si compleixen un perfil, d'aquesta manera es poden representar les especialitzacions inclusives:
 
 EMPLEATS (DNI, Nom, Càrrec, DPT, Màquines, Comissió, EsDirectiu, EsTècnic, ÉsComercial)
+
+
+PAS A TAULES
+
+---
+
+
