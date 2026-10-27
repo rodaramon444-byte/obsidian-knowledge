@@ -329,3 +329,14 @@ PAS A TAULES
 
 - Què aconseguim? Desvincular aquestes estructures del disseny lògic (model relacional), permet que la base de dades es pugui implementar amb qualsevol gestor de bases de dades relacional (Oracle, MySQL, DB2, ...).
 
+**Altres conceptes del model relacional**
+
+1. **De clau**: És el conjunt d'atributs que identifiquen de forma única una entitat.
+2. **De valor únic (UNIQUE)**: És una restricció que impedeix que un atribut tingui un valor repetit. Tots els atributs clau compleixen aquesta restricció. No obstant, és possible que algun atribut no sigui clau però sigui necessari que tingui una restricció de valors únic. Exemple, el nº de bastidor d'un vehicle no és clau, ja que ho és la matricula, de totes maneres, no pot haver cap nº de bastidor repetit.
+3. **De integritat referencial**: Es dona quan una taula té una referència a algun valor d'un altra taula. En aquest cas, la restricció exigeix que existeixi el valor referenciat a l'altra taula. Per exemple, no es pot posar nota a un alumne que no existeixi.
+4. **De domini:** Exigeix que el valor que pot tenir un camp estigui dins del domini definit. Per exemple, si s'estableix que el camp DNI pertany a un domini de 9 dígits numèrics + una lletra, no és possible un DNI sense lletra.
+5. **De verificació (CHECK)**: Aquesta restricció permet comprovar si un valor d'un atribut és vàlid conforme a una expressió.
+6. **De valor nul (NULL o NOT NULL)**: Un atribut pot ser obligatori si no admet el valor nul (falta d'informació o desconeixement). Si admet com a valor, el valor nul, l'atribut és opcional. 
+7. **Disparadors o triggers:** Són procediments que s'executen per a fer una tasca concreta en el moment d'inserir, modificar o eliminar valors d'una taula. 
+8. **Genèriques addicionals o assercions (ASSERT):** Permet validar qualsevol dels atributs d'una a o diverses taules.
+
