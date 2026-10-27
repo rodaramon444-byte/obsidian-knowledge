@@ -363,3 +363,9 @@ Definim alguns conceptes:
 
 - **Dependència funcional completa:** COMPRES (CodiProducte, CodiProveïdor, Quantitat, DataCompra) CodiProducte, CodiProveïdor => DataCompra, ja que la DataCompra és única per a la combinació de CodiProducte i CodiProveïdor (es pot fer un comanda al dia de cada producte a cada proveïdor), en canvi, es poden fer diverses comandes del mateix producte a diferents proveïdors, és a dir, CodiProducte →No-> Data.
 
+- **Dependència funcional transitiva:** Donada la taula T, amb atributs (X,Y,Z), on X → Y, Y → Z i Y → X, es diu que X depèn transitivament de Z, o que, X - → Z. Exemple: PRODUCTES (CodiProducte, Nom, Fabricant, País) CodiProducte → Fabricant Fabricant → País CodiProducte - → País, és a dir, País depèn transitivament de CodiProducte
+
+**Formes Normals:**
+![[Pasted image 20261027090905.png]]
+
+![[Pasted image 20261027090915.png|419]]
