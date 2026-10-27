@@ -366,6 +366,10 @@ Definim alguns conceptes:
 - **Dependència funcional transitiva:** Donada la taula T, amb atributs (X,Y,Z), on X → Y, Y → Z i Y → X, es diu que X depèn transitivament de Z, o que, X - → Z. Exemple: PRODUCTES (CodiProducte, Nom, Fabricant, País) CodiProducte → Fabricant Fabricant → País CodiProducte - → País, és a dir, País depèn transitivament de CodiProducte
 
 **Formes Normals:**
+
+FN1:
 ![[Pasted image 20261027090905.png]]
 
 ![[Pasted image 20261027090915.png|419]]
+
+FN2:
