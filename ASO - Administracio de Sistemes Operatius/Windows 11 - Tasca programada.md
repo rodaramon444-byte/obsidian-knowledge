@@ -111,7 +111,7 @@ El segon resultat ha estat True, fet que confirma que el directori
 C:\Ramon s’ha creat correctament.
 
 <img
-src="/home/alumnat/Documents/Obsidian Vault/attachments/aso-tasca-programada/media/image1.png"
+src="../attachments/aso-tasca-programada/media/image1.png"
 style="width:6.25in;height:3.44288in" />
 
 *Figura 1. Creació i verificació del directori C:\Ramon des de
@@ -131,7 +131,7 @@ aquesta ruta per primera vegada amb el Bloc de notes, Windows indica que
 el fitxer no existeix i ofereix crear-ne un de nou.
 
 <img
-src="/home/alumnat/Documents/Obsidian Vault/attachments/aso-tasca-programada/media/image2.png"
+src="../attachments/aso-tasca-programada/media/image2.png"
 style="width:6.25in;height:4.67557in" />
 
 *Figura 2. Missatge del Bloc de notes en crear per primera vegada el
@@ -144,7 +144,7 @@ Un cop creat el fitxer, s’hi ha introduït el codi PowerShell encarregat
 de generar l’informe del sistema.
 
 <img
-src="/home/alumnat/Documents/Obsidian Vault/attachments/aso-tasca-programada/media/image3.png"
+src="../attachments/aso-tasca-programada/media/image3.png"
 style="width:6.25in;height:4.95547in" />
 
 *Figura 3. Edició del contingut de l’script ramon.ps1 amb el Bloc de
@@ -190,7 +190,7 @@ PowerShell ha retornat True, confirmant que l’informe s’ha generat
 correctament.
 
 <img
-src="/home/alumnat/Documents/Obsidian Vault/attachments/aso-tasca-programada/media/image4.png"
+src="../attachments/aso-tasca-programada/media/image4.png"
 style="width:6.25in;height:4.33277in" />
 
 *Figura 4. Execució manual de ramon.ps1 i verificació de la creació de
@@ -206,7 +206,7 @@ Finalment, s’ha obert C:\Ramon\informe-sistema.txt amb el Bloc de notes
 per revisar les dades generades.
 
 <img
-src="/home/alumnat/Documents/Obsidian Vault/attachments/aso-tasca-programada/media/image5.png"
+src="../attachments/aso-tasca-programada/media/image5.png"
 style="width:6.25in;height:4.96858in" />
 
 *Figura 5. Informe del sistema generat automàticament per l’script
