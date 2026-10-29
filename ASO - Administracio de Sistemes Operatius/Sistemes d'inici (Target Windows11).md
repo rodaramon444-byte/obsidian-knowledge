@@ -3,74 +3,15 @@ SISTEMES OPERATIUS**
 
 **Automatització de tasques administratives a Windows 11**
 
-Tasca programada i script PowerShell
+![[Pasted image 20261027173534.png|640]]
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**Autor  
-**Ramon Roda Adame  
-  
-**Assignatura  
-**Administració de sistemes operatius  
-  
-**Entorn de treball  
-**Microsoft Windows 11 Pro
-
-ÍNDEX
-
-| 1\. Introducció | 3   |
-|-----------------|-----|
-
-| 1.1 Objectiu de la pràctica | 3   |
-|-----------------------------|-----|
-
-| 1.2 Flux de funcionament | 3   |
-|--------------------------|-----|
-
-| 2\. Preparació de l’entorn de treball | 4   |
-|---------------------------------------|-----|
-
-| 2.1 PowerShell amb privilegis d’administrador | 4   |
-|-----------------------------------------------|-----|
-
-| 2.2 Creació del directori C:\Ramon | 4   |
-|------------------------------------|-----|
-
-| 3\. Creació de l’script PowerShell | 5   |
-|------------------------------------|-----|
-
-| 3.1 Creació de ramon.ps1 | 5   |
-|--------------------------|-----|
-
-| 3.2 Informació recopilada | 6   |
-|---------------------------|-----|
-
-| 4\. Verificació manual de l’script | 6   |
-|------------------------------------|-----|
-
-| 4.1 Execució manual | 6   |
-|---------------------|-----|
-
-| 4.2 Comprovació del fitxer generat | 7   |
-|------------------------------------|-----|
-
-| 5\. Resultat de l’informe del sistema | 7   |
-|---------------------------------------|-----|
-
-| 6\. Automatització amb el Programador de tasques | 8   |
-|--------------------------------------------------|-----|
-
-| 7\. Comprovacions finals | 8   |
-|--------------------------|-----|
-
 # 1. Introducció
 
 ## 1.1 Objectiu de la pràctica
 
 L’objectiu d’aquesta pràctica és preparar a Windows 11 un procés
-administratiu automatitzat. El sistema utilitzarà un script de
-PowerShell ubicat a C:\Ramon\ramon.ps1 per recopilar informació tècnica
-de l’equip i generar l’informe C:\Ramon\informe-sistema.txt.
+administratiu automatitzat. El sistema utilitzarà un script de PowerShell ubicat a C:\Ramon\ramon.ps1 per recopilar informació tècnica amb usuaris i contrasenyes de l’equip i generar un informe C:\Ramon\informe-sistema.txt.
 Posteriorment, l’execució de l’script s’automatitzarà mitjançant el
 Programador de tasques de Windows amb privilegis d’administrador.
 
