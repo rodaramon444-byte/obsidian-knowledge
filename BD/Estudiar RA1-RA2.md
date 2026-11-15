@@ -1,0 +1,2 @@
+- [ ] Llegir tota la teoria 
+- [ ] 
