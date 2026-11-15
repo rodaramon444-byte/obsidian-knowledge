@@ -1,7 +1,7 @@
 **RA1**
 
 - [x] Llegir tota la teoria RA1 i RA2 ✅ 2026-11-15
-- [ ] MIrar examen test any pasat
+- [x] MIrar examen test any pasat ✅ 2026-11-15
 - [ ] Practicar tipus tests
 
 ---
